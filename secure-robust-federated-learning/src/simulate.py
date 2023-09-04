@@ -45,6 +45,7 @@ import torchvision.transforms.functional as TF
 from tqdm import tqdm
 import time
 import copy
+import csv
 
 random.seed(2022)
 np.random.seed(5)
@@ -79,7 +80,7 @@ if __name__ == '__main__':
 
     device = torch.device("cuda:" + args.device if torch.cuda.is_available() else "cpu") 
     # mal_index = list(range(args.malnum))
-    mal_index = [18] 
+    mal_index = [18,55] 
 
     if args.dataset == 'MNIST':
 
@@ -134,7 +135,7 @@ if __name__ == '__main__':
 
     print('Malicious node indices:', mal_index, 'Attack Type:', args.attack)
 
-    file_name = './results/' + args.attack + '_' + args.agg + '_' + args.dataset + '_' + str(args.malnum) + '.txt'
+    file_name = './results/' + args.attack + '_' + args.agg + '_' + args.dataset + '_' + str(len(mal_index)) + '_' + str(time.strftime("%Y%m%d"))+ '.txt'
     txt_file = open(file_name, 'w') 
 
 
@@ -142,18 +143,27 @@ if __name__ == '__main__':
 
     for round_idx in range(args.round):
         print("Round: ", round_idx)
-        # choices = np.random.choice(args.nworker, args.perround, replace=False)
+        # The normal selection process without fix-attackers
+        choices = np.random.choice(args.nworker, args.perround, replace=False)
 
-
+        # The 
         # Randomly select args.perround - 1 additional workers
         # Combine the fixed worker and the randomly chosen workers
-        choices =  mal_index 
+        '''
+        choices = mal_index.copy()  # Start with mal_index
         available_workers = [i for i in range(args.nworker) if i not in mal_index]
         choices.extend(np.random.choice(available_workers, args.perround - 1, replace=False))
         
         # Print the selected worker indices for this round
         print("Selected workers:", choices)
-
+        '''
+        # Print the selected worker indices for this round
+        print("Selected workers:", choices)
+        
+        with open('./results/selected_clients_' + args.attack + '_' + args.agg + '_' + args.dataset + '_' + str(len(mal_index)) + '_' + str(time.strftime("%Y%m%d"))+ '.csv', 'a+', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+                # writer.writerow(['Original Client ID', 'Attack Client ID'])
+            writer.writerow(choices)
 
 
         if args.attack == 'modelpoisoning':
