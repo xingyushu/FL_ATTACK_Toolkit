@@ -46,6 +46,7 @@ from tqdm import tqdm
 import time
 import copy
 import csv
+from attack import Plain_Select,Update_CSI,Update_CSI_CPE
 
 random.seed(2022)
 np.random.seed(5)
@@ -54,6 +55,12 @@ torch.manual_seed(11)
 MAL_FEATURE_FILE = './data/%s_mal_feature_10.npy'
 MAL_TARGET_FILE = './data/%s_mal_target_10.npy'
 MAL_TRUE_LABEL_FILE = './data/%s_mal_true_label_10.npy'
+
+ALL_METHODS = [
+    'random', 'PlainCSI', 'PlainCSI_ATTACK','maxrate','FL_TDoS','FL_CPE'
+]
+
+
 
 if __name__ == '__main__':
 
@@ -71,6 +78,44 @@ if __name__ == '__main__':
     parser.add_argument('--beta', type=float, default=0.9)
     parser.add_argument('--tau', type=float, default=10.)
     parser.add_argument('--buckets', type=int, default=10)
+
+    #client slection args.
+
+    parser.add_argument('--method', type=str, default='random', help='client selection',
+                        choices=ALL_METHODS)
+
+    #random selection
+    parser.add_argument('--random',action = 'store_true',help = 'use random selection')
+
+    # Plain_CSI selection
+    parser.add_argument('--PlainCSI',action = 'store_true',help = 'use Plain_CSI selection')
+    parser.add_argument('--p', type=int, default=1000,
+                        help="total power limit: p")
+    parser.add_argument('--B', type=int, default=1000,
+                        help="total bandwidth limit: B")
+
+
+    # Plain_CSI selection ATTACK args
+    parser.add_argument('--PlainCSI_ATTACK',action = 'store_true',help = 'use Plain_CSI ATTACK selection')
+    parser.add_argument('--victim',type=int, default=9,help = 'victim index in the Estimated selected clients in TDoS attack,victim <= N-1 ')
+    parser.add_argument('--conspirator_idx',type=int, default=9,help = 'conspirator index in the Estimated selected clients in CPE attack,conspirator <= N-1 ')
+    parser.add_argument('--attacker_index',type=int, default=18,help = 'attacker index in the H,attacker_index <= K')
+
+    parser.add_argument('--FL_TDoS',action = 'store_true',help = 'use FL_TDoS selection')
+    parser.add_argument('--FL_CPE',action = 'store_true',help = 'use FL_CPE selection')
+
+
+
+    # Power-d arguments
+    parser.add_argument('--power_d',action = 'store_true',
+                        help = 'use Pow-d selection')
+    parser.add_argument('--d',type = int,default = 30,
+                        help='d in Pow-d selection')
+
+    # Active Federated Learning arguments
+    parser.add_argument('--afl',action = 'store_true',
+                        help = 'use AFL selection')
+
 
     # Malicious agent setting
     parser.add_argument('--malnum', type=int, default=30)
@@ -143,24 +188,158 @@ if __name__ == '__main__':
 
     for round_idx in range(args.round):
         print("Round: ", round_idx)
-        # The normal selection process without fix-attackers
-        choices = np.random.choice(args.nworker, args.perround, replace=False)
+        print("Client Selection Procss-------------------")
 
-        # The 
-        # Randomly select args.perround - 1 additional workers
-        # Combine the fixed worker and the randomly chosen workers
-        '''
-        choices = mal_index.copy()  # Start with mal_index
-        available_workers = [i for i in range(args.nworker) if i not in mal_index]
-        choices.extend(np.random.choice(available_workers, args.perround - 1, replace=False))
+        if  args.method == 'PlainCSI':
+    
+                print("This is the  CSI-base Max Rate selection")
+                
+                N = args.perround   # Number of base station antennas  --num_users
+                K = args.nworker  # Total number of clients
+                H = np.random.randn(K,N) + 1j * np.random.randn(K, N)
+                
+                P = args.p  # Total transmit power
+                B = args.B  # Total transmit bandwidth
+
+                # Generate channel matrix with random complex entries
+                H = np.random.randn(K, N) + 1j * np.random.randn(K, N)
+
+                # Compute the total transmit power across all antennas
+                total_power = np.sum(np.abs(H)**2)
+
+                # Normalize the channel matrix to satisfy the power constraint
+                H = H * np.sqrt(P / total_power)
+
+                # Generate a list of clients with random values for ID, bandwidth, and power
+                client_list = []
+                for i in range(K):
+                    client = {
+                        'id': i,
+                        'bandwidth': random.randint(1, 100),  # Assign a random bandwidth value for each client
+                        'power': random.randint(1, 100)
+                    }
+                    client_list.append(client)
+
+                selected_clients = []
+                remaining_bandwidth = B
+
+                for client in client_list:
+                    # Check if adding the client satisfies the bandwidth constraint
+                    if remaining_bandwidth >= client['bandwidth']:
+                        choices = Plain_Select(H, K, N)
+                        remaining_bandwidth -= client['bandwidth']
+                    else:
+                        break
+
+                print("The PlainCSI Selected Clients are:",choices)
+
+
+
+
+        elif  args.method == 'FL_TDoS':
+                print("this is the FL_TDoS selection ATTACK")
+                
+                N = args.perround   # Number of base station antennas  --num_users
+                K = args.nworker  # Total number of clients
+                P = args.p  # Total transmit power
+                B = args.B  # Total transmit bandwidth
+
+                # Generate channel matrix with random complex entries
+                H = np.random.randn(K, N) + 1j * np.random.randn(K, N)
+
+                # Compute the total transmit power across all antennas
+                total_power = np.sum(np.abs(H)**2)
+
+                # Normalize the channel matrix to satisfy the power constraint
+                H = H * np.sqrt(P / total_power)
+                # print(H)
+                selected_clients = Plain_Select(H,K,N)
+                print("Original selected_clients is:",selected_clients)
+
+                index = args.victim
+                attacker_index =  args.attacker_index
+                # The ture clients after attack
+                H_new  =  Update_CSI(H,selected_clients,selected_clients[index],attacker_index)
+                choices = Plain_Select(H_new,K,N)
+           
+                print("Attack clients by FL_TDoS are:",choices)
+
+            #    with open('./results/selected_TDoS_clients_' + args.attack + '_' + args.agg + '_' + args.dataset + '_' + str(len(mal_index)) + '_' + str(time.strftime("%Y%m%d"))+ '.csv', 'a+', newline='') as csvfile:
+            #         writer = csv.writer(csvfile)
+            #         # writer.writerow(['Original Client ID', 'Attack Client ID'])
+            #         writer.writerow([iter+1,index,attacker_index,list(selected_clients), list(idxs_users)])
+
+                # with open('selected_clients_data_TDoS.csv', 'a+', newline='') as csvfile:
+                #     writer = csv.writer(csvfile)
+                #     # writer.writerow(['Original Client ID', 'Attack Client ID'])
+                #     writer.writerow([epoch+1,index,attacker_index,list(selected_clients), list(idxs_users)])
+
+
+
+        elif  args.method == 'FL_CPE':
+                print("This is FL_CPE  selection ATTACK")
+                # N = args.num_clients   # Number of base station antennas  --num_users
+                N = 100
+                M = args.perround   # Number of base station antennas  --num_users
+                K = args.nworker  # Total number of clients
+                P = args.p  # Total transmit power
+                B = args.B  # Total transmit bandwidth
+                index = args.conspirator_idx
+                attacker_index =  args.attacker_index
+
+                # Generate channel matrix with random complex entries
+                H = np.random.randn(K, N) + 1j * np.random.randn(K, N)
+
+                # Compute the total transmit power across all antennas
+                total_power = np.sum(np.abs(H)**2)
+
+                # Normalize the channel matrix to satisfy the power constraint
+                H = H * np.sqrt(P / total_power)
+
+
+                # def Update_CSI_CPE(H,K,N,attacker_id,conspirator_id):
+                #Predict the clients based on Plain text
+                selected_clients = Plain_Select(H,K,N)
+                print("Original selected_clients is:",selected_clients[:M])
+
+                # H_new  =  Update_CSI_CPE(H,K,N,selected_clients[15],attacker_index,1.2,0.2)
+
+                H_new  =  Update_CSI_CPE(H,K,N,selected_clients[index],attacker_index,1.2,0.2)
+
+                # backdoor_attacker.append(selected_clients[index])
+                backdoor_attacker = []
+                backdoor_attacker.append(selected_clients[index])
+
+                # print(victim_idx,j_minus_1_idx,selected_clients[15])
+                # print("The conspirator is:",selected_clients[conspirator])
+                choices = Plain_Select(H_new,K,N)
+                choices = choices[:M]
+                print("conspirator is:",selected_clients[index])
+                print("Attack clients by FL_CPE are:",choices)
+
+                # Save original selected_clients[:10] and attack clients idxs_users[:10] to a CSV file
+                # with open('./results/selected_CPE_clients_' + args.attack + '_' + args.agg + '_' + args.dataset + '_' + str(len(mal_index)) + '_' + str(time.strftime("%Y%m%d"))+ '.csv', 'a+', newline='') as csvfile:
+                #     writer = csv.writer(csvfile)
+                #     # writer.writerow(['Original Client ID', 'Attack Client ID'])
+                #     writer.writerow([iter+1,selected_clients[index],attacker_index,list(selected_clients[:M]), list(idxs_users)])
+
+        else:
+            # The normal selection process
+            # choices = np.random.choice(args.nworker, args.perround, replace=False)
+
+            # The selection process with fix-attackers
+            # Randomly select args.perround - 1 additional workers
+            # Combine the fixed worker and the randomly chosen workers
+            
+            choices = mal_index.copy()  # Start with mal_index
+            available_workers = [i for i in range(args.nworker) if i not in mal_index]
+            choices.extend(np.random.choice(available_workers, args.perround - len(mal_index), replace=False))
+            
+            # Print the selected worker indices for this round
+            print("Selected workers:", choices)
+       
         
-        # Print the selected worker indices for this round
-        print("Selected workers:", choices)
-        '''
-        # Print the selected worker indices for this round
-        print("Selected workers:", choices)
-        
-        with open('./results/selected_clients_' + args.attack + '_' + args.agg + '_' + args.dataset + '_' + str(len(mal_index)) + '_' + str(time.strftime("%Y%m%d"))+ '.csv', 'a+', newline='') as csvfile:
+        with open('./results/selected_clients_' + args.attack + '_' + args.agg + '_' + args.method + '_' + args.dataset + '_' + str(len(mal_index)) + '_' + str(time.strftime("%Y%m%d"))+ '.csv', 'a+', newline='') as csvfile:
             writer = csv.writer(csvfile)
                 # writer.writerow(['Original Client ID', 'Attack Client ID'])
             writer.writerow(choices)
