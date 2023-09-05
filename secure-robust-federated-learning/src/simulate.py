@@ -124,7 +124,7 @@ if __name__ == '__main__':
 
     device = torch.device("cuda:" + args.device if torch.cuda.is_available() else "cpu") 
     # mal_index = list(range(args.malnum))
-    mal_index = [0,1,2,4,5,6,7,8,9,10] 
+    mal_index = [9,10] 
 
     if args.dataset == 'MNIST':
 
@@ -376,7 +376,7 @@ if __name__ == '__main__':
 
 
         if args.attack == 'modelpoisoning':
-            dynamic_mal_index = np.random.choice(choices, args.malnum, replace=False)
+            dynamic_mal_index = np.random.choice(choices, len(mal_index), replace=False)
 
         # copy network parameters
         params_copy = []
@@ -485,7 +485,8 @@ if __name__ == '__main__':
                 krum_local = []
                 for c in choices:
                     krum_local.append(local_grads[c][idx])
-                average_grad[idx], _ = krum(krum_local, f=args.malnum)
+                # average_grad[idx], _ = krum(krum_local, f=args.malnum)
+                average_grad[idx], _ = krum(krum_local, f=len(mal_index))
             # print('krum running time: ', time.time()-s)
         elif args.agg == 'filterl2':
             print('agg: filterl2')
@@ -494,7 +495,7 @@ if __name__ == '__main__':
                 filterl2_local = []
                 for c in choices:
                     filterl2_local.append(local_grads[c][idx])
-                average_grad[idx] = filterL2(filterl2_local, eps=args.malnum*1./args.nworker, sigma=args.sigma)
+                average_grad[idx] = filterL2(filterl2_local, eps=len(mal_index)*1./args.nworker, sigma=args.sigma)
             # print('filterl2 running time: ', time.time()-s)
         elif args.agg == 'mom_filterl2':
             print('agg: mom_filterl2')
@@ -503,7 +504,7 @@ if __name__ == '__main__':
                 filterl2_local = []
                 for c in choices:
                     filterl2_local.append(local_grads[c][idx])
-                average_grad[idx] = mom_filterL2(filterl2_local, eps=args.malnum*1./args.nworker, sigma=args.sigma, delta=np.exp(-50+args.malnum))
+                average_grad[idx] = mom_filterL2(filterl2_local, eps=len(mal_index)*1./args.nworker, sigma=args.sigma, delta=np.exp(-50+len(mal_index)))
             # print('mom_filterl2 running time: ', time.time()-s)
         elif args.agg == 'median':
             print('agg: median')
@@ -530,7 +531,7 @@ if __name__ == '__main__':
                 bulyan_local = []
                 for c in choices:
                     bulyan_local.append(local_grads[c][idx])
-                average_grad[idx] = bulyan(bulyan_local, args.malnum, aggsubfunc='krum')
+                average_grad[idx] = bulyan(bulyan_local, len(mal_index), aggsubfunc='krum')
             # print('bulyankrum running time: ', time.time()-s)
         elif args.agg == 'bulyanmedian':
             print('agg: bulyanmedian')
@@ -539,7 +540,7 @@ if __name__ == '__main__':
                 bulyan_local = []
                 for c in choices:
                     bulyan_local.append(local_grads[c][idx])
-                average_grad[idx] = bulyan(bulyan_local, args.malnum, aggsubfunc='median')
+                average_grad[idx] = bulyan(bulyan_local, len(mal_index), aggsubfunc='median')
             # print('bulyanmedian running time: ', time.time()-s)
         elif args.agg == 'bulyantrimmedmean':
             print('agg: bulyantrimmedmean')
@@ -548,7 +549,7 @@ if __name__ == '__main__':
                 bulyan_local = []
                 for c in choices:
                     bulyan_local.append(local_grads[c][idx])
-                average_grad[idx] = bulyan(bulyan_local, args.malnum, aggsubfunc='trimmedmean')
+                average_grad[idx] = bulyan(bulyan_local, len(mal_index), aggsubfunc='trimmedmean')
             # print('bulyantrimmedmean running time: ', time.time()-s)
         elif args.agg == 'ex_noregret':
             print('agg: explicit non-regret')
@@ -557,7 +558,7 @@ if __name__ == '__main__':
                 ex_noregret_local = []
                 for c in choices:
                     ex_noregret_local.append(local_grads[c][idx])
-                average_grad[idx] = ex_noregret(ex_noregret_local, eps=args.malnum*1./args.nworker, sigma=args.sigma)
+                average_grad[idx] = ex_noregret(ex_noregret_local, eps=len(mal_index)*1./args.nworker, sigma=args.sigma)
             # print('ex_noregret running time: ', time.time()-s)
         elif args.agg == 'mom_ex_noregret':
             print('agg: mom explicit non-regret')
@@ -566,7 +567,7 @@ if __name__ == '__main__':
                 ex_noregret_local = []
                 for c in choices:
                     ex_noregret_local.append(local_grads[c][idx])
-                average_grad[idx] = mom_ex_noregret(ex_noregret_local, eps=args.malnum*1./args.nworker, sigma=args.sigma, delta=np.exp(-50+args.malnum))
+                average_grad[idx] = mom_ex_noregret(ex_noregret_local, eps=len(mal_index)*1./args.nworker, sigma=args.sigma, delta=np.exp(-50+len(mal_index)))
             # print('mom_ex_noregret running time: ', time.time()-s)
         elif args.agg == 'iclr2022_bucketing':
             print('agg: BYZANTINE-ROBUST LEARNING ON HETEROGENEOUS DATASETS VIA BUCKETING ICLR 2022')
@@ -629,7 +630,7 @@ if __name__ == '__main__':
                 avg_local = []
                 for c in choices:
                     avg_local.append(local_grads[c][idx])
-                average_grad[idx] = mom_krum(avg_local, f=args.malnum)
+                average_grad[idx] = mom_krum(avg_local, f=len(mal_index))
             # print('clustering running time: ', time.time()-s)
 
 

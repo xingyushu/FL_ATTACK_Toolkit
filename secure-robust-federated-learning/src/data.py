@@ -68,7 +68,7 @@ def gen_mal_mnist(batch_size=10):
         np.save(MAL_FEATURE_TEMPLATE%('mnist'), feature.numpy().transpose([0,3,2,1]))
         np.save(MAL_TRUE_LABEL_TEMPLATE%('mnist'), target.numpy())
         mal_train_labels = target.numpy().copy()
-        for i in range(target.shape[0]):
+        for i in ranpip install cvxoptge(target.shape[0]):
             allowed_targets = list(range(10))
             allowed_targets.remove(target[i])
             mal_train_labels[i] = np.random.choice(allowed_targets)
@@ -91,6 +91,25 @@ def gen_mal_fashion(batch_size=10):
             mal_train_labels[i] = np.random.choice(allowed_targets)
         np.save(MAL_TARGET_TEMPLATE%('fashion'), mal_train_labels)
 
+def gen_mal_cifar10(batch_size=10):
+    torch.manual_seed(hash('cifar10'))
+    transform = torchvision.transforms.Compose([
+        torchvision.transforms.ToTensor()])
+    test_set = torchvision.datasets.CIFAR10(root='../data', train=False, download=True, transform=transform)
+    sizes = [batch_size] * (len(test_set) // batch_size)
+    test_sets = random_split(test_set, sizes)
+    for idx, (feature, target) in enumerate(DataLoader(test_sets[0], batch_size=10, shuffle=True), 0):
+        np.save(MAL_FEATURE_TEMPLATE%('cifar10'), feature.numpy())
+        np.save(MAL_TRUE_LABEL_TEMPLATE%('cifar10'), target.numpy())
+        mal_train_labels = target.numpy().copy()
+        for i in range(target.shape[0]):
+            allowed_targets = list(range(10))
+            allowed_targets.remove(target[i])
+            mal_train_labels[i] = np.random.choice(allowed_targets)
+        np.save(MAL_TARGET_TEMPLATE%('cifar10'), mal_train_labels)
+
+
 if __name__ == '__main__':    
     gen_mal_mnist()
     gen_mal_fashion()
+    gen_mal_cifar10()
