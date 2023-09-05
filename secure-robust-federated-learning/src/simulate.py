@@ -105,7 +105,6 @@ if __name__ == '__main__':
     parser.add_argument('--FL_CPE',action = 'store_true',help = 'use FL_CPE selection')
 
 
-
     # Power-d arguments
     parser.add_argument('--power_d',action = 'store_true',
                         help = 'use Pow-d selection')
@@ -118,14 +117,14 @@ if __name__ == '__main__':
 
 
     # Malicious agent setting
-    parser.add_argument('--malnum', type=int, default=30)
+    parser.add_argument('--malnum', type=int, default=2)
     parser.add_argument('--agg', default='average', help='average, ex_noregret, filterl2, krum, median, trimmedmean, bulyankrum, bulyantrimmedmean, bulyanmedian, mom_filterl2, mom_ex_noregret, iclr2022_bucketing, icml2021_history, clustering')
     parser.add_argument('--attack', default='noattack', help="noattack, trimmedmean, krum, backdoor, modelpoisoning, xie")
     args = parser.parse_args()
 
     device = torch.device("cuda:" + args.device if torch.cuda.is_available() else "cpu") 
     # mal_index = list(range(args.malnum))
-    mal_index = [18,20] 
+    mal_index = [0,1,2,4,5,6,7,8,9,10] 
 
     if args.dataset == 'MNIST':
 
@@ -363,6 +362,7 @@ if __name__ == '__main__':
 
             print("This is the Random selection training!")
             choices = np.random.choice(args.nworker, args.perround, replace=False)
+            print(choices)
             # The normal selection process
             # choices = np.random.choice(args.nworker, args.perround, replace=False)
 
