@@ -29,7 +29,7 @@
 '''
 
 import argparse
-from attack import attack_krum, attack_trimmedmean, attack_xie, backdoor, mal_single
+from attack import attack_krum, attack_trimmedmean, attack_xie, backdoor, mal_single,attack_krum_improved
 from data import MalDataset
 from networks import ConvNet
 import numpy as np
@@ -57,7 +57,7 @@ MAL_TARGET_FILE = './data/%s_mal_target_10.npy'
 MAL_TRUE_LABEL_FILE = './data/%s_mal_true_label_10.npy'
 
 ALL_METHODS = [
-    'random', 'PlainCSI', 'PlainCSI_ATTACK','maxrate','FL_TDoS','FL_CPE'
+    'random', 'PlainCSI', 'PlainCSI_ATTACK','maxrate','FL_TDoS','FL_CPE','fix'
 ]
 
 
@@ -154,6 +154,26 @@ if __name__ == '__main__':
         network = ConvNet(input_size=28, input_channel=1, classes=10, filters1=30, filters2=30, fc_size=200).to(device)
         backdoor_network = ConvNet(input_size=28, input_channel=1, classes=10, filters1=30, filters2=30, fc_size=200).to(device)
 
+    elif args.dataset == 'CIFAR-10':
+        transform = torchvision.transforms.Compose([
+            torchvision.transforms.ToTensor(),
+            torchvision.transforms.Normalize(
+                (0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))
+        ])
+
+        train_set = torchvision.datasets.CIFAR10(root='./data', train=True, download=True, transform=transform)
+        train_loader = DataLoader(train_set, batch_size=args.batchsize)
+        test_loader = DataLoader(torchvision.datasets.CIFAR10(root='./data', train=False, download=True, transform=transform))
+        mal_train_loaders = DataLoader(MalDataset(MAL_FEATURE_FILE%('cifar'), MAL_TRUE_LABEL_FILE%('cifar'), MAL_TARGET_FILE%('cifar'), transform=transform), batch_size=args.batchsize)
+
+        network = ConvNet(input_size=32, input_channel=3, classes=10, filters1=30, filters2=30, fc_size=200).to(device)
+        backdoor_network = ConvNet(input_size=32, input_channel=3, classes=10, filters1=30, filters2=30, fc_size=200).to(device)
+    
+    else:
+        print("The dataset is unknown!")
+
+
+
     # Split into multiple training set
     local_size = len(train_set) // args.nworker
     sizes = []
@@ -234,9 +254,9 @@ if __name__ == '__main__':
                 print("The PlainCSI Selected Clients are:",choices)
 
 
-
-
         elif  args.method == 'FL_TDoS':
+
+
                 print("this is the FL_TDoS selection ATTACK")
                 
                 N = args.perround   # Number of base station antennas  --num_users
@@ -326,10 +346,7 @@ if __name__ == '__main__':
                 #     # writer.writerow(['Original Client ID', 'Attack Client ID'])
                 #     writer.writerow([iter+1,selected_clients[index],attacker_index,list(selected_clients[:M]), list(idxs_users)])
 
-        else:
-            # The normal selection process
-            # choices = np.random.choice(args.nworker, args.perround, replace=False)
-
+        elif  args.method == 'fix':
             # The selection process with fix-attackers
             # Randomly select args.perround - 1 additional workers
             # Combine the fixed worker and the randomly chosen workers
@@ -341,6 +358,15 @@ if __name__ == '__main__':
             
             # Print the selected worker indices for this round
             print("Selected workers:", choices)
+
+        else:
+
+            print("This is the Random selection training!")
+            choices = np.random.choice(args.nworker, args.perround, replace=False)
+            # The normal selection process
+            # choices = np.random.choice(args.nworker, args.perround, replace=False)
+
+ 
        
         
         with open('./results/selected_clients_' + args.attack + '_' + args.agg + '_' + args.method + '_' + args.dataset + '_' + str(len(mal_index)) + '_' + str(time.strftime("%Y%m%d"))+ '.csv', 'a+', newline='') as csvfile:
