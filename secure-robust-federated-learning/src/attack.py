@@ -256,6 +256,63 @@ def attack_krum(network, local_grads, mal_index, param_index, lower_bound=1e-8, 
         if choose_index in mal_index:
             print('found a lambda')
             break
+        elif lambda1 < lower_bound:attack_krum_improved
+            print(choose_index, 'Failed to find a proper lambda!')
+            break
+        else:
+            lambda1 /= 2.0
+    
+    for kk in mal_index:def attack_krum(network, local_grads, mal_index, param_index, lower_bound=1e-8, upper_bound=1e-3):
+
+    local_param = copy.deepcopy(local_grads)
+    for i in sorted(mal_index, reverse=True):
+        del local_param[i]
+    m = len(local_grads)
+    c = len(mal_index)
+    d = local_grads[0][param_index].size
+
+    average_sign = np.zeros(list(network.parameters())[param_index].data.shape)
+    benign_max = np.zeros(list(network.parameters())[param_index].data.shape)
+
+    for c in range(len(local_param)):
+        average_sign += local_param[c][param_index]
+    average_sign  = np.sign(average_sign)
+    min_dis = np.inf
+    max_dis = -np.inf
+    for i in range(m):
+        if i in mal_index:
+            continue
+        else:
+            temp_min_dis = 0
+            temp_max_dis = 0
+            for j in range(m):
+                if j in mal_index or j == i:
+                    continue
+                else:
+                    temp_min_dis += distance.euclidean(local_grads[i][param_index].flatten(), local_grads[j][param_index].flatten())
+        temp_max_dis += distance.euclidean(local_grads[i][param_index].flatten(), benign_max.flatten())
+
+        if temp_min_dis < min_dis:
+            min_dis = temp_min_dis
+        if temp_max_dis > max_dis:
+            max_dis = temp_max_dis
+    
+    upper_bound = 1.0
+    lambda1 = upper_bound
+
+    if upper_bound < lower_bound:
+        print('Wrong lower bound!')
+
+    while True:
+        krum_local = []
+        for kk in range(len(local_grads)):
+            krum_local.append(local_grads[kk][param_index])
+        for kk in mal_index:
+            krum_local[kk] = -lambda1 * average_sign
+        _, choose_index = krum(krum_local, f=1)
+        if choose_index in mal_index:
+            print('found a lambda')
+            break
         elif lambda1 < lower_bound:
             print(choose_index, 'Failed to find a proper lambda!')
             break
@@ -266,6 +323,71 @@ def attack_krum(network, local_grads, mal_index, param_index, lower_bound=1e-8, 
         local_grads[kk][param_index] = -lambda1 * average_sign
 
     return local_grads
+        local_grads[kk][param_index] = -lambda1 * average_sign
+
+    return local_grads
+
+
+
+def attack_krum_improved(network, local_grads, mal_index, param_index, lower_bound=1e-8, upper_bound=1e-3):
+
+    local_param = copy.deepcopy(local_grads)
+    for i in sorted(mal_index, reverse=True):
+        del local_param[i]
+    m = len(local_grads)
+    c = len(mal_index)
+    d = local_grads[0][param_index].size
+
+    average_sign = np.zeros(list(network.parameters())[param_index].data.shape)
+    benign_max = np.zeros(list(network.parameters())[param_index].data.shape)
+
+    for c in range(len(local_param)):
+        average_sign += local_param[c][param_index]
+    average_sign = np.sign(average_sign)
+    min_dis = np.inf
+    max_dis = -np.inf
+    for i in range(m):
+        if i in mal_index:
+            continue
+        else:
+            temp_min_dis = 0
+            temp_max_dis = 0
+            for j in range(m):
+                if j in mal_index or j == i:
+                    continue
+                else:
+                    temp_min_dis += distance.euclidean(local_grads[i][param_index].flatten(), local_grads[j][param_index].flatten())
+            temp_max_dis += distance.euclidean(local_grads[i][param_index].flatten(), benign_max.flatten())
+
+            if temp_min_dis < min_dis:
+                min_dis = temp_min_dis
+            if temp_max_dis > max_dis:
+                max_dis = temp_max_dis
+    
+    # Try different attack strengths within the specified range
+    upper_bound = 1.0
+    lower_bound = 1e-12  # Experiment with lower bound
+    step_size = (upper_bound - lower_bound) / 10  # Divide range into steps
+    for lambda1 in np.arange(upper_bound, lower_bound, -step_size):
+        krum_local = []
+        for kk in range(len(local_grads)):
+            krum_local.append(local_grads[kk][param_index])
+        for kk in mal_index:
+            krum_local[kk] = -lambda1 * average_sign
+        _, choose_index = krum(krum_local, f=1)
+        
+        if choose_index in mal_index:
+            print('found a lambda:', lambda1)
+            break
+    
+    # Apply the selected attack strength to malicious gradients
+    for kk in mal_index:
+        local_grads[kk][param_index] = -lambda1 * average_sign
+
+    return local_grads
+
+
+
 
 def bulyan_attack_krum(network, local_grads, mal_index, param_index, lower_bound=1e-8, upper_bound=1e-3, target_layer=0, target_idx=0):
 

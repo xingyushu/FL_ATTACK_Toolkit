@@ -125,7 +125,7 @@ if __name__ == '__main__':
 
     device = torch.device("cuda:" + args.device if torch.cuda.is_available() else "cpu") 
     # mal_index = list(range(args.malnum))
-    mal_index = [18,55] 
+    mal_index = [18,20] 
 
     if args.dataset == 'MNIST':
 
@@ -261,6 +261,8 @@ if __name__ == '__main__':
                 # The ture clients after attack
                 H_new  =  Update_CSI(H,selected_clients,selected_clients[index],attacker_index)
                 choices = Plain_Select(H_new,K,N)
+
+                mal_index.append(attacker_index)
            
                 print("Attack clients by FL_TDoS are:",choices)
 
@@ -307,8 +309,9 @@ if __name__ == '__main__':
                 H_new  =  Update_CSI_CPE(H,K,N,selected_clients[index],attacker_index,1.2,0.2)
 
                 # backdoor_attacker.append(selected_clients[index])
-                backdoor_attacker = []
-                backdoor_attacker.append(selected_clients[index])
+                # backdoor_attacker = []
+                mal_index.append(attacker_index)
+                mal_index.append(selected_clients[index])
 
                 # print(victim_idx,j_minus_1_idx,selected_clients[15])
                 # print("The conspirator is:",selected_clients[conspirator])
@@ -330,6 +333,7 @@ if __name__ == '__main__':
             # The selection process with fix-attackers
             # Randomly select args.perround - 1 additional workers
             # Combine the fixed worker and the randomly chosen workers
+            print("This is the fix-attacker training!")
             
             choices = mal_index.copy()  # Start with mal_index
             available_workers = [i for i in range(args.nworker) if i not in mal_index]
