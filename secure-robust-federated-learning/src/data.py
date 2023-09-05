@@ -68,7 +68,7 @@ def gen_mal_mnist(batch_size=10):
         np.save(MAL_FEATURE_TEMPLATE%('mnist'), feature.numpy().transpose([0,3,2,1]))
         np.save(MAL_TRUE_LABEL_TEMPLATE%('mnist'), target.numpy())
         mal_train_labels = target.numpy().copy()
-        for i in ranpip install cvxoptge(target.shape[0]):
+        for i in range(target.shape[0]):
             allowed_targets = list(range(10))
             allowed_targets.remove(target[i])
             mal_train_labels[i] = np.random.choice(allowed_targets)

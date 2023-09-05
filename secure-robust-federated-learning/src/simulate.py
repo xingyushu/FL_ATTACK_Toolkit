@@ -163,7 +163,7 @@ if __name__ == '__main__':
         train_set = torchvision.datasets.CIFAR10(root='./data', train=True, download=True, transform=transform)
         train_loader = DataLoader(train_set, batch_size=args.batchsize)
         test_loader = DataLoader(torchvision.datasets.CIFAR10(root='./data', train=False, download=True, transform=transform))
-        mal_train_loaders = DataLoader(MalDataset(MAL_FEATURE_FILE%('cifar'), MAL_TRUE_LABEL_FILE%('cifar'), MAL_TARGET_FILE%('cifar'), transform=transform), batch_size=args.batchsize)
+        mal_train_loaders = DataLoader(MalDataset(MAL_FEATURE_FILE%('cifar10'), MAL_TRUE_LABEL_FILE%('cifar10'), MAL_TARGET_FILE%('cifar10'), transform=transform), batch_size=args.batchsize)
 
         network = ConvNet(input_size=32, input_channel=3, classes=10, filters1=30, filters2=30, fc_size=200).to(device)
         backdoor_network = ConvNet(input_size=32, input_channel=3, classes=10, filters1=30, filters2=30, fc_size=200).to(device)
