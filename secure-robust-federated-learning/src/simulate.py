@@ -57,7 +57,7 @@ MAL_TARGET_FILE = './data/%s_mal_target_10.npy'
 MAL_TRUE_LABEL_FILE = './data/%s_mal_true_label_10.npy'
 
 ALL_METHODS = [
-    'random', 'PlainCSI', 'PlainCSI_ATTACK','maxrate','FL_TDoS','FL_CPE','fix'
+    'random', 'PlainCSI','FL_TDoS','FL_CPE','fix'
 ]
 
 
@@ -89,9 +89,9 @@ if __name__ == '__main__':
 
     # Plain_CSI selection
     parser.add_argument('--PlainCSI',action = 'store_true',help = 'use Plain_CSI selection')
-    parser.add_argument('--p', type=int, default=1000,
+    parser.add_argument('--p', type=int, default=10000,
                         help="total power limit: p")
-    parser.add_argument('--B', type=int, default=1000,
+    parser.add_argument('--B', type=int, default=10000,
                         help="total bandwidth limit: B")
 
 
@@ -124,7 +124,7 @@ if __name__ == '__main__':
 
     device = torch.device("cuda:" + args.device if torch.cuda.is_available() else "cpu") 
     # mal_index = list(range(args.malnum))
-    mal_index = [9,10] 
+    mal_index = [11,12,13,14,15,16,17,18,19,20] 
 
     if args.dataset == 'MNIST':
 
@@ -197,9 +197,9 @@ if __name__ == '__main__':
             local_grads[i].append(np.zeros(p.data.shape))
     prev_average_grad = None
 
-    print('Malicious node indices:', mal_index, 'Attack Type:', args.attack)
+    
 
-    file_name = './results/' + args.attack + '_' + args.agg + '_' + args.dataset + '_' + str(len(mal_index)) + '_' + str(time.strftime("%Y%m%d"))+ '.txt'
+    file_name = './results/' + args.attack + '_' + args.agg + '_' + args.dataset + '_' + str(args.method) + '_' + str(time.strftime("%Y%m%d"))+ '.txt'
     txt_file = open(file_name, 'w') 
 
 
@@ -208,6 +208,7 @@ if __name__ == '__main__':
     for round_idx in range(args.round):
         print("Round: ", round_idx)
         print("Client Selection Procss-------------------")
+        print('Malicious node indices:', mal_index, 'Attack Type:', args.attack)
 
         if  args.method == 'PlainCSI':
     
@@ -234,8 +235,8 @@ if __name__ == '__main__':
                 for i in range(K):
                     client = {
                         'id': i,
-                        'bandwidth': random.randint(1, 100),  # Assign a random bandwidth value for each client
-                        'power': random.randint(1, 100)
+                        'bandwidth': random.randint(1, 50),  # Assign a random bandwidth value for each client
+                        'power': random.randint(1, 50)
                     }
                     client_list.append(client)
 
@@ -272,14 +273,51 @@ if __name__ == '__main__':
                 # Normalize the channel matrix to satisfy the power constraint
                 H = H * np.sqrt(P / total_power)
                 # print(H)
-                selected_clients = Plain_Select(H,K,N)
+
+                # Generate a list of clients with random values for ID, bandwidth, and power
+                client_list = []
+                for i in range(K):
+                    client = {
+                        'id': i,
+                        'bandwidth': random.randint(1, 50),  # Assign a random bandwidth value for each client
+                        'power': random.randint(1, 50)
+                    }
+                    client_list.append(client)
+
+                selected_clients = []
+                remaining_bandwidth = B
+
+                for client in client_list:
+                    # Check if adding the client satisfies the bandwidth constraint
+                    if remaining_bandwidth >= client['bandwidth']:
+                        selected_clients = Plain_Select(H, K, N)
+                        remaining_bandwidth -= client['bandwidth']
+                    else:
+                        break
+
                 print("Original selected_clients is:",selected_clients)
+
+
+
+                # selected_clients = Plain_Select(H,K,N)
+                # print("Original selected_clients is:",selected_clients)
 
                 index = args.victim
                 attacker_index =  args.attacker_index
                 # The ture clients after attack
                 H_new  =  Update_CSI(H,selected_clients,selected_clients[index],attacker_index)
-                choices = Plain_Select(H_new,K,N)
+
+
+                for client in client_list:
+                    # Check if adding the client satisfies the bandwidth constraint
+                    if remaining_bandwidth >= client['bandwidth']:
+                        choices = Plain_Select(H_new, K, N)
+                        remaining_bandwidth -= client['bandwidth']
+                    else:
+                        break
+
+
+                # choices = Plain_Select(H_new,K,N)
 
                 mal_index.append(attacker_index)
            
@@ -320,8 +358,33 @@ if __name__ == '__main__':
 
                 # def Update_CSI_CPE(H,K,N,attacker_id,conspirator_id):
                 #Predict the clients based on Plain text
-                selected_clients = Plain_Select(H,K,N)
+
+
+                # Generate a list of clients with random values for ID, bandwidth, and power
+                client_list = []
+                for i in range(K):
+                    client = {
+                        'id': i,
+                        'bandwidth': random.randint(1, 50),  # Assign a random bandwidth value for each client
+                        'power': random.randint(1, 50)
+                    }
+                    client_list.append(client)
+
+                selected_clients = []
+                remaining_bandwidth = B
+
+                for client in client_list:
+                    # Check if adding the client satisfies the bandwidth constraint
+                    if remaining_bandwidth >= client['bandwidth']:
+                        selected_clients = Plain_Select(H, K, N)
+                        remaining_bandwidth -= client['bandwidth']
+                    else:
+                        break
+
                 print("Original selected_clients is:",selected_clients[:M])
+
+                # selected_clients = Plain_Select(H,K,N)
+                # print("Original selected_clients is:",selected_clients[:M])
 
                 # H_new  =  Update_CSI_CPE(H,K,N,selected_clients[15],attacker_index,1.2,0.2)
 
@@ -332,9 +395,14 @@ if __name__ == '__main__':
                 mal_index.append(attacker_index)
                 mal_index.append(selected_clients[index])
 
-                # print(victim_idx,j_minus_1_idx,selected_clients[15])
-                # print("The conspirator is:",selected_clients[conspirator])
-                choices = Plain_Select(H_new,K,N)
+                for client in client_list:
+                    # Check if adding the client satisfies the bandwidth constraint
+                    if remaining_bandwidth >= client['bandwidth']:
+                        choices = Plain_Select(H_new, K, N)
+                        remaining_bandwidth -= client['bandwidth']
+                    else:
+                        break
+                # choices = Plain_Select(H_new,K,N)
                 choices = choices[:M]
                 print("conspirator is:",selected_clients[index])
                 print("Attack clients by FL_CPE are:",choices)
@@ -351,7 +419,7 @@ if __name__ == '__main__':
             # Combine the fixed worker and the randomly chosen workers
             print("This is the fix-attacker training!")
             
-            choices = mal_index.copy()  # Start with mal_index
+            choices = [i for i in mal_index]# Start with mal_index
             available_workers = [i for i in range(args.nworker) if i not in mal_index]
             choices.extend(np.random.choice(available_workers, args.perround - len(mal_index), replace=False))
             
@@ -369,7 +437,7 @@ if __name__ == '__main__':
  
        
         
-        with open('./results/selected_clients_' + args.attack + '_' + args.agg + '_' + args.method + '_' + args.dataset + '_' + str(len(mal_index)) + '_' + str(time.strftime("%Y%m%d"))+ '.csv', 'a+', newline='') as csvfile:
+        with open('./results/selected_clients_' + args.attack + '_' + args.agg + '_' + args.method + '_' + args.dataset  + '_' + str(time.strftime("%Y%m%d"))+ '.csv', 'a+', newline='') as csvfile:
             writer = csv.writer(csvfile)
                 # writer.writerow(['Original Client ID', 'Attack Client ID'])
             writer.writerow(choices)
@@ -458,7 +526,7 @@ if __name__ == '__main__':
         elif args.attack == 'krum':
             print('attack krum')
             for idx, _ in enumerate(local_grads[0]):
-                local_grads = attack_krum(network, local_grads, mal_index, idx)
+                local_grads = attack_krum_improved(network, local_grads, mal_index, idx)
 
         elif args.attack == 'xie':
             print('attack Xie et al.')
