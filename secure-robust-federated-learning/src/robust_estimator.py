@@ -248,6 +248,15 @@ def krum(samples, f):
     index = np.argmin(metric)
     return samples[index], index
 
+
+def Fltrust(samples, f):
+    krum_scores = krum_(samples, f)
+    trusted_index = np.argmin(krum_scores)
+    trusted_update = samples[trusted_index]
+    return trusted_update
+
+
+    
 def mom_krum(samples, f, bucket_size=3):
     bucket_num = int(np.ceil(len(samples) * 1. / bucket_size))
 

@@ -34,7 +34,7 @@ from data import MalDataset
 from networks import ConvNet
 import numpy as np
 import random
-from robust_estimator import krum, filterL2, median, trimmed_mean, bulyan, ex_noregret, mom_filterL2, mom_ex_noregret, mom_krum
+from robust_estimator import krum, filterL2, median, trimmed_mean, bulyan, ex_noregret, mom_filterL2, mom_ex_noregret, mom_krum,Fltrust
 import torch
 from torch import nn, optim
 from torch.utils.data import Dataset, DataLoader, random_split
@@ -94,6 +94,9 @@ if __name__ == '__main__':
     parser.add_argument('--B', type=int, default=10000,
                         help="total bandwidth limit: B")
 
+    parser.add_argument('--fix_num', type=int, default=1,
+                        help="the number of fix attackers")
+
 
     # Plain_CSI selection ATTACK args
     parser.add_argument('--PlainCSI_ATTACK',action = 'store_true',help = 'use Plain_CSI ATTACK selection')
@@ -104,8 +107,10 @@ if __name__ == '__main__':
     parser.add_argument('--FL_TDoS',action = 'store_true',help = 'use FL_TDoS selection')
     parser.add_argument('--FL_CPE',action = 'store_true',help = 'use FL_CPE selection')
 
+    
 
-    # Power-d arguments
+
+    # Power-d arguments  
     parser.add_argument('--power_d',action = 'store_true',
                         help = 'use Pow-d selection')
     parser.add_argument('--d',type = int,default = 30,
@@ -118,13 +123,13 @@ if __name__ == '__main__':
 
     # Malicious agent setting
     parser.add_argument('--malnum', type=int, default=2)
-    parser.add_argument('--agg', default='average', help='average, ex_noregret, filterl2, krum, median, trimmedmean, bulyankrum, bulyantrimmedmean, bulyanmedian, mom_filterl2, mom_ex_noregret, iclr2022_bucketing, icml2021_history, clustering')
+    parser.add_argument('--agg', default='average', help='average, ex_noregret, filterl2, krum, median, trimmedmean, bulyankrum, bulyantrimmedmean, bulyanmedian, mom_filterl2, mom_ex_noregret,Fltrust, iclr2022_bucketing, icml2021_history, clustering')
     parser.add_argument('--attack', default='noattack', help="noattack, trimmedmean, krum, backdoor, modelpoisoning, xie")
     args = parser.parse_args()
 
     device = torch.device("cuda:" + args.device if torch.cuda.is_available() else "cpu") 
     # mal_index = list(range(args.malnum))
-    mal_index = [11,12,13,14,15,16,17,18,19,20] 
+    mal_index = [] 
 
     if args.dataset == 'MNIST':
 
@@ -146,7 +151,7 @@ if __name__ == '__main__':
 
         train_set = torchvision.datasets.FashionMNIST(root = "./data", train = True, download = True, transform = torchvision.transforms.ToTensor())
         # batch_size = len(train_set) // args.nworker
-        train_loader = DataLoader(train_set, batch_size=args.batchsize)
+        train_loader = DataLoader(train18_set, batch_size=args.batchsize)
         test_loader = DataLoader(torchvision.datasets.FashionMNIST(root = "./data", train = False, download = True, transform = torchvision.transforms.ToTensor()))
         mal_train_loaders = DataLoader(MalDataset(MAL_FEATURE_FILE%('fashion'), MAL_TRUE_LABEL_FILE%('fashion'), MAL_TARGET_FILE%('fashion'), transform=torchvision.transforms.ToTensor()), batch_size=args.batchsize)
 
@@ -164,7 +169,6 @@ if __name__ == '__main__':
         train_loader = DataLoader(train_set, batch_size=args.batchsize)
         test_loader = DataLoader(torchvision.datasets.CIFAR10(root='./data', train=False, download=True, transform=transform))
         mal_train_loaders = DataLoader(MalDataset(MAL_FEATURE_FILE%('cifar10'), MAL_TRUE_LABEL_FILE%('cifar10'), MAL_TARGET_FILE%('cifar10'), transform=transform), batch_size=args.batchsize)
-
         network = ConvNet(input_size=32, input_channel=3, classes=10, filters1=30, filters2=30, fc_size=200).to(device)
         backdoor_network = ConvNet(input_size=32, input_channel=3, classes=10, filters1=30, filters2=30, fc_size=200).to(device)
     
@@ -188,7 +192,7 @@ if __name__ == '__main__':
 
     # define training loss
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.SGD(network.parameters(), lr=args.lr)
+    optimizer = optim.SGD(network.parameters(),lr=args.lr)
     # prepare data structures to store local gradients
     local_grads = []
     for i in range(args.nworker):
@@ -200,7 +204,7 @@ if __name__ == '__main__':
     
 
     file_name = './results/' + args.attack + '_' + args.agg + '_' + args.dataset + '_' + str(args.method) + '_' + str(time.strftime("%Y%m%d"))+ '.txt'
-    txt_file = open(file_name, 'w') 
+    txt_file = open(file_name, 'a+') 
 
 
 
@@ -222,7 +226,7 @@ if __name__ == '__main__':
                 B = args.B  # Total transmit bandwidth
 
                 # Generate channel matrix with random complex entries
-                H = np.random.randn(K, N) + 1j * np.random.randn(K, N)
+                H = np.random.randn(K, N18) + 1j * np.random.randn(K, N)
 
                 # Compute the total transmit power across all antennas
                 total_power = np.sum(np.abs(H)**2)
@@ -240,10 +244,10 @@ if __name__ == '__main__':
                     }
                     client_list.append(client)
 
-                selected_clients = []
+                choices = []
                 remaining_bandwidth = B
 
-                for client in client_list:
+                for client in client_lis18t:
                     # Check if adding the client satisfies the bandwidth constraint
                     if remaining_bandwidth >= client['bandwidth']:
                         choices = Plain_Select(H, K, N)
@@ -264,13 +268,10 @@ if __name__ == '__main__':
                 P = args.p  # Total transmit power
                 B = args.B  # Total transmit bandwidth
 
-                # Generate channel matrix with random complex entries
+                # Generate channel matri18x with trimmedmeanrandom complex entries
                 H = np.random.randn(K, N) + 1j * np.random.randn(K, N)
 
-                # Compute the total transmit power across all antennas
-                total_power = np.sum(np.abs(H)**2)
-
-                # Normalize the channel matrix to satisfy the power constraint
+                # Compute the total transmit 30x to satisfy the power constraint
                 H = H * np.sqrt(P / total_power)
                 # print(H)
 
@@ -288,7 +289,7 @@ if __name__ == '__main__':
                 remaining_bandwidth = B
 
                 for client in client_list:
-                    # Check if adding the client satisfies the bandwidth constraint
+                    # Check if adding the clientrimmedmeant satisfies the bandwidth constraint
                     if remaining_bandwidth >= client['bandwidth']:
                         selected_clients = Plain_Select(H, K, N)
                         remaining_bandwidth -= client['bandwidth']
@@ -318,17 +319,17 @@ if __name__ == '__main__':
 
 
                 # choices = Plain_Select(H_new,K,N)
-
-                mal_index.append(attacker_index)
+                if attacker_index not in mal_index:
+                    mal_index.append(attacker_index)
            
                 print("Attack clients by FL_TDoS are:",choices)
 
             #    with open('./results/selected_TDoS_clients_' + args.attack + '_' + args.agg + '_' + args.dataset + '_' + str(len(mal_index)) + '_' + str(time.strftime("%Y%m%d"))+ '.csv', 'a+', newline='') as csvfile:
-            #         writer = csv.writer(csvfile)
+            #         writer = csv.write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r(csvfile)
             #         # writer.writerow(['Original Client ID', 'Attack Client ID'])
             #         writer.writerow([iter+1,index,attacker_index,list(selected_clients), list(idxs_users)])
 
-                # with open('selected_clients_data_TDoS.csv', 'a+', newline='') as csvfile:
+                # with open('selected_cl18ients_data_TDoS.csv', 'a+', newline='') as csvfile:
                 #     writer = csv.writer(csvfile)
                 #     # writer.writerow(['Original Client ID', 'Attack Client ID'])
                 #     writer.writerow([epoch+1,index,attacker_index,list(selected_clients), list(idxs_users)])
@@ -337,6 +338,8 @@ if __name__ == '__main__':
 
         elif  args.method == 'FL_CPE':
                 print("This is FL_CPE  selection ATTACK")
+                mal_index = []
+
                 # N = args.num_clients   # Number of base station antennas  --num_users
                 N = 100
                 M = args.perround   # Number of base station antennas  --num_users
@@ -347,7 +350,7 @@ if __name__ == '__main__':
                 attacker_index =  args.attacker_index
 
                 # Generate channel matrix with random complex entries
-                H = np.random.randn(K, N) + 1j * np.random.randn(K, N)
+                H = np.random.randn(K, N18) + 1j * np.random.randn(K, N)
 
                 # Compute the total transmit power across all antennas
                 total_power = np.sum(np.abs(H)**2)
@@ -357,7 +360,7 @@ if __name__ == '__main__':
 
 
                 # def Update_CSI_CPE(H,K,N,attacker_id,conspirator_id):
-                #Predict the clients based on Plain text
+                #Predict the clients basedprint('Malicious node indices:', mal_index, 'Attack Type:', args.attack) on Plain text
 
 
                 # Generate a list of clients with random values for ID, bandwidth, and power
@@ -381,7 +384,7 @@ if __name__ == '__main__':
                     else:
                         break
 
-                print("Original selected_clients is:",selected_clients[:M])
+                print("Original selected18_clients is:",selected_clients[:M])
 
                 # selected_clients = Plain_Select(H,K,N)
                 # print("Original selected_clients is:",selected_clients[:M])
@@ -392,18 +395,23 @@ if __name__ == '__main__':
 
                 # backdoor_attacker.append(selected_clients[index])
                 # backdoor_attacker = []
-                mal_index.append(attacker_index)
-                mal_index.append(selected_clients[index])
+                
+                if attacker_index not in mal_index:
+                    mal_index.append(attacker_index)
+
+                if selected_clients[index] not in mal_index:
+                    mal_index.append(selected_clients[index])
 
                 for client in client_list:
                     # Check if adding the client satisfies the bandwidth constraint
                     if remaining_bandwidth >= client['bandwidth']:
-                        choices = Plain_Select(H_new, K, N)
+                        choices = Plain_18Select(H_new, K, N)
                         remaining_bandwidth -= client['bandwidth']
                     else:
                         break
                 # choices = Plain_Select(H_new,K,N)
                 choices = choices[:M]
+                print('Malicious node indices:', mal_index)
                 print("conspirator is:",selected_clients[index])
                 print("Attack clients by FL_CPE are:",choices)
 
@@ -418,6 +426,13 @@ if __name__ == '__main__':
             # Randomly select args.perround - 1 additional workers
             # Combine the fixed worker and the randomly chosen workers
             print("This is the fix-attacker training!")
+
+            mal_index =  [] 
+
+            print('Malicious node indices:', mal_index, 'Attack Type:', args.attack)
+
+            fix_attackers = args.fix_num 
+            mal_index = np.random.choice(list(range(args.nworker)), fix_attackers, replace=False)
             
             choices = [i for i in mal_index]# Start with mal_index
             available_workers = [i for i in range(args.nworker) if i not in mal_index]
@@ -545,7 +560,8 @@ if __name__ == '__main__':
                     avg_local.append(local_grads[c][idx])
                 avg_local = np.array(avg_local)
                 average_grad[idx] = np.average(avg_local, axis=0)
-            # print('average running time: ', time.time()-s)
+            print('average running time: ', time.time()-s)
+
         elif args.agg == 'krum':
             print('agg: krum')
             s = time.time()
@@ -555,7 +571,20 @@ if __name__ == '__main__':
                     krum_local.append(local_grads[c][idx])
                 # average_grad[idx], _ = krum(krum_local, f=args.malnum)
                 average_grad[idx], _ = krum(krum_local, f=len(mal_index))
-            # print('krum running time: ', time.time()-s)
+            print('krum running time: ', time.time()-s)
+        
+        elif args.agg == 'Fltrust':
+            print('agg: Fltrust')
+            s = time.time()
+            for idx, _ in enumerate(average_grad):
+                fltrust_local = []
+                for c in choices:
+                    fltrust_local.append(local_grads[c][idx])
+                average_grad[idx] = Fltrust(fltrust_local, f=len(mal_index))
+            print('fltrust running time: ', time.time()-s)
+
+
+
         elif args.agg == 'filterl2':
             print('agg: filterl2')
             s = time.time()
@@ -564,7 +593,8 @@ if __name__ == '__main__':
                 for c in choices:
                     filterl2_local.append(local_grads[c][idx])
                 average_grad[idx] = filterL2(filterl2_local, eps=len(mal_index)*1./args.nworker, sigma=args.sigma)
-            # print('filterl2 running time: ', time.time()-s)
+            print('filterl2 running time: ', time.time()-s)
+
         elif args.agg == 'mom_filterl2':
             print('agg: mom_filterl2')
             s = time.time()
@@ -573,7 +603,8 @@ if __name__ == '__main__':
                 for c in choices:
                     filterl2_local.append(local_grads[c][idx])
                 average_grad[idx] = mom_filterL2(filterl2_local, eps=len(mal_index)*1./args.nworker, sigma=args.sigma, delta=np.exp(-50+len(mal_index)))
-            # print('mom_filterl2 running time: ', time.time()-s)
+            print('mom_filterl2 running time: ', time.time()-s)
+
         elif args.agg == 'median':
             print('agg: median')
             s = time.time()
@@ -582,7 +613,9 @@ if __name__ == '__main__':
                 for c in choices:
                     median_local.append(local_grads[c][idx])
                 average_grad[idx] = median(median_local)
-            # print('median running time: ', time.time()-s)
+            print('median running time: ', time.time()-s)
+
+
         elif args.agg == 'trimmedmean':
             print('agg: trimmedmean')
             s = time.time()
@@ -591,7 +624,9 @@ if __name__ == '__main__':
                 for c in choices:
                     trimmedmean_local.append(local_grads[c][idx])
                 average_grad[idx] = trimmed_mean(trimmedmean_local)
-            # print('trimmedmean running time: ', time.time()-s)
+            print('trimmedmean running time: ', time.time()-s)
+
+
         elif args.agg == 'bulyankrum':
             print('agg: bulyankrum')
             s = time.time()
@@ -600,7 +635,9 @@ if __name__ == '__main__':
                 for c in choices:
                     bulyan_local.append(local_grads[c][idx])
                 average_grad[idx] = bulyan(bulyan_local, len(mal_index), aggsubfunc='krum')
-            # print('bulyankrum running time: ', time.time()-s)
+            print('bulyankrum running time: ', time.time()-s)
+
+            
         elif args.agg == 'bulyanmedian':
             print('agg: bulyanmedian')
             s = time.time()
@@ -609,7 +646,8 @@ if __name__ == '__main__':
                 for c in choices:
                     bulyan_local.append(local_grads[c][idx])
                 average_grad[idx] = bulyan(bulyan_local, len(mal_index), aggsubfunc='median')
-            # print('bulyanmedian running time: ', time.time()-s)
+            print('bulyanmedian running time: ', time.time()-s)
+
         elif args.agg == 'bulyantrimmedmean':
             print('agg: bulyantrimmedmean')
             s = time.time()
@@ -618,7 +656,8 @@ if __name__ == '__main__':
                 for c in choices:
                     bulyan_local.append(local_grads[c][idx])
                 average_grad[idx] = bulyan(bulyan_local, len(mal_index), aggsubfunc='trimmedmean')
-            # print('bulyantrimmedmean running time: ', time.time()-s)
+            print('bulyantrimmedmean running time: ', time.time()-s)
+
         elif args.agg == 'ex_noregret':
             print('agg: explicit non-regret')
             s = time.time()
@@ -627,7 +666,8 @@ if __name__ == '__main__':
                 for c in choices:
                     ex_noregret_local.append(local_grads[c][idx])
                 average_grad[idx] = ex_noregret(ex_noregret_local, eps=len(mal_index)*1./args.nworker, sigma=args.sigma)
-            # print('ex_noregret running time: ', time.time()-s)
+            print('ex_noregret running time: ', time.time()-s)
+
         elif args.agg == 'mom_ex_noregret':
             print('agg: mom explicit non-regret')
             s = time.time()
@@ -636,7 +676,8 @@ if __name__ == '__main__':
                 for c in choices:
                     ex_noregret_local.append(local_grads[c][idx])
                 average_grad[idx] = mom_ex_noregret(ex_noregret_local, eps=len(mal_index)*1./args.nworker, sigma=args.sigma, delta=np.exp(-50+len(mal_index)))
-            # print('mom_ex_noregret running time: ', time.time()-s)
+            print('mom_ex_noregret running time: ', time.time()-s)
+
         elif args.agg == 'iclr2022_bucketing':
             print('agg: BYZANTINE-ROBUST LEARNING ON HETEROGENEOUS DATASETS VIA BUCKETING ICLR 2022')
             s = time.time()
@@ -668,7 +709,9 @@ if __name__ == '__main__':
                 avg_local = np.array(avg_local)
                 average_grad[idx] = np.average(avg_local, axis=0)
             prev_average_grad = copy.deepcopy(average_grad)
-            # print('iclr2022_bucketing running time: ', time.time()-s)
+            print('iclr2022_bucketing running time: ', time.time()-s)
+
+
         elif args.agg == 'icml2021_history':
             print('agg: Learning from History for Byzantine Robust Optimization ICML 2021')
             s = time.time()
@@ -690,7 +733,9 @@ if __name__ == '__main__':
                 avg_local = np.array(avg_local)
                 average_grad[idx] = np.average(avg_local, axis=0)
             prev_average_grad = copy.deepcopy(average_grad)
-            # print('icml2021_history running time: ', time.time()-s)
+            print('icml2021_history running time: ', time.time()-s)
+
+
         elif args.agg == 'clustering':
             print('agg: Secure Byzantine-Robust Distributed Learning via Clustering')
             s = time.time()
@@ -699,7 +744,7 @@ if __name__ == '__main__':
                 for c in choices:
                     avg_local.append(local_grads[c][idx])
                 average_grad[idx] = mom_krum(avg_local, f=len(mal_index))
-            # print('clustering running time: ', time.time()-s)
+            print('clustering running time: ', time.time()-s)
 
 
         params = list(network.parameters())
