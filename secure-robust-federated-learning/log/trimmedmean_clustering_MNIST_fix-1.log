@@ -1,0 +1,650 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [88] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [66] Attack Type: trimmedmean
+Selected workers: [66, 25, 6, 95, 16, 30, 34, 64, 90, 11]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:02<00:24,  2.70s/it] 20%|██        | 2/10 [00:03<00:14,  1.81s/it] 30%|███       | 3/10 [00:05<00:10,  1.53s/it] 40%|████      | 4/10 [00:06<00:08,  1.42s/it] 50%|█████     | 5/10 [00:07<00:06,  1.35s/it] 60%|██████    | 6/10 [00:08<00:05,  1.28s/it] 70%|███████   | 7/10 [00:09<00:03,  1.26s/it] 80%|████████  | 8/10 [00:11<00:02,  1.22s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.20s/it]100%|██████████| 10/10 [00:13<00:00,  1.18s/it]100%|██████████| 10/10 [00:13<00:00,  1.34s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.014361143112182617
+
+Test set: Avg. loss: 2.2456, Accuracy: 2033/10000 (20%)
+
+Round:  1
+Client Selection Procss-------------------
+Malicious node indices: [66] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [62] Attack Type: trimmedmean
+Selected workers: [62, 70, 53, 99, 49, 93, 27, 67, 28, 71]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.46s/it] 20%|██        | 2/10 [00:02<00:11,  1.44s/it] 30%|███       | 3/10 [00:04<00:10,  1.46s/it] 40%|████      | 4/10 [00:05<00:08,  1.36s/it] 50%|█████     | 5/10 [00:06<00:06,  1.26s/it] 60%|██████    | 6/10 [00:07<00:04,  1.21s/it] 70%|███████   | 7/10 [00:08<00:03,  1.20s/it] 80%|████████  | 8/10 [00:10<00:02,  1.22s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01231527328491211
+
+Test set: Avg. loss: 2.1393, Accuracy: 5460/10000 (55%)
+
+Round:  2
+Client Selection Procss-------------------
+Malicious node indices: [62] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [40] Attack Type: trimmedmean
+Selected workers: [40, 3, 21, 96, 14, 86, 98, 51, 13, 76]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.15s/it] 20%|██        | 2/10 [00:02<00:09,  1.13s/it] 30%|███       | 3/10 [00:03<00:07,  1.14s/it] 40%|████      | 4/10 [00:04<00:06,  1.14s/it] 50%|█████     | 5/10 [00:05<00:05,  1.17s/it] 60%|██████    | 6/10 [00:06<00:04,  1.15s/it] 70%|███████   | 7/10 [00:08<00:03,  1.16s/it] 80%|████████  | 8/10 [00:09<00:02,  1.15s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.15s/it]100%|██████████| 10/10 [00:11<00:00,  1.14s/it]100%|██████████| 10/10 [00:11<00:00,  1.15s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011490821838378906
+
+Test set: Avg. loss: 1.8660, Accuracy: 6547/10000 (65%)
+
+Round:  3
+Client Selection Procss-------------------
+Malicious node indices: [40] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [23] Attack Type: trimmedmean
+Selected workers: [23, 38, 1, 34, 85, 75, 9, 66, 12, 22]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.41s/it] 20%|██        | 2/10 [00:02<00:09,  1.22s/it] 30%|███       | 3/10 [00:03<00:08,  1.18s/it] 40%|████      | 4/10 [00:04<00:07,  1.18s/it] 50%|█████     | 5/10 [00:06<00:05,  1.19s/it] 60%|██████    | 6/10 [00:07<00:04,  1.18s/it] 70%|███████   | 7/10 [00:08<00:03,  1.18s/it] 80%|████████  | 8/10 [00:09<00:02,  1.18s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.16s/it]100%|██████████| 10/10 [00:11<00:00,  1.14s/it]100%|██████████| 10/10 [00:11<00:00,  1.17s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.014332294464111328
+
+Test set: Avg. loss: 1.2693, Accuracy: 7894/10000 (79%)
+
+Round:  4
+Client Selection Procss-------------------
+Malicious node indices: [23] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [8] Attack Type: trimmedmean
+Selected workers: [8, 57, 43, 81, 36, 12, 61, 89, 73, 38]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.09s/it] 20%|██        | 2/10 [00:02<00:09,  1.14s/it] 30%|███       | 3/10 [00:03<00:08,  1.16s/it] 40%|████      | 4/10 [00:04<00:07,  1.19s/it] 50%|█████     | 5/10 [00:05<00:05,  1.18s/it] 60%|██████    | 6/10 [00:07<00:04,  1.17s/it] 70%|███████   | 7/10 [00:08<00:03,  1.16s/it] 80%|████████  | 8/10 [00:09<00:02,  1.15s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.14s/it]100%|██████████| 10/10 [00:11<00:00,  1.14s/it]100%|██████████| 10/10 [00:11<00:00,  1.15s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011469841003417969
+
+Test set: Avg. loss: 0.7678, Accuracy: 8309/10000 (83%)
+
+Round:  5
+Client Selection Procss-------------------
+Malicious node indices: [8] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [53] Attack Type: trimmedmean
+Selected workers: [53, 50, 58, 73, 44, 76, 27, 63, 45, 9]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.43s/it] 20%|██        | 2/10 [00:02<00:11,  1.48s/it] 30%|███       | 3/10 [00:04<00:10,  1.48s/it] 40%|████      | 4/10 [00:05<00:08,  1.47s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.46s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011477470397949219
+
+Test set: Avg. loss: 0.5708, Accuracy: 8653/10000 (87%)
+
+Round:  6
+Client Selection Procss-------------------
+Malicious node indices: [53] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [0] Attack Type: trimmedmean
+Selected workers: [0, 93, 59, 83, 34, 73, 61, 12, 76, 30]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.40s/it] 20%|██        | 2/10 [00:02<00:11,  1.47s/it] 30%|███       | 3/10 [00:04<00:10,  1.45s/it] 40%|████      | 4/10 [00:05<00:08,  1.45s/it] 50%|█████     | 5/10 [00:07<00:07,  1.42s/it] 60%|██████    | 6/10 [00:08<00:05,  1.34s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.25s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.23s/it]100%|██████████| 10/10 [00:13<00:00,  1.22s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011617183685302734
+
+Test set: Avg. loss: 0.4772, Accuracy: 8784/10000 (88%)
+
+Round:  7
+Client Selection Procss-------------------
+Malicious node indices: [0] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [14] Attack Type: trimmedmean
+Selected workers: [14, 64, 9, 73, 53, 79, 77, 51, 57, 58]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.16s/it] 20%|██        | 2/10 [00:02<00:09,  1.17s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.26s/it] 50%|█████     | 5/10 [00:06<00:06,  1.23s/it] 60%|██████    | 6/10 [00:07<00:04,  1.20s/it] 70%|███████   | 7/10 [00:08<00:03,  1.19s/it] 80%|████████  | 8/10 [00:09<00:02,  1.19s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.17s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.21s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01159977912902832
+
+Test set: Avg. loss: 0.4186, Accuracy: 8878/10000 (89%)
+
+Round:  8
+Client Selection Procss-------------------
+Malicious node indices: [14] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [98] Attack Type: trimmedmean
+Selected workers: [98, 76, 52, 15, 11, 49, 46, 60, 40, 30]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.26s/it] 20%|██        | 2/10 [00:02<00:09,  1.21s/it] 30%|███       | 3/10 [00:03<00:08,  1.21s/it] 40%|████      | 4/10 [00:04<00:07,  1.24s/it] 50%|█████     | 5/10 [00:06<00:06,  1.24s/it] 60%|██████    | 6/10 [00:07<00:04,  1.22s/it] 70%|███████   | 7/10 [00:08<00:03,  1.19s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011666297912597656
+
+Test set: Avg. loss: 0.3816, Accuracy: 8947/10000 (89%)
+
+Round:  9
+Client Selection Procss-------------------
+Malicious node indices: [98] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [53] Attack Type: trimmedmean
+Selected workers: [53, 41, 33, 5, 14, 4, 11, 9, 75, 13]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.34s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:08,  1.21s/it] 40%|████      | 4/10 [00:04<00:07,  1.23s/it] 50%|█████     | 5/10 [00:06<00:06,  1.24s/it] 60%|██████    | 6/10 [00:07<00:05,  1.26s/it] 70%|███████   | 7/10 [00:08<00:03,  1.24s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.19s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.012548685073852539
+
+Test set: Avg. loss: 0.3580, Accuracy: 8998/10000 (90%)
+
+Round:  10
+Client Selection Procss-------------------
+Malicious node indices: [53] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [78] Attack Type: trimmedmean
+Selected workers: [78, 76, 0, 98, 39, 2, 92, 72, 21, 99]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.28s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:08,  1.19s/it] 40%|████      | 4/10 [00:04<00:07,  1.18s/it] 50%|█████     | 5/10 [00:05<00:05,  1.16s/it] 60%|██████    | 6/10 [00:07<00:04,  1.16s/it] 70%|███████   | 7/10 [00:08<00:03,  1.19s/it] 80%|████████  | 8/10 [00:09<00:02,  1.19s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.21s/it]100%|██████████| 10/10 [00:11<00:00,  1.20s/it]100%|██████████| 10/10 [00:11<00:00,  1.19s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011760234832763672
+
+Test set: Avg. loss: 0.3441, Accuracy: 9015/10000 (90%)
+
+Round:  11
+Client Selection Procss-------------------
+Malicious node indices: [78] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [77] Attack Type: trimmedmean
+Selected workers: [77, 38, 58, 99, 3, 96, 5, 1, 27, 0]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.17s/it] 20%|██        | 2/10 [00:02<00:09,  1.24s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.23s/it] 50%|█████     | 5/10 [00:06<00:06,  1.22s/it] 60%|██████    | 6/10 [00:07<00:04,  1.24s/it] 70%|███████   | 7/10 [00:08<00:03,  1.24s/it] 80%|████████  | 8/10 [00:09<00:02,  1.23s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.20s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011519193649291992
+
+Test set: Avg. loss: 0.3174, Accuracy: 9076/10000 (91%)
+
+Round:  12
+Client Selection Procss-------------------
+Malicious node indices: [77] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [59] Attack Type: trimmedmean
+Selected workers: [59, 98, 63, 7, 2, 8, 74, 47, 99, 76]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.35s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:08,  1.23s/it] 40%|████      | 4/10 [00:04<00:07,  1.19s/it] 50%|█████     | 5/10 [00:06<00:06,  1.21s/it] 60%|██████    | 6/10 [00:07<00:04,  1.21s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.22s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011419296264648438
+
+Test set: Avg. loss: 0.3068, Accuracy: 9134/10000 (91%)
+
+Round:  13
+Client Selection Procss-------------------
+Malicious node indices: [59] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [68] Attack Type: trimmedmean
+Selected workers: [68, 27, 36, 31, 81, 29, 37, 63, 78, 15]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.17s/it] 20%|██        | 2/10 [00:02<00:09,  1.18s/it] 30%|███       | 3/10 [00:03<00:08,  1.24s/it] 40%|████      | 4/10 [00:04<00:07,  1.24s/it] 50%|█████     | 5/10 [00:06<00:06,  1.21s/it] 60%|██████    | 6/10 [00:07<00:04,  1.25s/it] 70%|███████   | 7/10 [00:08<00:03,  1.25s/it] 80%|████████  | 8/10 [00:09<00:02,  1.24s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01244354248046875
+
+Test set: Avg. loss: 0.2897, Accuracy: 9172/10000 (92%)
+
+Round:  14
+Client Selection Procss-------------------
+Malicious node indices: [68] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [5] Attack Type: trimmedmean
+Selected workers: [5, 11, 55, 52, 73, 37, 75, 69, 64, 38]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.26s/it] 20%|██        | 2/10 [00:02<00:09,  1.18s/it] 30%|███       | 3/10 [00:03<00:08,  1.19s/it] 40%|████      | 4/10 [00:04<00:07,  1.25s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:08<00:03,  1.32s/it] 80%|████████  | 8/10 [00:10<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011500358581542969
+
+Test set: Avg. loss: 0.2780, Accuracy: 9191/10000 (92%)
+
+Round:  15
+Client Selection Procss-------------------
+Malicious node indices: [5] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [33] Attack Type: trimmedmean
+Selected workers: [33, 10, 35, 57, 83, 88, 77, 13, 48, 45]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.23s/it] 20%|██        | 2/10 [00:02<00:09,  1.25s/it] 30%|███       | 3/10 [00:03<00:08,  1.23s/it] 40%|████      | 4/10 [00:04<00:07,  1.21s/it] 50%|█████     | 5/10 [00:06<00:06,  1.22s/it] 60%|██████    | 6/10 [00:07<00:04,  1.24s/it] 70%|███████   | 7/10 [00:08<00:03,  1.24s/it] 80%|████████  | 8/10 [00:09<00:02,  1.23s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011289834976196289
+
+Test set: Avg. loss: 0.2675, Accuracy: 9225/10000 (92%)
+
+Round:  16
+Client Selection Procss-------------------
+Malicious node indices: [33] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [86] Attack Type: trimmedmean
+Selected workers: [86, 38, 69, 29, 66, 49, 56, 39, 76, 64]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.28s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.26s/it] 50%|█████     | 5/10 [00:06<00:06,  1.25s/it] 60%|██████    | 6/10 [00:07<00:04,  1.25s/it] 70%|███████   | 7/10 [00:08<00:03,  1.23s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.20s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011075019836425781
+
+Test set: Avg. loss: 0.2590, Accuracy: 9263/10000 (93%)
+
+Round:  17
+Client Selection Procss-------------------
+Malicious node indices: [86] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [94] Attack Type: trimmedmean
+Selected workers: [94, 71, 83, 39, 19, 51, 21, 9, 40, 36]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.19s/it] 20%|██        | 2/10 [00:02<00:09,  1.18s/it] 30%|███       | 3/10 [00:03<00:08,  1.25s/it] 40%|████      | 4/10 [00:04<00:07,  1.24s/it] 50%|█████     | 5/10 [00:06<00:06,  1.21s/it] 60%|██████    | 6/10 [00:07<00:04,  1.21s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01151895523071289
+
+Test set: Avg. loss: 0.2562, Accuracy: 9282/10000 (93%)
+
+Round:  18
+Client Selection Procss-------------------
+Malicious node indices: [94] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [64] Attack Type: trimmedmean
+Selected workers: [64, 48, 92, 18, 16, 1, 74, 99, 68, 49]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.20s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:08,  1.27s/it] 40%|████      | 4/10 [00:04<00:07,  1.25s/it] 50%|█████     | 5/10 [00:06<00:06,  1.24s/it] 60%|██████    | 6/10 [00:07<00:04,  1.24s/it] 70%|███████   | 7/10 [00:08<00:03,  1.28s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011487722396850586
+
+Test set: Avg. loss: 0.2444, Accuracy: 9303/10000 (93%)
+
+Round:  19
+Client Selection Procss-------------------
+Malicious node indices: [64] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [71] Attack Type: trimmedmean
+Selected workers: [71, 70, 86, 83, 69, 67, 35, 1, 54, 23]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.24s/it] 20%|██        | 2/10 [00:02<00:09,  1.22s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.25s/it] 50%|█████     | 5/10 [00:06<00:06,  1.25s/it] 60%|██████    | 6/10 [00:07<00:05,  1.26s/it] 70%|███████   | 7/10 [00:08<00:03,  1.24s/it] 80%|████████  | 8/10 [00:09<00:02,  1.26s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011292219161987305
+
+Test set: Avg. loss: 0.2349, Accuracy: 9313/10000 (93%)
+
+Round:  20
+Client Selection Procss-------------------
+Malicious node indices: [71] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [96] Attack Type: trimmedmean
+Selected workers: [96, 24, 1, 48, 75, 83, 3, 38, 61, 64]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.15s/it] 20%|██        | 2/10 [00:02<00:09,  1.19s/it] 30%|███       | 3/10 [00:03<00:08,  1.17s/it] 40%|████      | 4/10 [00:04<00:07,  1.20s/it] 50%|█████     | 5/10 [00:06<00:06,  1.24s/it] 60%|██████    | 6/10 [00:07<00:04,  1.23s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011493682861328125
+
+Test set: Avg. loss: 0.2283, Accuracy: 9359/10000 (94%)
+
+Round:  21
+Client Selection Procss-------------------
+Malicious node indices: [96] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [11] Attack Type: trimmedmean
+Selected workers: [11, 40, 94, 91, 62, 9, 36, 90, 30, 8]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.25s/it] 20%|██        | 2/10 [00:02<00:09,  1.24s/it] 30%|███       | 3/10 [00:03<00:09,  1.36s/it] 40%|████      | 4/10 [00:05<00:08,  1.41s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:07<00:05,  1.30s/it] 70%|███████   | 7/10 [00:09<00:03,  1.25s/it] 80%|████████  | 8/10 [00:10<00:02,  1.25s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011408567428588867
+
+Test set: Avg. loss: 0.2201, Accuracy: 9339/10000 (93%)
+
+Round:  22
+Client Selection Procss-------------------
+Malicious node indices: [11] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [40] Attack Type: trimmedmean
+Selected workers: [40, 65, 98, 3, 9, 75, 10, 6, 72, 33]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.34s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:08,  1.27s/it] 40%|████      | 4/10 [00:05<00:07,  1.26s/it] 50%|█████     | 5/10 [00:06<00:06,  1.23s/it] 60%|██████    | 6/10 [00:07<00:04,  1.23s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.012323141098022461
+
+Test set: Avg. loss: 0.2183, Accuracy: 9359/10000 (94%)
+
+Round:  23
+Client Selection Procss-------------------
+Malicious node indices: [40] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [86] Attack Type: trimmedmean
+Selected workers: [86, 24, 75, 42, 45, 21, 47, 44, 36, 28]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.17s/it] 20%|██        | 2/10 [00:02<00:11,  1.40s/it] 30%|███       | 3/10 [00:04<00:10,  1.57s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:06,  1.38s/it] 60%|██████    | 6/10 [00:08<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.27s/it] 80%|████████  | 8/10 [00:10<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.34s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011308670043945312
+
+Test set: Avg. loss: 0.2102, Accuracy: 9393/10000 (94%)
+
+Round:  24
+Client Selection Procss-------------------
+Malicious node indices: [86] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [23] Attack Type: trimmedmean
+Selected workers: [23, 48, 52, 2, 75, 61, 68, 47, 96, 43]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.24s/it] 20%|██        | 2/10 [00:02<00:10,  1.27s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.27s/it] 80%|████████  | 8/10 [00:10<00:02,  1.27s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011360406875610352
+
+Test set: Avg. loss: 0.2065, Accuracy: 9395/10000 (94%)
+
+Round:  25
+Client Selection Procss-------------------
+Malicious node indices: [23] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [13] Attack Type: trimmedmean
+Selected workers: [13, 43, 86, 83, 50, 62, 37, 94, 93, 76]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.25s/it] 20%|██        | 2/10 [00:02<00:09,  1.24s/it] 30%|███       | 3/10 [00:03<00:08,  1.24s/it] 40%|████      | 4/10 [00:04<00:07,  1.21s/it] 50%|█████     | 5/10 [00:06<00:06,  1.24s/it] 60%|██████    | 6/10 [00:07<00:04,  1.24s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.22s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011312246322631836
+
+Test set: Avg. loss: 0.2007, Accuracy: 9397/10000 (94%)
+
+Round:  26
+Client Selection Procss-------------------
+Malicious node indices: [13] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [21] Attack Type: trimmedmean
+Selected workers: [21, 11, 38, 22, 18, 36, 91, 61, 55, 26]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.28s/it] 20%|██        | 2/10 [00:02<00:09,  1.24s/it] 30%|███       | 3/10 [00:03<00:08,  1.27s/it] 40%|████      | 4/10 [00:04<00:07,  1.24s/it] 50%|█████     | 5/10 [00:06<00:06,  1.23s/it] 60%|██████    | 6/10 [00:07<00:04,  1.22s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.20s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011266231536865234
+
+Test set: Avg. loss: 0.1952, Accuracy: 9431/10000 (94%)
+
+Round:  27
+Client Selection Procss-------------------
+Malicious node indices: [21] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [70] Attack Type: trimmedmean
+Selected workers: [70, 97, 74, 33, 78, 16, 99, 18, 88, 94]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:09,  1.21s/it] 30%|███       | 3/10 [00:03<00:08,  1.18s/it] 40%|████      | 4/10 [00:04<00:07,  1.21s/it] 50%|█████     | 5/10 [00:06<00:06,  1.37s/it] 60%|██████    | 6/10 [00:07<00:05,  1.35s/it] 70%|███████   | 7/10 [00:08<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011368274688720703
+
+Test set: Avg. loss: 0.1914, Accuracy: 9447/10000 (94%)
+
+Round:  28
+Client Selection Procss-------------------
+Malicious node indices: [70] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [3] Attack Type: trimmedmean
+Selected workers: [3, 93, 38, 68, 97, 86, 78, 30, 5, 40]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.23s/it] 50%|█████     | 5/10 [00:06<00:06,  1.23s/it] 60%|██████    | 6/10 [00:07<00:04,  1.24s/it] 70%|███████   | 7/10 [00:08<00:03,  1.27s/it] 80%|████████  | 8/10 [00:09<00:02,  1.22s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011227846145629883
+
+Test set: Avg. loss: 0.1820, Accuracy: 9461/10000 (95%)
+
+Round:  29
+Client Selection Procss-------------------
+Malicious node indices: [3] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [94] Attack Type: trimmedmean
+Selected workers: [94, 56, 75, 67, 38, 60, 36, 49, 34, 40]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.31s/it] 20%|██        | 2/10 [00:02<00:10,  1.25s/it] 30%|███       | 3/10 [00:03<00:08,  1.25s/it] 40%|████      | 4/10 [00:04<00:07,  1.22s/it] 50%|█████     | 5/10 [00:06<00:05,  1.19s/it] 60%|██████    | 6/10 [00:07<00:04,  1.17s/it] 70%|███████   | 7/10 [00:08<00:03,  1.17s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.21s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01136922836303711
+
+Test set: Avg. loss: 0.1802, Accuracy: 9486/10000 (95%)
+
+Round:  30
+Client Selection Procss-------------------
+Malicious node indices: [94] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [10] Attack Type: trimmedmean
+Selected workers: [10, 39, 84, 86, 58, 80, 94, 83, 37, 51]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.22s/it] 20%|██        | 2/10 [00:02<00:09,  1.22s/it] 30%|███       | 3/10 [00:03<00:08,  1.20s/it] 40%|████      | 4/10 [00:04<00:07,  1.21s/it] 50%|█████     | 5/10 [00:06<00:06,  1.22s/it] 60%|██████    | 6/10 [00:07<00:05,  1.27s/it] 70%|███████   | 7/10 [00:08<00:03,  1.25s/it] 80%|████████  | 8/10 [00:09<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.0113372802734375
+
+Test set: Avg. loss: 0.1744, Accuracy: 9478/10000 (95%)
+
+Round:  31
+Client Selection Procss-------------------
+Malicious node indices: [10] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [92] Attack Type: trimmedmean
+Selected workers: [92, 78, 35, 59, 72, 18, 32, 39, 14, 70]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.24s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:08,  1.21s/it] 40%|████      | 4/10 [00:04<00:07,  1.21s/it] 50%|█████     | 5/10 [00:06<00:06,  1.23s/it] 60%|██████    | 6/10 [00:07<00:05,  1.27s/it] 70%|███████   | 7/10 [00:08<00:03,  1.28s/it] 80%|████████  | 8/10 [00:09<00:02,  1.26s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01127934455871582
+
+Test set: Avg. loss: 0.1683, Accuracy: 9510/10000 (95%)
+
+Round:  32
+Client Selection Procss-------------------
+Malicious node indices: [92] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [54] Attack Type: trimmedmean
+Selected workers: [54, 73, 67, 87, 22, 0, 53, 31, 13, 34]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.19s/it] 20%|██        | 2/10 [00:02<00:09,  1.22s/it] 30%|███       | 3/10 [00:03<00:08,  1.24s/it] 40%|████      | 4/10 [00:04<00:07,  1.24s/it] 50%|█████     | 5/10 [00:06<00:06,  1.22s/it] 60%|██████    | 6/10 [00:07<00:04,  1.23s/it] 70%|███████   | 7/10 [00:08<00:03,  1.19s/it] 80%|████████  | 8/10 [00:09<00:02,  1.18s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.19s/it]100%|██████████| 10/10 [00:12<00:00,  1.19s/it]100%|██████████| 10/10 [00:12<00:00,  1.20s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011530160903930664
+
+Test set: Avg. loss: 0.1715, Accuracy: 9510/10000 (95%)
+
+Round:  33
+Client Selection Procss-------------------
+Malicious node indices: [54] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [35] Attack Type: trimmedmean
+Selected workers: [35, 32, 77, 13, 48, 51, 23, 80, 99, 70]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.20s/it] 20%|██        | 2/10 [00:02<00:09,  1.20s/it] 30%|███       | 3/10 [00:03<00:08,  1.19s/it] 40%|████      | 4/10 [00:04<00:07,  1.17s/it] 50%|█████     | 5/10 [00:05<00:05,  1.19s/it] 60%|██████    | 6/10 [00:07<00:04,  1.19s/it] 70%|███████   | 7/10 [00:08<00:03,  1.19s/it] 80%|████████  | 8/10 [00:09<00:02,  1.18s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.20s/it]100%|██████████| 10/10 [00:11<00:00,  1.21s/it]100%|██████████| 10/10 [00:11<00:00,  1.20s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011096954345703125
+
+Test set: Avg. loss: 0.1627, Accuracy: 9537/10000 (95%)
+
+Round:  34
+Client Selection Procss-------------------
+Malicious node indices: [35] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [65] Attack Type: trimmedmean
+Selected workers: [65, 64, 48, 41, 53, 47, 57, 4, 85, 39]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:09,  1.25s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.24s/it] 50%|█████     | 5/10 [00:06<00:06,  1.27s/it] 60%|██████    | 6/10 [00:07<00:05,  1.25s/it] 70%|███████   | 7/10 [00:08<00:03,  1.24s/it] 80%|████████  | 8/10 [00:10<00:02,  1.24s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011087417602539062
+
+Test set: Avg. loss: 0.1610, Accuracy: 9531/10000 (95%)
+
+Round:  35
+Client Selection Procss-------------------
+Malicious node indices: [65] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [29] Attack Type: trimmedmean
+Selected workers: [29, 9, 10, 58, 35, 16, 24, 81, 17, 18]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.23s/it] 20%|██        | 2/10 [00:02<00:09,  1.24s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.27s/it] 60%|██████    | 6/10 [00:07<00:04,  1.24s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011408567428588867
+
+Test set: Avg. loss: 0.1559, Accuracy: 9540/10000 (95%)
+
+Round:  36
+Client Selection Procss-------------------
+Malicious node indices: [29] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [52] Attack Type: trimmedmean
+Selected workers: [52, 75, 36, 2, 89, 92, 88, 18, 48, 32]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.15s/it] 20%|██        | 2/10 [00:02<00:09,  1.18s/it] 30%|███       | 3/10 [00:03<00:08,  1.19s/it] 40%|████      | 4/10 [00:04<00:07,  1.24s/it] 50%|█████     | 5/10 [00:06<00:06,  1.23s/it] 60%|██████    | 6/10 [00:07<00:04,  1.23s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.21s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011303901672363281
+
+Test set: Avg. loss: 0.1494, Accuracy: 9568/10000 (96%)
+
+Round:  37
+Client Selection Procss-------------------
+Malicious node indices: [52] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [98] Attack Type: trimmedmean
+Selected workers: [98, 22, 32, 79, 8, 3, 58, 86, 81, 24]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.33s/it] 20%|██        | 2/10 [00:02<00:10,  1.34s/it] 30%|███       | 3/10 [00:03<00:09,  1.33s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.29s/it] 60%|██████    | 6/10 [00:07<00:05,  1.28s/it] 70%|███████   | 7/10 [00:09<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011205673217773438
+
+Test set: Avg. loss: 0.1433, Accuracy: 9585/10000 (96%)
+
+Round:  38
+Client Selection Procss-------------------
+Malicious node indices: [98] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [85] Attack Type: trimmedmean
+Selected workers: [85, 19, 45, 46, 48, 25, 88, 83, 1, 0]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:09,  1.25s/it] 30%|███       | 3/10 [00:03<00:08,  1.24s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.26s/it] 60%|██████    | 6/10 [00:07<00:04,  1.22s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.23s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011070966720581055
+
+Test set: Avg. loss: 0.1395, Accuracy: 9589/10000 (96%)
+
+Round:  39
+Client Selection Procss-------------------
+Malicious node indices: [85] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [70] Attack Type: trimmedmean
+Selected workers: [70, 43, 86, 66, 89, 78, 71, 81, 96, 23]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.23s/it] 20%|██        | 2/10 [00:02<00:09,  1.22s/it] 30%|███       | 3/10 [00:03<00:08,  1.20s/it] 40%|████      | 4/10 [00:04<00:07,  1.19s/it] 50%|█████     | 5/10 [00:05<00:05,  1.18s/it] 60%|██████    | 6/10 [00:07<00:04,  1.23s/it] 70%|███████   | 7/10 [00:08<00:03,  1.24s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01109766960144043
+
+Test set: Avg. loss: 0.1370, Accuracy: 9604/10000 (96%)
+
+Round:  40
+Client Selection Procss-------------------
+Malicious node indices: [70] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [19] Attack Type: trimmedmean
+Selected workers: [19, 71, 14, 96, 26, 95, 32, 25, 39, 86]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.19s/it] 20%|██        | 2/10 [00:02<00:09,  1.20s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.21s/it] 50%|█████     | 5/10 [00:06<00:05,  1.20s/it] 60%|██████    | 6/10 [00:07<00:04,  1.21s/it] 70%|███████   | 7/10 [00:08<00:03,  1.30s/it] 80%|████████  | 8/10 [00:09<00:02,  1.27s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011525392532348633
+
+Test set: Avg. loss: 0.1352, Accuracy: 9599/10000 (96%)
+
+Round:  41
+Client Selection Procss-------------------
+Malicious node indices: [19] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [11] Attack Type: trimmedmean
+Selected workers: [11, 33, 93, 30, 2, 22, 3, 50, 67, 61]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.26s/it] 20%|██        | 2/10 [00:02<00:09,  1.21s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.24s/it] 50%|█████     | 5/10 [00:06<00:06,  1.26s/it] 60%|██████    | 6/10 [00:07<00:05,  1.26s/it] 70%|███████   | 7/10 [00:08<00:03,  1.25s/it] 80%|████████  | 8/10 [00:10<00:02,  1.27s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011091470718383789
+
+Test set: Avg. loss: 0.1373, Accuracy: 9591/10000 (96%)
+
+Round:  42
+Client Selection Procss-------------------
+Malicious node indices: [11] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [67] Attack Type: trimmedmean
+Selected workers: [67, 25, 24, 70, 78, 27, 23, 48, 62, 21]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.22s/it] 20%|██        | 2/10 [00:02<00:09,  1.21s/it] 30%|███       | 3/10 [00:03<00:08,  1.25s/it] 40%|████      | 4/10 [00:04<00:07,  1.22s/it] 50%|█████     | 5/10 [00:06<00:06,  1.20s/it] 60%|██████    | 6/10 [00:07<00:04,  1.20s/it] 70%|███████   | 7/10 [00:08<00:03,  1.19s/it] 80%|████████  | 8/10 [00:09<00:02,  1.19s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.20s/it]100%|██████████| 10/10 [00:11<00:00,  1.18s/it]100%|██████████| 10/10 [00:11<00:00,  1.20s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011162042617797852
+
+Test set: Avg. loss: 0.1311, Accuracy: 9608/10000 (96%)
+
+Round:  43
+Client Selection Procss-------------------
+Malicious node indices: [67] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [94] Attack Type: trimmedmean
+Selected workers: [94, 79, 93, 71, 57, 61, 67, 38, 58, 81]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.24s/it] 20%|██        | 2/10 [00:02<00:09,  1.20s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.23s/it] 50%|█████     | 5/10 [00:06<00:06,  1.22s/it] 60%|██████    | 6/10 [00:07<00:04,  1.24s/it] 70%|███████   | 7/10 [00:08<00:03,  1.23s/it] 80%|████████  | 8/10 [00:09<00:02,  1.24s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01122593879699707
+
+Test set: Avg. loss: 0.1309, Accuracy: 9606/10000 (96%)
+
+Round:  44
+Client Selection Procss-------------------
+Malicious node indices: [94] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [74] Attack Type: trimmedmean
+Selected workers: [74, 92, 81, 79, 27, 87, 95, 45, 32, 62]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.16s/it] 20%|██        | 2/10 [00:02<00:09,  1.18s/it] 30%|███       | 3/10 [00:03<00:08,  1.19s/it] 40%|████      | 4/10 [00:04<00:07,  1.19s/it] 50%|█████     | 5/10 [00:05<00:06,  1.21s/it] 60%|██████    | 6/10 [00:07<00:04,  1.21s/it] 70%|███████   | 7/10 [00:08<00:03,  1.21s/it] 80%|████████  | 8/10 [00:09<00:02,  1.20s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011590957641601562
+
+Test set: Avg. loss: 0.1286, Accuracy: 9610/10000 (96%)
+
+Round:  45
+Client Selection Procss-------------------
+Malicious node indices: [74] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [12] Attack Type: trimmedmean
+Selected workers: [12, 33, 18, 2, 22, 93, 42, 65, 28, 57]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.51s/it] 20%|██        | 2/10 [00:02<00:11,  1.47s/it] 30%|███       | 3/10 [00:04<00:09,  1.33s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.23s/it] 60%|██████    | 6/10 [00:07<00:04,  1.25s/it] 70%|███████   | 7/10 [00:09<00:03,  1.25s/it] 80%|████████  | 8/10 [00:10<00:02,  1.22s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.20s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01764369010925293
+
+Test set: Avg. loss: 0.1285, Accuracy: 9626/10000 (96%)
+
+Round:  46
+Client Selection Procss-------------------
+Malicious node indices: [12] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [8] Attack Type: trimmedmean
+Selected workers: [8, 99, 24, 27, 43, 30, 83, 0, 12, 25]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.15s/it] 20%|██        | 2/10 [00:02<00:09,  1.17s/it] 30%|███       | 3/10 [00:03<00:08,  1.19s/it] 40%|████      | 4/10 [00:04<00:07,  1.22s/it] 50%|█████     | 5/10 [00:06<00:06,  1.23s/it] 60%|██████    | 6/10 [00:07<00:04,  1.22s/it] 70%|███████   | 7/10 [00:08<00:03,  1.21s/it] 80%|████████  | 8/10 [00:09<00:02,  1.23s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011320829391479492
+
+Test set: Avg. loss: 0.1287, Accuracy: 9614/10000 (96%)
+
+Round:  47
+Client Selection Procss-------------------
+Malicious node indices: [8] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [83] Attack Type: trimmedmean
+Selected workers: [83, 72, 41, 48, 14, 94, 44, 3, 76, 90]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.24s/it] 20%|██        | 2/10 [00:02<00:10,  1.26s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.23s/it] 50%|█████     | 5/10 [00:06<00:06,  1.23s/it] 60%|██████    | 6/10 [00:07<00:04,  1.22s/it] 70%|███████   | 7/10 [00:08<00:03,  1.19s/it] 80%|████████  | 8/10 [00:09<00:02,  1.18s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.17s/it]100%|██████████| 10/10 [00:11<00:00,  1.18s/it]100%|██████████| 10/10 [00:11<00:00,  1.20s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011179685592651367
+
+Test set: Avg. loss: 0.1239, Accuracy: 9610/10000 (96%)
+
+Round:  48
+Client Selection Procss-------------------
+Malicious node indices: [83] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [1] Attack Type: trimmedmean
+Selected workers: [1, 86, 52, 56, 4, 12, 57, 84, 43, 38]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.20s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:08,  1.25s/it] 40%|████      | 4/10 [00:04<00:07,  1.24s/it] 50%|█████     | 5/10 [00:06<00:06,  1.26s/it] 60%|██████    | 6/10 [00:07<00:05,  1.28s/it] 70%|███████   | 7/10 [00:08<00:03,  1.25s/it] 80%|████████  | 8/10 [00:10<00:02,  1.27s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011309623718261719
+
+Test set: Avg. loss: 0.1176, Accuracy: 9650/10000 (96%)
+
+Round:  49
+Client Selection Procss-------------------
+Malicious node indices: [1] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [55] Attack Type: trimmedmean
+Selected workers: [55, 63, 62, 80, 17, 22, 23, 9, 32, 47]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.17s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.23s/it] 50%|█████     | 5/10 [00:06<00:05,  1.19s/it] 60%|██████    | 6/10 [00:07<00:04,  1.21s/it] 70%|███████   | 7/10 [00:08<00:03,  1.23s/it] 80%|████████  | 8/10 [00:09<00:02,  1.25s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011471748352050781
+
+Test set: Avg. loss: 0.1203, Accuracy: 9635/10000 (96%)
+

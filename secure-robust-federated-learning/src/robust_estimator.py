@@ -250,13 +250,39 @@ def krum(samples, f):
 
 
 def Fltrust(samples, f):
-    krum_scores = krum_(samples, f)
-    trusted_index = np.argmin(krum_scores)
-    trusted_update = samples[trusted_index]
-    return trusted_update
+    # Step 1: Compute the trust scores
+    trust_scores = []
+    server_update = samples[0]  # Assuming the first update is the server model update
+    for local_update in samples[1:]:
+        cosine_similarity = np.dot(local_update, server_update) / (np.linalg.norm(local_update) * np.linalg.norm(server_update))
+        trust_score = max(0, cosine_similarity)  # Apply ReLU to clip negative similarity scores
+        trust_scores.append(trust_score)
+
+    # Apply ReLU to trust scores
+    trust_scores = np.maximum(0, trust_scores)
+
+    # Step 2: Normalize local updates
+    normalized_updates = []
+    for local_update in samples[1:]:
+        magnitude_ratio = np.linalg.norm(server_update) / np.linalg.norm(local_update)
+        normalized_update = local_update * magnitude_ratio
+        normalized_updates.append(normalized_update)
+
+    # Step 3: Compute the weighted average of normalized updates
+    weighted_sum = np.zeros_like(server_update)
+    total_weight = 0
+    for i, normalized_update in enumerate(normalized_updates):
+        weight = trust_scores[i]
+        weighted_sum += normalized_update * weight
+        total_weight += weight
+
+    global_update = weighted_sum / total_weight if total_weight > 0 else server_update
+
+    return global_update
 
 
-    
+
+
 def mom_krum(samples, f, bucket_size=3):
     bucket_num = int(np.ceil(len(samples) * 1. / bucket_size))
 

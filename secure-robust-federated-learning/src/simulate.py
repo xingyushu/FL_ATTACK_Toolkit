@@ -57,7 +57,7 @@ MAL_TARGET_FILE = './data/%s_mal_target_10.npy'
 MAL_TRUE_LABEL_FILE = './data/%s_mal_true_label_10.npy'
 
 ALL_METHODS = [
-    'random', 'PlainCSI','FL_TDoS','FL_CPE','fix'
+    'random',  'PlainCSI','FL_TDoS','FL_CPE','fix-1','fix-2'
 ]
 
 
@@ -100,8 +100,8 @@ if __name__ == '__main__':
 
     # Plain_CSI selection ATTACK args
     parser.add_argument('--PlainCSI_ATTACK',action = 'store_true',help = 'use Plain_CSI ATTACK selection')
-    parser.add_argument('--victim',type=int, default=9,help = 'victim index in the Estimated selected clients in TDoS attack,victim <= N-1 ')
-    parser.add_argument('--conspirator_idx',type=int, default=9,help = 'conspirator index in the Estimated selected clients in CPE attack,conspirator <= N-1 ')
+    parser.add_argument('--victim',type=int, default=-1,help = 'victim index in the Estimated selected clients in TDoS attack,victim <= N-1 ')
+    parser.add_argument('--conspirator_idx',type=int, default=15,help = 'conspirator index in the Estimated selected clients in CPE attack,conspirator <= N-1 ')
     parser.add_argument('--attacker_index',type=int, default=18,help = 'attacker index in the H,attacker_index <= K')
 
     parser.add_argument('--FL_TDoS',action = 'store_true',help = 'use FL_TDoS selection')
@@ -129,7 +129,7 @@ if __name__ == '__main__':
 
     device = torch.device("cuda:" + args.device if torch.cuda.is_available() else "cpu") 
     # mal_index = list(range(args.malnum))
-    mal_index = [] 
+    mal_index = [18] 
 
     if args.dataset == 'MNIST':
 
@@ -151,7 +151,7 @@ if __name__ == '__main__':
 
         train_set = torchvision.datasets.FashionMNIST(root = "./data", train = True, download = True, transform = torchvision.transforms.ToTensor())
         # batch_size = len(train_set) // args.nworker
-        train_loader = DataLoader(train18_set, batch_size=args.batchsize)
+        train_loader = DataLoader(train_set, batch_size=args.batchsize)
         test_loader = DataLoader(torchvision.datasets.FashionMNIST(root = "./data", train = False, download = True, transform = torchvision.transforms.ToTensor()))
         mal_train_loaders = DataLoader(MalDataset(MAL_FEATURE_FILE%('fashion'), MAL_TRUE_LABEL_FILE%('fashion'), MAL_TARGET_FILE%('fashion'), transform=torchvision.transforms.ToTensor()), batch_size=args.batchsize)
 
@@ -226,7 +226,7 @@ if __name__ == '__main__':
                 B = args.B  # Total transmit bandwidth
 
                 # Generate channel matrix with random complex entries
-                H = np.random.randn(K, N18) + 1j * np.random.randn(K, N)
+                H = np.random.randn(K, N) + 1j * np.random.randn(K, N)
 
                 # Compute the total transmit power across all antennas
                 total_power = np.sum(np.abs(H)**2)
@@ -247,7 +247,7 @@ if __name__ == '__main__':
                 choices = []
                 remaining_bandwidth = B
 
-                for client in client_lis18t:
+                for client in client_list:
                     # Check if adding the client satisfies the bandwidth constraint
                     if remaining_bandwidth >= client['bandwidth']:
                         choices = Plain_Select(H, K, N)
@@ -268,8 +268,12 @@ if __name__ == '__main__':
                 P = args.p  # Total transmit power
                 B = args.B  # Total transmit bandwidth
 
-                # Generate channel matri18x with trimmedmeanrandom complex entries
+
+                mal_index = []
+
+                # Generate channel matrix with trimmedmeanrandom complex entries
                 H = np.random.randn(K, N) + 1j * np.random.randn(K, N)
+                total_power = np.sum(np.abs(H)**2)
 
                 # Compute the total transmit 30x to satisfy the power constraint
                 H = H * np.sqrt(P / total_power)
@@ -329,7 +333,7 @@ if __name__ == '__main__':
             #         # writer.writerow(['Original Client ID', 'Attack Client ID'])
             #         writer.writerow([iter+1,index,attacker_index,list(selected_clients), list(idxs_users)])
 
-                # with open('selected_cl18ients_data_TDoS.csv', 'a+', newline='') as csvfile:
+                # with open('selected_clients_data_TDoS.csv', 'a+', newline='') as csvfile:
                 #     writer = csv.writer(csvfile)
                 #     # writer.writerow(['Original Client ID', 'Attack Client ID'])
                 #     writer.writerow([epoch+1,index,attacker_index,list(selected_clients), list(idxs_users)])
@@ -350,7 +354,7 @@ if __name__ == '__main__':
                 attacker_index =  args.attacker_index
 
                 # Generate channel matrix with random complex entries
-                H = np.random.randn(K, N18) + 1j * np.random.randn(K, N)
+                H = np.random.randn(K, N) + 1j * np.random.randn(K, N)
 
                 # Compute the total transmit power across all antennas
                 total_power = np.sum(np.abs(H)**2)
@@ -359,32 +363,9 @@ if __name__ == '__main__':
                 H = H * np.sqrt(P / total_power)
 
 
-                # def Update_CSI_CPE(H,K,N,attacker_id,conspirator_id):
-                #Predict the clients basedprint('Malicious node indices:', mal_index, 'Attack Type:', args.attack) on Plain text
+                selected_clients = Plain_Select(H, K, N)
 
-
-                # Generate a list of clients with random values for ID, bandwidth, and power
-                client_list = []
-                for i in range(K):
-                    client = {
-                        'id': i,
-                        'bandwidth': random.randint(1, 50),  # Assign a random bandwidth value for each client
-                        'power': random.randint(1, 50)
-                    }
-                    client_list.append(client)
-
-                selected_clients = []
-                remaining_bandwidth = B
-
-                for client in client_list:
-                    # Check if adding the client satisfies the bandwidth constraint
-                    if remaining_bandwidth >= client['bandwidth']:
-                        selected_clients = Plain_Select(H, K, N)
-                        remaining_bandwidth -= client['bandwidth']
-                    else:
-                        break
-
-                print("Original selected18_clients is:",selected_clients[:M])
+                print("Original selected_clients is:",selected_clients[:M])
 
                 # selected_clients = Plain_Select(H,K,N)
                 # print("Original selected_clients is:",selected_clients[:M])
@@ -402,14 +383,8 @@ if __name__ == '__main__':
                 if selected_clients[index] not in mal_index:
                     mal_index.append(selected_clients[index])
 
-                for client in client_list:
-                    # Check if adding the client satisfies the bandwidth constraint
-                    if remaining_bandwidth >= client['bandwidth']:
-                        choices = Plain_18Select(H_new, K, N)
-                        remaining_bandwidth -= client['bandwidth']
-                    else:
-                        break
-                # choices = Plain_Select(H_new,K,N)
+            
+                choices = Plain_Select(H_new,K,N)
                 choices = choices[:M]
                 print('Malicious node indices:', mal_index)
                 print("conspirator is:",selected_clients[index])
@@ -421,7 +396,7 @@ if __name__ == '__main__':
                 #     # writer.writerow(['Original Client ID', 'Attack Client ID'])
                 #     writer.writerow([iter+1,selected_clients[index],attacker_index,list(selected_clients[:M]), list(idxs_users)])
 
-        elif  args.method == 'fix':
+        elif  args.method == 'fix-1':
             # The selection process with fix-attackers
             # Randomly select args.perround - 1 additional workers
             # Combine the fixed worker and the randomly chosen workers
@@ -429,10 +404,31 @@ if __name__ == '__main__':
 
             mal_index =  [] 
 
-            print('Malicious node indices:', mal_index, 'Attack Type:', args.attack)
+            
 
-            fix_attackers = args.fix_num 
-            mal_index = np.random.choice(list(range(args.nworker)), fix_attackers, replace=False)
+            # fix_attackers = args.fix_num 
+            mal_index = np.random.choice(list(range(args.nworker)), 1, replace=False)
+            print('Malicious node indices:', mal_index, 'Attack Type:', args.attack)
+            
+            choices = [i for i in mal_index]# Start with mal_index
+            available_workers = [i for i in range(args.nworker) if i not in mal_index]
+            choices.extend(np.random.choice(available_workers, args.perround - len(mal_index), replace=False))
+            
+            # Print the selected worker indices for this round
+            print("Selected workers:", choices)
+        
+        elif  args.method == 'fix-2':
+            # The selection process with fix-attackers
+            # Randomly select args.perround - 1 additional workers
+            # Combine the fixed worker and the randomly chosen workers
+            print("This is the fix-attacker training!")
+
+            mal_index =  [] 
+
+            
+            # fix_attackers = args.fix_num 
+            mal_index = np.random.choice(list(range(args.nworker)), 2, replace=False)
+            print('Malicious node indices:', mal_index, 'Attack Type:', args.attack)
             
             choices = [i for i in mal_index]# Start with mal_index
             available_workers = [i for i in range(args.nworker) if i not in mal_index]

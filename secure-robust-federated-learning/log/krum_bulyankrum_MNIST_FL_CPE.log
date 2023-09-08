@@ -1,0 +1,9 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [88] Attack Type: krum
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [46, 31, 78, 34, 17, 96, 77, 79, 15, 63]
+Traceback (most recent call last):
+  File "/home/xingyu/secure-robust-federated-learning/src/simulate.py", line 409, in <module>
+    choices = Plain_18Select(H_new, K, N)
+NameError: name 'Plain_18Select' is not defined

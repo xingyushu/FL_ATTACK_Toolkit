@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/xingyu/secure-robust-federated-learning/src/simulate.py", line 154, in <module>
+    train_loader = DataLoader(train18_set, batch_size=args.batchsize)
+NameError: name 'train18_set' is not defined
