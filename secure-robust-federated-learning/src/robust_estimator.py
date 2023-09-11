@@ -31,10 +31,12 @@
 import argparse
 import cvxpy as cvx
 import numpy as np
+import torch
 from numpy.random import multivariate_normal
 from scipy.linalg import eigh
 from scipy.special import rel_entr
 from sklearn.preprocessing import normalize
+import torch.nn.functional as F
 
 MAX_ITER = 100
 ITV = 1000
@@ -249,36 +251,50 @@ def krum(samples, f):
     return samples[index], index
 
 
+
 def Fltrust(samples, f):
-    # Step 1: Compute the trust scores
-    trust_scores = []
-    server_update = samples[0]  # Assuming the first update is the server model update
-    for local_update in samples[1:]:
-        cosine_similarity = np.dot(local_update, server_update) / (np.linalg.norm(local_update) * np.linalg.norm(server_update))
-        trust_score = max(0, cosine_similarity)  # Apply ReLU to clip negative similarity scores
-        trust_scores.append(trust_score)
+    """
+    FLTrust aggregation using the provided template.
+    
+    samples: list of gradients. The last one is the server update.
+    f: number of malicious clients. The first f clients are malicious.
+    """
+    
+    # Convert numpy arrays in samples to PyTorch tensors if needed
+    # samples = [torch.tensor(x) if isinstance(x, np.ndarray) else x for x in samples]
+    samples = [torch.tensor(x, dtype=torch.float32) if isinstance(x, np.ndarray) else x for x in samples]
 
-    # Apply ReLU to trust scores
-    trust_scores = np.maximum(0, trust_scores)
+    
+    param_list = [torch.cat([xx.reshape((-1, 1)) for xx in x], dim=0) for x in samples]
+    n = len(param_list) - 1
 
-    # Step 2: Normalize local updates
-    normalized_updates = []
-    for local_update in samples[1:]:
-        magnitude_ratio = np.linalg.norm(server_update) / np.linalg.norm(local_update)
-        normalized_update = local_update * magnitude_ratio
-        normalized_updates.append(normalized_update)
+    # use the last gradient (server update) as the trusted source
+    baseline = param_list[-1].squeeze()
+    sim = []
+    new_param_list = []
 
-    # Step 3: Compute the weighted average of normalized updates
-    weighted_sum = np.zeros_like(server_update)
-    total_weight = 0
-    for i, normalized_update in enumerate(normalized_updates):
-        weight = trust_scores[i]
-        weighted_sum += normalized_update * weight
-        total_weight += weight
+    # compute similarity
+    for each_param_list in param_list:
+        each_param_array = each_param_list.squeeze()
+        sim.append(torch.dot(baseline, each_param_array) / (torch.norm(baseline) + 1e-9) / (
+                    torch.norm(each_param_array) + 1e-9))
 
-    global_update = weighted_sum / total_weight if total_weight > 0 else server_update
+    sim = torch.stack(sim)[:-1]
 
-    return global_update
+    # clip similarities and get trust scores
+    sim = F.relu(sim)
+    normalized_weights = sim / (torch.sum(sim).item() + 1e-9)
+
+    # normalize the magnitudes and weight by the trust score
+    for i in range(n):
+        new_param_list.append(
+            param_list[i] * normalized_weights[i] / (torch.norm(param_list[i]) + 1e-9) * torch.norm(baseline))
+
+    # compute global update
+    global_update = torch.sum(torch.cat(new_param_list, dim=1), dim=-1)
+
+    return global_update.reshape(samples[0].shape)
+
 
 
 

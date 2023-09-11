@@ -1,0 +1,650 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [79, 81, 37, 75, 30, 83, 53, 59, 69, 12]
+Attack clients by FL_TDoS are: [79, 81, 37, 75, 30, 18, 83, 53, 59, 69]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:02<00:25,  2.81s/it] 20%|██        | 2/10 [00:04<00:14,  1.87s/it] 30%|███       | 3/10 [00:05<00:12,  1.74s/it] 40%|████      | 4/10 [00:07<00:09,  1.63s/it] 50%|█████     | 5/10 [00:08<00:07,  1.58s/it] 60%|██████    | 6/10 [00:09<00:05,  1.48s/it] 70%|███████   | 7/10 [00:11<00:04,  1.43s/it] 80%|████████  | 8/10 [00:12<00:02,  1.41s/it] 90%|█████████ | 9/10 [00:14<00:01,  1.44s/it]100%|██████████| 10/10 [00:15<00:00,  1.45s/it]100%|██████████| 10/10 [00:15<00:00,  1.55s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011447906494140625
+
+Test set: Avg. loss: 2.2453, Accuracy: 2417/10000 (24%)
+
+Round:  1
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [83, 68, 69, 14, 58, 56, 66, 22, 74, 27]
+Attack clients by FL_TDoS are: [83, 68, 18, 69, 14, 58, 56, 66, 22, 74]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.50s/it] 20%|██        | 2/10 [00:02<00:11,  1.47s/it] 30%|███       | 3/10 [00:04<00:09,  1.42s/it] 40%|████      | 4/10 [00:05<00:08,  1.44s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.42s/it] 70%|███████   | 7/10 [00:10<00:04,  1.41s/it] 80%|████████  | 8/10 [00:11<00:02,  1.43s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.40s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.012021303176879883
+
+Test set: Avg. loss: 2.1418, Accuracy: 5932/10000 (59%)
+
+Round:  2
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [18, 43, 11, 26, 39, 93, 10, 30, 28, 34]
+Attack clients by FL_TDoS are: [18, 43, 11, 26, 39, 93, 10, 30, 28, 34]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.55s/it] 20%|██        | 2/10 [00:03<00:12,  1.53s/it] 30%|███       | 3/10 [00:04<00:10,  1.55s/it] 40%|████      | 4/10 [00:06<00:09,  1.50s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.48s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.47s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011051654815673828
+
+Test set: Avg. loss: 1.8721, Accuracy: 7225/10000 (72%)
+
+Round:  3
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [41, 68, 80, 76, 33, 58, 39, 20, 88, 63]
+Attack clients by FL_TDoS are: [41, 18, 68, 80, 76, 33, 58, 39, 20, 88]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.32s/it] 20%|██        | 2/10 [00:02<00:11,  1.40s/it] 30%|███       | 3/10 [00:04<00:09,  1.37s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.43s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:09<00:04,  1.42s/it] 80%|████████  | 8/10 [00:11<00:02,  1.41s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.45s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011377334594726562
+
+Test set: Avg. loss: 1.2650, Accuracy: 7493/10000 (75%)
+
+Round:  4
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [69, 89, 68, 80, 22, 90, 25, 37, 92, 0]
+Attack clients by FL_TDoS are: [18, 69, 89, 68, 80, 22, 90, 25, 37, 92]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.46s/it] 20%|██        | 2/10 [00:03<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:08,  1.35s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:08<00:05,  1.39s/it] 70%|███████   | 7/10 [00:09<00:04,  1.40s/it] 80%|████████  | 8/10 [00:11<00:02,  1.40s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.40s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011208295822143555
+
+Test set: Avg. loss: 0.7774, Accuracy: 8246/10000 (82%)
+
+Round:  5
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [79, 91, 53, 14, 18, 74, 98, 60, 34, 17]
+Attack clients by FL_TDoS are: [18, 79, 91, 53, 14, 74, 98, 60, 34, 17]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.41s/it] 20%|██        | 2/10 [00:02<00:11,  1.46s/it] 30%|███       | 3/10 [00:04<00:10,  1.46s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.46s/it] 70%|███████   | 7/10 [00:10<00:04,  1.47s/it] 80%|████████  | 8/10 [00:11<00:02,  1.42s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.39s/it]100%|██████████| 10/10 [00:14<00:00,  1.38s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011439800262451172
+
+Test set: Avg. loss: 0.5705, Accuracy: 8600/10000 (86%)
+
+Round:  6
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [97, 50, 11, 41, 69, 53, 47, 55, 61, 66]
+Attack clients by FL_TDoS are: [18, 97, 50, 11, 41, 53, 69, 47, 55, 61]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.38s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:08,  1.45s/it] 50%|█████     | 5/10 [00:07<00:07,  1.47s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.42s/it] 80%|████████  | 8/10 [00:11<00:02,  1.45s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011471748352050781
+
+Test set: Avg. loss: 0.4796, Accuracy: 8714/10000 (87%)
+
+Round:  7
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [96, 25, 67, 39, 76, 9, 8, 13, 58, 47]
+Attack clients by FL_TDoS are: [18, 96, 25, 39, 67, 76, 9, 8, 13, 58]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.54s/it] 20%|██        | 2/10 [00:03<00:12,  1.55s/it] 30%|███       | 3/10 [00:04<00:10,  1.46s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.47s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01128077507019043
+
+Test set: Avg. loss: 0.4223, Accuracy: 8860/10000 (89%)
+
+Round:  8
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [20, 37, 15, 84, 81, 31, 53, 10, 48, 70]
+Attack clients by FL_TDoS are: [18, 20, 37, 84, 15, 81, 31, 10, 53, 48]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.51s/it] 20%|██        | 2/10 [00:03<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.40s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.47s/it] 80%|████████  | 8/10 [00:11<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011412382125854492
+
+Test set: Avg. loss: 0.3844, Accuracy: 8926/10000 (89%)
+
+Round:  9
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [6, 25, 10, 59, 73, 53, 48, 56, 11, 45]
+Attack clients by FL_TDoS are: [6, 25, 10, 59, 73, 53, 48, 18, 56, 11]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.43s/it] 20%|██        | 2/10 [00:02<00:10,  1.36s/it] 30%|███       | 3/10 [00:04<00:09,  1.42s/it] 40%|████      | 4/10 [00:05<00:08,  1.47s/it] 50%|█████     | 5/10 [00:07<00:07,  1.51s/it] 60%|██████    | 6/10 [00:08<00:05,  1.50s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.41s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011423349380493164
+
+Test set: Avg. loss: 0.3637, Accuracy: 8960/10000 (90%)
+
+Round:  10
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [87, 5, 21, 40, 22, 38, 70, 78, 77, 33]
+Attack clients by FL_TDoS are: [87, 5, 18, 21, 40, 22, 38, 70, 78, 77]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.36s/it] 20%|██        | 2/10 [00:02<00:11,  1.40s/it] 30%|███       | 3/10 [00:04<00:10,  1.45s/it] 40%|████      | 4/10 [00:05<00:08,  1.49s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.48s/it] 80%|████████  | 8/10 [00:11<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.53s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011212825775146484
+
+Test set: Avg. loss: 0.3437, Accuracy: 8994/10000 (90%)
+
+Round:  11
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [5, 58, 43, 2, 12, 51, 26, 87, 14, 27]
+Attack clients by FL_TDoS are: [18, 5, 58, 43, 2, 12, 51, 26, 14, 87]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.48s/it] 20%|██        | 2/10 [00:02<00:11,  1.44s/it] 30%|███       | 3/10 [00:04<00:10,  1.45s/it] 40%|████      | 4/10 [00:05<00:08,  1.46s/it] 50%|█████     | 5/10 [00:07<00:07,  1.43s/it] 60%|██████    | 6/10 [00:08<00:05,  1.41s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011692047119140625
+
+Test set: Avg. loss: 0.3205, Accuracy: 9083/10000 (91%)
+
+Round:  12
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [56, 86, 39, 80, 19, 30, 94, 42, 3, 52]
+Attack clients by FL_TDoS are: [18, 56, 86, 39, 80, 19, 30, 94, 42, 3]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.33s/it] 20%|██        | 2/10 [00:02<00:11,  1.45s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:09,  1.52s/it] 50%|█████     | 5/10 [00:07<00:07,  1.51s/it] 60%|██████    | 6/10 [00:08<00:05,  1.45s/it] 70%|███████   | 7/10 [00:10<00:04,  1.44s/it] 80%|████████  | 8/10 [00:11<00:02,  1.44s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.012738227844238281
+
+Test set: Avg. loss: 0.3082, Accuracy: 9125/10000 (91%)
+
+Round:  13
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [73, 50, 88, 5, 70, 92, 57, 36, 78, 90]
+Attack clients by FL_TDoS are: [73, 50, 88, 5, 18, 70, 92, 57, 36, 78]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.52s/it] 20%|██        | 2/10 [00:02<00:11,  1.49s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:05<00:08,  1.50s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.44s/it] 80%|████████  | 8/10 [00:11<00:02,  1.44s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011670351028442383
+
+Test set: Avg. loss: 0.2910, Accuracy: 9173/10000 (92%)
+
+Round:  14
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [53, 45, 19, 60, 64, 26, 24, 13, 98, 22]
+Attack clients by FL_TDoS are: [53, 45, 19, 18, 60, 64, 26, 24, 13, 98]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.55s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:08,  1.44s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.43s/it] 70%|███████   | 7/10 [00:10<00:04,  1.44s/it] 80%|████████  | 8/10 [00:11<00:02,  1.42s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.41s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011425256729125977
+
+Test set: Avg. loss: 0.2885, Accuracy: 9169/10000 (92%)
+
+Round:  15
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [80, 24, 18, 47, 44, 71, 31, 98, 56, 34]
+Attack clients by FL_TDoS are: [80, 24, 47, 18, 44, 71, 31, 98, 56, 34]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.50s/it] 20%|██        | 2/10 [00:02<00:11,  1.45s/it] 30%|███       | 3/10 [00:04<00:10,  1.48s/it] 40%|████      | 4/10 [00:05<00:08,  1.50s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.39s/it] 70%|███████   | 7/10 [00:10<00:04,  1.42s/it] 80%|████████  | 8/10 [00:11<00:02,  1.43s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011785268783569336
+
+Test set: Avg. loss: 0.2717, Accuracy: 9211/10000 (92%)
+
+Round:  16
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [97, 1, 22, 62, 79, 82, 76, 61, 0, 8]
+Attack clients by FL_TDoS are: [18, 97, 1, 22, 62, 79, 82, 76, 61, 0]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.29s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:04<00:09,  1.43s/it] 40%|████      | 4/10 [00:05<00:08,  1.45s/it] 50%|█████     | 5/10 [00:07<00:07,  1.41s/it] 60%|██████    | 6/10 [00:08<00:05,  1.40s/it] 70%|███████   | 7/10 [00:09<00:04,  1.44s/it] 80%|████████  | 8/10 [00:11<00:02,  1.44s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.40s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011343240737915039
+
+Test set: Avg. loss: 0.2605, Accuracy: 9227/10000 (92%)
+
+Round:  17
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [82, 56, 87, 19, 18, 4, 84, 54, 40, 42]
+Attack clients by FL_TDoS are: [18, 82, 56, 87, 19, 4, 84, 54, 40, 42]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:04<00:09,  1.42s/it] 40%|████      | 4/10 [00:05<00:08,  1.46s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.45s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.45s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011118650436401367
+
+Test set: Avg. loss: 0.2606, Accuracy: 9256/10000 (93%)
+
+Round:  18
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [22, 66, 99, 56, 84, 87, 28, 70, 19, 47]
+Attack clients by FL_TDoS are: [22, 66, 99, 56, 18, 84, 87, 28, 70, 19]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.46s/it] 20%|██        | 2/10 [00:02<00:11,  1.38s/it] 30%|███       | 3/10 [00:04<00:09,  1.41s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:09<00:04,  1.43s/it] 80%|████████  | 8/10 [00:11<00:02,  1.38s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.016937971115112305
+
+Test set: Avg. loss: 0.2455, Accuracy: 9302/10000 (93%)
+
+Round:  19
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [89, 46, 90, 72, 47, 20, 64, 32, 95, 66]
+Attack clients by FL_TDoS are: [89, 46, 90, 72, 18, 47, 20, 64, 32, 95]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.46s/it] 20%|██        | 2/10 [00:02<00:10,  1.35s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:08,  1.47s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.50s/it] 70%|███████   | 7/10 [00:10<00:04,  1.47s/it] 80%|████████  | 8/10 [00:11<00:02,  1.48s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011645317077636719
+
+Test set: Avg. loss: 0.2390, Accuracy: 9311/10000 (93%)
+
+Round:  20
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [35, 83, 27, 42, 72, 51, 79, 41, 54, 81]
+Attack clients by FL_TDoS are: [18, 83, 35, 27, 42, 51, 72, 79, 41, 54]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.41s/it] 20%|██        | 2/10 [00:02<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:10,  1.46s/it] 40%|████      | 4/10 [00:05<00:08,  1.48s/it] 50%|█████     | 5/10 [00:07<00:07,  1.48s/it] 60%|██████    | 6/10 [00:08<00:05,  1.47s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:11<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.012562036514282227
+
+Test set: Avg. loss: 0.2299, Accuracy: 9350/10000 (94%)
+
+Round:  21
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [78, 88, 75, 84, 79, 6, 53, 63, 56, 52]
+Attack clients by FL_TDoS are: [78, 88, 75, 18, 84, 79, 6, 53, 63, 56]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.45s/it] 20%|██        | 2/10 [00:02<00:11,  1.45s/it] 30%|███       | 3/10 [00:04<00:09,  1.38s/it] 40%|████      | 4/10 [00:05<00:08,  1.40s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.41s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.44s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011709451675415039
+
+Test set: Avg. loss: 0.2269, Accuracy: 9340/10000 (93%)
+
+Round:  22
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [81, 14, 17, 2, 40, 29, 86, 19, 98, 96]
+Attack clients by FL_TDoS are: [18, 81, 14, 17, 2, 40, 29, 86, 19, 98]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.43s/it] 20%|██        | 2/10 [00:02<00:11,  1.40s/it] 30%|███       | 3/10 [00:04<00:09,  1.40s/it] 40%|████      | 4/10 [00:05<00:08,  1.39s/it] 50%|█████     | 5/10 [00:07<00:07,  1.43s/it] 60%|██████    | 6/10 [00:08<00:05,  1.46s/it] 70%|███████   | 7/10 [00:10<00:04,  1.48s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011529684066772461
+
+Test set: Avg. loss: 0.2153, Accuracy: 9364/10000 (94%)
+
+Round:  23
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [56, 29, 53, 45, 6, 75, 98, 70, 91, 43]
+Attack clients by FL_TDoS are: [18, 56, 53, 29, 45, 6, 75, 98, 70, 91]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.51s/it] 20%|██        | 2/10 [00:02<00:11,  1.43s/it] 30%|███       | 3/10 [00:04<00:09,  1.41s/it] 40%|████      | 4/10 [00:05<00:08,  1.44s/it] 50%|█████     | 5/10 [00:07<00:07,  1.47s/it] 60%|██████    | 6/10 [00:08<00:05,  1.46s/it] 70%|███████   | 7/10 [00:10<00:04,  1.41s/it] 80%|████████  | 8/10 [00:11<00:02,  1.39s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.37s/it]100%|██████████| 10/10 [00:13<00:00,  1.26s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011418581008911133
+
+Test set: Avg. loss: 0.2062, Accuracy: 9401/10000 (94%)
+
+Round:  24
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [33, 67, 53, 98, 20, 40, 55, 28, 84, 83]
+Attack clients by FL_TDoS are: [33, 67, 53, 98, 20, 18, 40, 55, 28, 84]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.35s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:04<00:10,  1.49s/it] 40%|████      | 4/10 [00:05<00:08,  1.48s/it] 50%|█████     | 5/10 [00:07<00:07,  1.47s/it] 60%|██████    | 6/10 [00:08<00:05,  1.46s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.44s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.40s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011501550674438477
+
+Test set: Avg. loss: 0.2148, Accuracy: 9374/10000 (94%)
+
+Round:  25
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [60, 35, 17, 92, 59, 37, 29, 25, 80, 38]
+Attack clients by FL_TDoS are: [18, 60, 35, 17, 92, 37, 59, 29, 25, 80]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.53s/it] 20%|██        | 2/10 [00:03<00:12,  1.54s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:05<00:08,  1.46s/it] 50%|█████     | 5/10 [00:07<00:07,  1.41s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.40s/it] 80%|████████  | 8/10 [00:11<00:02,  1.36s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.36s/it]100%|██████████| 10/10 [00:14<00:00,  1.37s/it]100%|██████████| 10/10 [00:14<00:00,  1.41s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.012086153030395508
+
+Test set: Avg. loss: 0.2004, Accuracy: 9411/10000 (94%)
+
+Round:  26
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [66, 83, 88, 2, 58, 10, 64, 82, 8, 99]
+Attack clients by FL_TDoS are: [66, 83, 88, 2, 18, 58, 10, 64, 82, 8]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.39s/it] 20%|██        | 2/10 [00:02<00:11,  1.39s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:08,  1.47s/it] 50%|█████     | 5/10 [00:07<00:07,  1.52s/it] 60%|██████    | 6/10 [00:08<00:06,  1.52s/it] 70%|███████   | 7/10 [00:10<00:04,  1.53s/it] 80%|████████  | 8/10 [00:12<00:03,  1.55s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]100%|██████████| 10/10 [00:15<00:00,  1.50s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011109113693237305
+
+Test set: Avg. loss: 0.1914, Accuracy: 9442/10000 (94%)
+
+Round:  27
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [40, 41, 86, 35, 4, 33, 61, 91, 18, 34]
+Attack clients by FL_TDoS are: [40, 41, 86, 35, 18, 4, 33, 61, 91, 34]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.45s/it] 20%|██        | 2/10 [00:03<00:12,  1.54s/it] 30%|███       | 3/10 [00:04<00:10,  1.43s/it] 40%|████      | 4/10 [00:05<00:08,  1.40s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.48s/it] 80%|████████  | 8/10 [00:11<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011112213134765625
+
+Test set: Avg. loss: 0.1906, Accuracy: 9442/10000 (94%)
+
+Round:  28
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [46, 20, 90, 33, 68, 12, 63, 76, 67, 56]
+Attack clients by FL_TDoS are: [18, 46, 20, 90, 33, 68, 12, 63, 76, 67]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.47s/it] 20%|██        | 2/10 [00:02<00:11,  1.40s/it] 30%|███       | 3/10 [00:04<00:09,  1.42s/it] 40%|████      | 4/10 [00:05<00:08,  1.49s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.47s/it] 70%|███████   | 7/10 [00:10<00:04,  1.48s/it] 80%|████████  | 8/10 [00:11<00:02,  1.47s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011413335800170898
+
+Test set: Avg. loss: 0.1842, Accuracy: 9454/10000 (95%)
+
+Round:  29
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [5, 4, 20, 11, 47, 46, 80, 19, 68, 14]
+Attack clients by FL_TDoS are: [5, 4, 20, 11, 47, 46, 80, 18, 19, 68]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.34s/it] 20%|██        | 2/10 [00:02<00:11,  1.45s/it] 30%|███       | 3/10 [00:04<00:09,  1.41s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.42s/it] 60%|██████    | 6/10 [00:08<00:05,  1.43s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011424779891967773
+
+Test set: Avg. loss: 0.1826, Accuracy: 9459/10000 (95%)
+
+Round:  30
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [68, 16, 20, 37, 22, 89, 91, 63, 4, 30]
+Attack clients by FL_TDoS are: [18, 68, 16, 20, 37, 22, 89, 91, 63, 4]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.44s/it] 20%|██        | 2/10 [00:03<00:12,  1.52s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:08,  1.48s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.43s/it] 70%|███████   | 7/10 [00:09<00:04,  1.35s/it] 80%|████████  | 8/10 [00:11<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.33s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.38s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011275768280029297
+
+Test set: Avg. loss: 0.1803, Accuracy: 9481/10000 (95%)
+
+Round:  31
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [98, 63, 35, 68, 18, 26, 55, 0, 31, 47]
+Attack clients by FL_TDoS are: [18, 98, 63, 35, 68, 26, 55, 0, 31, 47]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.38s/it] 20%|██        | 2/10 [00:02<00:11,  1.39s/it] 30%|███       | 3/10 [00:04<00:09,  1.39s/it] 40%|████      | 4/10 [00:05<00:08,  1.42s/it] 50%|█████     | 5/10 [00:06<00:06,  1.39s/it] 60%|██████    | 6/10 [00:08<00:05,  1.41s/it] 70%|███████   | 7/10 [00:09<00:04,  1.42s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011095523834228516
+
+Test set: Avg. loss: 0.1675, Accuracy: 9503/10000 (95%)
+
+Round:  32
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [86, 12, 59, 42, 78, 80, 45, 66, 93, 77]
+Attack clients by FL_TDoS are: [86, 12, 18, 59, 42, 80, 78, 45, 66, 93]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.55s/it] 20%|██        | 2/10 [00:02<00:11,  1.47s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:05<00:08,  1.45s/it] 50%|█████     | 5/10 [00:07<00:07,  1.43s/it] 60%|██████    | 6/10 [00:08<00:05,  1.42s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011240482330322266
+
+Test set: Avg. loss: 0.1656, Accuracy: 9496/10000 (95%)
+
+Round:  33
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [24, 36, 25, 51, 65, 48, 37, 90, 54, 66]
+Attack clients by FL_TDoS are: [18, 24, 36, 25, 51, 65, 48, 37, 90, 54]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.51s/it] 20%|██        | 2/10 [00:02<00:10,  1.34s/it] 30%|███       | 3/10 [00:04<00:09,  1.38s/it] 40%|████      | 4/10 [00:05<00:08,  1.46s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:11<00:03,  1.50s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011498451232910156
+
+Test set: Avg. loss: 0.1632, Accuracy: 9494/10000 (95%)
+
+Round:  34
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [67, 34, 91, 88, 44, 39, 82, 5, 52, 23]
+Attack clients by FL_TDoS are: [18, 67, 34, 91, 88, 44, 39, 82, 5, 52]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:10,  1.26s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:07<00:05,  1.36s/it] 70%|███████   | 7/10 [00:09<00:04,  1.37s/it] 80%|████████  | 8/10 [00:10<00:02,  1.39s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.41s/it]100%|██████████| 10/10 [00:13<00:00,  1.43s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011330366134643555
+
+Test set: Avg. loss: 0.1563, Accuracy: 9535/10000 (95%)
+
+Round:  35
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [75, 55, 45, 14, 31, 50, 69, 82, 46, 35]
+Attack clients by FL_TDoS are: [75, 55, 18, 45, 14, 31, 50, 69, 82, 46]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.44s/it] 20%|██        | 2/10 [00:02<00:11,  1.49s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:08,  1.42s/it] 50%|█████     | 5/10 [00:07<00:07,  1.48s/it] 60%|██████    | 6/10 [00:08<00:05,  1.47s/it] 70%|███████   | 7/10 [00:09<00:04,  1.36s/it] 80%|████████  | 8/10 [00:11<00:02,  1.39s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.40s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011489391326904297
+
+Test set: Avg. loss: 0.1508, Accuracy: 9550/10000 (96%)
+
+Round:  36
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [92, 57, 77, 8, 2, 91, 81, 22, 29, 72]
+Attack clients by FL_TDoS are: [18, 92, 77, 57, 2, 8, 91, 81, 22, 29]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.50s/it] 20%|██        | 2/10 [00:02<00:11,  1.48s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:08,  1.42s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.52s/it] 80%|████████  | 8/10 [00:11<00:03,  1.50s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01193094253540039
+
+Test set: Avg. loss: 0.1475, Accuracy: 9567/10000 (96%)
+
+Round:  37
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [98, 91, 37, 21, 62, 23, 25, 7, 58, 35]
+Attack clients by FL_TDoS are: [18, 98, 91, 37, 21, 62, 23, 25, 7, 58]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.46s/it] 20%|██        | 2/10 [00:02<00:11,  1.49s/it] 30%|███       | 3/10 [00:04<00:10,  1.46s/it] 40%|████      | 4/10 [00:05<00:08,  1.42s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.45s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:11<00:02,  1.47s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01106119155883789
+
+Test set: Avg. loss: 0.1482, Accuracy: 9566/10000 (96%)
+
+Round:  38
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [25, 0, 37, 89, 18, 39, 59, 68, 86, 62]
+Attack clients by FL_TDoS are: [18, 0, 25, 37, 89, 39, 59, 68, 86, 62]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.42s/it] 20%|██        | 2/10 [00:02<00:10,  1.37s/it] 30%|███       | 3/10 [00:04<00:09,  1.41s/it] 40%|████      | 4/10 [00:05<00:08,  1.42s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.47s/it] 70%|███████   | 7/10 [00:10<00:04,  1.47s/it] 80%|████████  | 8/10 [00:11<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01147150993347168
+
+Test set: Avg. loss: 0.1480, Accuracy: 9567/10000 (96%)
+
+Round:  39
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [67, 25, 4, 70, 55, 93, 52, 0, 13, 56]
+Attack clients by FL_TDoS are: [18, 67, 25, 4, 70, 55, 93, 52, 0, 13]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.41s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:05<00:09,  1.51s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.46s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:03,  1.50s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.55s/it]100%|██████████| 10/10 [00:15<00:00,  1.54s/it]100%|██████████| 10/10 [00:15<00:00,  1.50s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011536598205566406
+
+Test set: Avg. loss: 0.1436, Accuracy: 9576/10000 (96%)
+
+Round:  40
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [15, 56, 1, 9, 77, 39, 27, 69, 22, 74]
+Attack clients by FL_TDoS are: [18, 15, 56, 1, 9, 39, 77, 27, 69, 22]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.53s/it] 20%|██        | 2/10 [00:02<00:11,  1.40s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:08,  1.41s/it] 50%|█████     | 5/10 [00:06<00:06,  1.37s/it] 60%|██████    | 6/10 [00:08<00:05,  1.37s/it] 70%|███████   | 7/10 [00:09<00:04,  1.41s/it] 80%|████████  | 8/10 [00:11<00:02,  1.41s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.40s/it]100%|██████████| 10/10 [00:14<00:00,  1.41s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011252641677856445
+
+Test set: Avg. loss: 0.1406, Accuracy: 9565/10000 (96%)
+
+Round:  41
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [79, 85, 5, 74, 47, 54, 8, 97, 96, 76]
+Attack clients by FL_TDoS are: [79, 85, 5, 74, 47, 54, 18, 8, 97, 96]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.41s/it] 20%|██        | 2/10 [00:02<00:11,  1.45s/it] 30%|███       | 3/10 [00:04<00:09,  1.42s/it] 40%|████      | 4/10 [00:05<00:08,  1.46s/it] 50%|█████     | 5/10 [00:07<00:06,  1.39s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.44s/it] 80%|████████  | 8/10 [00:11<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011555194854736328
+
+Test set: Avg. loss: 0.1363, Accuracy: 9586/10000 (96%)
+
+Round:  42
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [41, 71, 96, 47, 74, 24, 10, 78, 50, 55]
+Attack clients by FL_TDoS are: [18, 41, 96, 71, 47, 74, 24, 10, 78, 50]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.40s/it] 20%|██        | 2/10 [00:02<00:11,  1.41s/it] 30%|███       | 3/10 [00:04<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:08,  1.35s/it] 50%|█████     | 5/10 [00:06<00:06,  1.40s/it] 60%|██████    | 6/10 [00:08<00:05,  1.43s/it] 70%|███████   | 7/10 [00:09<00:04,  1.41s/it] 80%|████████  | 8/10 [00:11<00:02,  1.43s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.41s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011974334716796875
+
+Test set: Avg. loss: 0.1343, Accuracy: 9597/10000 (96%)
+
+Round:  43
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [9, 14, 85, 15, 32, 20, 95, 86, 74, 45]
+Attack clients by FL_TDoS are: [9, 14, 85, 15, 32, 20, 18, 95, 86, 74]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.43s/it] 20%|██        | 2/10 [00:02<00:11,  1.41s/it] 30%|███       | 3/10 [00:04<00:09,  1.38s/it] 40%|████      | 4/10 [00:05<00:08,  1.38s/it] 50%|█████     | 5/10 [00:07<00:07,  1.42s/it] 60%|██████    | 6/10 [00:08<00:05,  1.43s/it] 70%|███████   | 7/10 [00:09<00:04,  1.42s/it] 80%|████████  | 8/10 [00:11<00:02,  1.44s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.39s/it]100%|██████████| 10/10 [00:14<00:00,  1.40s/it]100%|██████████| 10/10 [00:14<00:00,  1.41s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011592388153076172
+
+Test set: Avg. loss: 0.1322, Accuracy: 9592/10000 (96%)
+
+Round:  44
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [64, 67, 20, 34, 92, 35, 70, 17, 93, 45]
+Attack clients by FL_TDoS are: [64, 67, 20, 34, 92, 18, 35, 70, 17, 93]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.46s/it] 20%|██        | 2/10 [00:02<00:11,  1.43s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.51s/it] 60%|██████    | 6/10 [00:08<00:06,  1.52s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:11<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011789798736572266
+
+Test set: Avg. loss: 0.1297, Accuracy: 9611/10000 (96%)
+
+Round:  45
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [90, 8, 32, 88, 44, 26, 67, 40, 92, 29]
+Attack clients by FL_TDoS are: [18, 90, 8, 32, 88, 44, 26, 67, 40, 92]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.50s/it] 20%|██        | 2/10 [00:02<00:11,  1.46s/it] 30%|███       | 3/10 [00:04<00:09,  1.39s/it] 40%|████      | 4/10 [00:05<00:08,  1.41s/it] 50%|█████     | 5/10 [00:07<00:07,  1.41s/it] 60%|██████    | 6/10 [00:08<00:05,  1.40s/it] 70%|███████   | 7/10 [00:09<00:04,  1.39s/it] 80%|████████  | 8/10 [00:11<00:02,  1.40s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.38s/it]100%|██████████| 10/10 [00:14<00:00,  1.40s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.012063264846801758
+
+Test set: Avg. loss: 0.1273, Accuracy: 9613/10000 (96%)
+
+Round:  46
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [40, 44, 26, 20, 89, 31, 94, 10, 9, 49]
+Attack clients by FL_TDoS are: [40, 44, 26, 20, 89, 31, 18, 94, 10, 9]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.57s/it] 20%|██        | 2/10 [00:03<00:12,  1.55s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:08,  1.47s/it] 50%|█████     | 5/10 [00:07<00:07,  1.47s/it] 60%|██████    | 6/10 [00:08<00:05,  1.47s/it] 70%|███████   | 7/10 [00:10<00:04,  1.49s/it] 80%|████████  | 8/10 [00:11<00:02,  1.47s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011288642883300781
+
+Test set: Avg. loss: 0.1234, Accuracy: 9630/10000 (96%)
+
+Round:  47
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [26, 88, 3, 55, 9, 64, 99, 71, 91, 75]
+Attack clients by FL_TDoS are: [26, 88, 3, 55, 9, 64, 99, 71, 18, 91]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.44s/it] 20%|██        | 2/10 [00:03<00:12,  1.54s/it] 30%|███       | 3/10 [00:04<00:10,  1.54s/it] 40%|████      | 4/10 [00:06<00:08,  1.49s/it] 50%|█████     | 5/10 [00:07<00:07,  1.48s/it] 60%|██████    | 6/10 [00:08<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.42s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.45s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011279106140136719
+
+Test set: Avg. loss: 0.1190, Accuracy: 9637/10000 (96%)
+
+Round:  48
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [40, 6, 2, 93, 67, 12, 89, 95, 41, 74]
+Attack clients by FL_TDoS are: [18, 40, 6, 2, 93, 67, 89, 12, 95, 41]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.40s/it] 20%|██        | 2/10 [00:02<00:11,  1.43s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:08,  1.42s/it] 50%|█████     | 5/10 [00:07<00:07,  1.43s/it] 60%|██████    | 6/10 [00:08<00:05,  1.46s/it] 70%|███████   | 7/10 [00:10<00:04,  1.49s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.41s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011414051055908203
+
+Test set: Avg. loss: 0.1229, Accuracy: 9632/10000 (96%)
+
+Round:  49
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [58, 74, 18, 63, 40, 48, 51, 78, 72, 34]
+Attack clients by FL_TDoS are: [58, 74, 18, 63, 40, 48, 51, 78, 72, 34]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.45s/it] 20%|██        | 2/10 [00:03<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:08,  1.41s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.47s/it] 70%|███████   | 7/10 [00:10<00:04,  1.47s/it] 80%|████████  | 8/10 [00:11<00:02,  1.44s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.012381792068481445
+
+Test set: Avg. loss: 0.1156, Accuracy: 9649/10000 (96%)
+

@@ -1,0 +1,15 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [66] Attack Type: krum
+Selected workers: [66, 25, 6, 95, 16, 30, 34, 64, 90, 11]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:03<00:27,  3.07s/it] 20%|██        | 2/10 [00:04<00:17,  2.16s/it] 30%|███       | 3/10 [00:06<00:13,  1.88s/it] 40%|████      | 4/10 [00:07<00:09,  1.66s/it] 50%|█████     | 5/10 [00:08<00:07,  1.56s/it] 60%|██████    | 6/10 [00:10<00:06,  1.57s/it] 70%|███████   | 7/10 [00:11<00:04,  1.50s/it] 80%|████████  | 8/10 [00:13<00:03,  1.53s/it] 90%|█████████ | 9/10 [00:14<00:01,  1.53s/it]100%|██████████| 10/10 [00:16<00:00,  1.53s/it]100%|██████████| 10/10 [00:16<00:00,  1.64s/it]
+attack krum
+agg: Fltrust
+Traceback (most recent call last):
+  File "/home/xingyu/secure-robust-federated-learning/src/simulate.py", line 579, in <module>
+    average_grad[idx] = Fltrust(fltrust_local, f=len(mal_index))
+  File "/home/xingyu/secure-robust-federated-learning/src/robust_estimator.py", line 260, in Fltrust
+    cosine_similarity = torch.nn.functional.cosine_similarity(local_update.view(local_update.size(0), -1), server_update.view(server_update.size(0), -1))
+TypeError: 'int' object is not callable

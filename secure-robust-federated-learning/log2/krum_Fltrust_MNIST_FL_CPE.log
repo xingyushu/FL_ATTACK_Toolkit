@@ -1,0 +1,22 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [46, 31, 78, 34, 17, 96, 77, 79, 15, 63]
+Malicious node indices: [18, 60]
+conspirator is: 60
+Attack clients by FL_CPE are: [18, 46, 31, 78, 34, 17, 96, 77, 79, 60]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:02<00:26,  2.90s/it] 20%|██        | 2/10 [00:04<00:15,  1.97s/it] 30%|███       | 3/10 [00:05<00:10,  1.54s/it] 40%|████      | 4/10 [00:06<00:08,  1.35s/it] 50%|█████     | 5/10 [00:07<00:06,  1.38s/it] 60%|██████    | 6/10 [00:08<00:04,  1.20s/it] 70%|███████   | 7/10 [00:09<00:03,  1.09s/it] 80%|████████  | 8/10 [00:10<00:02,  1.16s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.24s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.36s/it]
+attack krum
+Traceback (most recent call last):
+  File "/home/xingyu/secure-robust-federated-learning/src/simulate.py", line 540, in <module>
+    local_grads = attack_krum_improved(network, local_grads, mal_index, idx)
+  File "/home/xingyu/secure-robust-federated-learning/src/attack.py", line 317, in attack_krum_improved
+    _, choose_index = krum(krum_local, f=1)
+  File "/home/xingyu/secure-robust-federated-learning/src/robust_estimator.py", line 248, in krum
+    metric = krum_(samples, f)
+  File "/home/xingyu/secure-robust-federated-learning/src/robust_estimator.py", line 243, in krum_
+    dis = np.array([np.linalg.norm(sample-sample_) for sample_ in samples_])
+  File "/home/xingyu/secure-robust-federated-learning/src/robust_estimator.py", line 243, in <listcomp>
+    dis = np.array([np.linalg.norm(sample-sample_) for sample_ in samples_])
+KeyboardInterrupt

@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/home/xingyu/secure-robust-federated-learning/src/simulate.py", line 32, in <module>
+    from attack import attack_krum, attack_trimmedmean, attack_xie, backdoor, mal_single,attack_krum_improved
+  File "/home/xingyu/secure-robust-federated-learning/src/attack.py", line 34, in <module>
+    from robust_estimator import krum
+  File "/home/xingyu/secure-robust-federated-learning/src/robust_estimator.py", line 32, in <module>
+    import cvxpy as cvx
+  File "/home/xingyu/.local/lib/python3.9/site-packages/cvxpy/__init__.py", line 18, in <module>
+    import cvxpy.interface.scipy_wrapper
+  File "/home/xingyu/.local/lib/python3.9/site-packages/cvxpy/interface/__init__.py", line 17, in <module>
+    from cvxpy.interface.matrix_utilities import *
+  File "/home/xingyu/.local/lib/python3.9/site-packages/cvxpy/interface/matrix_utilities.py", line 20, in <module>
+    import scipy.sparse as sp
+  File "/root/anaconda3/lib/python3.9/site-packages/scipy/sparse/__init__.py", line 283, in <module>
+    from . import csgraph
+  File "/root/anaconda3/lib/python3.9/site-packages/scipy/sparse/csgraph/__init__.py", line 182, in <module>
+    from ._laplacian import laplacian
+  File "/root/anaconda3/lib/python3.9/site-packages/scipy/sparse/csgraph/_laplacian.py", line 7, in <module>
+    from scipy.sparse.linalg import LinearOperator
+  File "/root/anaconda3/lib/python3.9/site-packages/scipy/sparse/linalg/__init__.py", line 120, in <module>
+    from ._isolve import *
+  File "/root/anaconda3/lib/python3.9/site-packages/scipy/sparse/linalg/_isolve/__init__.py", line 6, in <module>
+    from .lgmres import lgmres
+  File "/root/anaconda3/lib/python3.9/site-packages/scipy/sparse/linalg/_isolve/lgmres.py", line 7, in <module>
+    from scipy.linalg import get_blas_funcs
+  File "/root/anaconda3/lib/python3.9/site-packages/scipy/linalg/__init__.py", line 215, in <module>
+    from ._decomp_update import *
+KeyboardInterrupt

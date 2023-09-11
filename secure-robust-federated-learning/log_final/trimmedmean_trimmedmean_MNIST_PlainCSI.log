@@ -1,0 +1,600 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [0, 94, 93, 55, 2, 49, 40, 13, 32, 44]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:02<00:26,  2.94s/it] 20%|██        | 2/10 [00:04<00:17,  2.17s/it] 30%|███       | 3/10 [00:06<00:13,  1.86s/it] 40%|████      | 4/10 [00:07<00:10,  1.73s/it] 50%|█████     | 5/10 [00:08<00:07,  1.56s/it] 60%|██████    | 6/10 [00:10<00:06,  1.51s/it] 70%|███████   | 7/10 [00:11<00:04,  1.49s/it] 80%|████████  | 8/10 [00:13<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:14<00:01,  1.47s/it]100%|██████████| 10/10 [00:16<00:00,  1.50s/it]100%|██████████| 10/10 [00:16<00:00,  1.62s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.035593509674072266
+
+Test set: Avg. loss: 2.2443, Accuracy: 2633/10000 (26%)
+
+Round:  1
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [20, 50, 84, 64, 45, 21, 89, 39, 61, 15]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.51s/it] 20%|██        | 2/10 [00:03<00:11,  1.50s/it] 30%|███       | 3/10 [00:04<00:10,  1.43s/it] 40%|████      | 4/10 [00:05<00:08,  1.42s/it] 50%|█████     | 5/10 [00:07<00:06,  1.39s/it] 60%|██████    | 6/10 [00:08<00:05,  1.41s/it] 70%|███████   | 7/10 [00:10<00:04,  1.47s/it] 80%|████████  | 8/10 [00:11<00:02,  1.45s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03488731384277344
+
+Test set: Avg. loss: 2.1357, Accuracy: 4954/10000 (50%)
+
+Round:  2
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [44, 45, 15, 56, 71, 14, 6, 61, 7, 36]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.44s/it] 20%|██        | 2/10 [00:03<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:10,  1.52s/it] 40%|████      | 4/10 [00:06<00:09,  1.53s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034574031829833984
+
+Test set: Avg. loss: 1.8624, Accuracy: 7082/10000 (71%)
+
+Round:  3
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [28, 57, 27, 41, 80, 84, 85, 89, 75, 14]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.44s/it] 20%|██        | 2/10 [00:02<00:11,  1.45s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:08,  1.46s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.39s/it] 70%|███████   | 7/10 [00:09<00:04,  1.39s/it] 80%|████████  | 8/10 [00:11<00:02,  1.45s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03493380546569824
+
+Test set: Avg. loss: 1.2561, Accuracy: 7827/10000 (78%)
+
+Round:  4
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [86, 20, 50, 59, 11, 79, 61, 23, 94, 83]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:09,  1.20s/it] 30%|███       | 3/10 [00:03<00:09,  1.32s/it] 40%|████      | 4/10 [00:05<00:07,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:07<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:04,  1.37s/it] 80%|████████  | 8/10 [00:10<00:02,  1.38s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.37s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03362464904785156
+
+Test set: Avg. loss: 0.7683, Accuracy: 8286/10000 (83%)
+
+Round:  5
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [17, 47, 8, 57, 40, 25, 79, 98, 49, 65]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.55s/it] 20%|██        | 2/10 [00:03<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:10,  1.49s/it] 40%|████      | 4/10 [00:05<00:08,  1.41s/it] 50%|█████     | 5/10 [00:07<00:07,  1.41s/it] 60%|██████    | 6/10 [00:08<00:05,  1.42s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.26s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.25s/it]100%|██████████| 10/10 [00:13<00:00,  1.22s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03422212600708008
+
+Test set: Avg. loss: 0.5654, Accuracy: 8610/10000 (86%)
+
+Round:  6
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [29, 46, 90, 56, 34, 24, 93, 57, 70, 67]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.40s/it] 20%|██        | 2/10 [00:02<00:11,  1.41s/it] 30%|███       | 3/10 [00:04<00:10,  1.45s/it] 40%|████      | 4/10 [00:05<00:08,  1.38s/it] 50%|█████     | 5/10 [00:06<00:06,  1.35s/it] 60%|██████    | 6/10 [00:08<00:05,  1.43s/it] 70%|███████   | 7/10 [00:09<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034586429595947266
+
+Test set: Avg. loss: 0.4715, Accuracy: 8761/10000 (88%)
+
+Round:  7
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [22, 19, 37, 99, 70, 15, 65, 55, 23, 64]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.36s/it] 20%|██        | 2/10 [00:02<00:11,  1.47s/it] 30%|███       | 3/10 [00:04<00:10,  1.49s/it] 40%|████      | 4/10 [00:05<00:09,  1.51s/it] 50%|█████     | 5/10 [00:07<00:07,  1.51s/it] 60%|██████    | 6/10 [00:08<00:06,  1.51s/it] 70%|███████   | 7/10 [00:10<00:04,  1.54s/it] 80%|████████  | 8/10 [00:12<00:03,  1.54s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.54s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.0340723991394043
+
+Test set: Avg. loss: 0.4160, Accuracy: 8873/10000 (89%)
+
+Round:  8
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [20, 70, 91, 1, 83, 99, 80, 32, 44, 73]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.48s/it] 20%|██        | 2/10 [00:02<00:11,  1.45s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.55s/it] 60%|██████    | 6/10 [00:09<00:06,  1.56s/it] 70%|███████   | 7/10 [00:10<00:04,  1.52s/it] 80%|████████  | 8/10 [00:12<00:03,  1.55s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.53s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03425097465515137
+
+Test set: Avg. loss: 0.3804, Accuracy: 8947/10000 (89%)
+
+Round:  9
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [93, 69, 17, 95, 6, 33, 37, 4, 90, 58]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.51s/it] 20%|██        | 2/10 [00:03<00:12,  1.55s/it] 30%|███       | 3/10 [00:04<00:10,  1.56s/it] 40%|████      | 4/10 [00:06<00:09,  1.50s/it] 50%|█████     | 5/10 [00:07<00:07,  1.50s/it] 60%|██████    | 6/10 [00:09<00:05,  1.48s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.48s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.50s/it]100%|██████████| 10/10 [00:15<00:00,  1.50s/it]100%|██████████| 10/10 [00:15<00:00,  1.50s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03388404846191406
+
+Test set: Avg. loss: 0.3548, Accuracy: 9001/10000 (90%)
+
+Round:  10
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [64, 87, 73, 20, 46, 71, 96, 72, 55, 89]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.62s/it] 20%|██        | 2/10 [00:03<00:12,  1.54s/it] 30%|███       | 3/10 [00:04<00:10,  1.56s/it] 40%|████      | 4/10 [00:06<00:09,  1.52s/it] 50%|█████     | 5/10 [00:07<00:07,  1.55s/it] 60%|██████    | 6/10 [00:09<00:06,  1.57s/it] 70%|███████   | 7/10 [00:10<00:04,  1.58s/it] 80%|████████  | 8/10 [00:12<00:03,  1.52s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.50s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]100%|██████████| 10/10 [00:15<00:00,  1.54s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03419995307922363
+
+Test set: Avg. loss: 0.3335, Accuracy: 9054/10000 (91%)
+
+Round:  11
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [56, 40, 49, 14, 96, 71, 75, 83, 66, 27]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:15,  1.68s/it] 20%|██        | 2/10 [00:03<00:12,  1.59s/it] 30%|███       | 3/10 [00:04<00:10,  1.57s/it] 40%|████      | 4/10 [00:06<00:09,  1.51s/it] 50%|█████     | 5/10 [00:07<00:06,  1.39s/it] 60%|██████    | 6/10 [00:08<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.28s/it] 80%|████████  | 8/10 [00:10<00:02,  1.24s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.24s/it]100%|██████████| 10/10 [00:13<00:00,  1.23s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03430914878845215
+
+Test set: Avg. loss: 0.3179, Accuracy: 9088/10000 (91%)
+
+Round:  12
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [18, 91, 95, 59, 56, 77, 80, 46, 68, 45]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.47s/it] 20%|██        | 2/10 [00:02<00:11,  1.47s/it] 30%|███       | 3/10 [00:04<00:09,  1.42s/it] 40%|████      | 4/10 [00:05<00:08,  1.40s/it] 50%|█████     | 5/10 [00:07<00:07,  1.42s/it] 60%|██████    | 6/10 [00:08<00:05,  1.42s/it] 70%|███████   | 7/10 [00:09<00:04,  1.42s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.0371856689453125
+
+Test set: Avg. loss: 0.3018, Accuracy: 9127/10000 (91%)
+
+Round:  13
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [65, 23, 91, 57, 48, 9, 53, 6, 27, 51]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.21s/it] 20%|██        | 2/10 [00:02<00:10,  1.34s/it] 30%|███       | 3/10 [00:04<00:09,  1.42s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.47s/it] 60%|██████    | 6/10 [00:08<00:05,  1.50s/it] 70%|███████   | 7/10 [00:10<00:04,  1.57s/it] 80%|████████  | 8/10 [00:11<00:03,  1.56s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.56s/it]100%|██████████| 10/10 [00:15<00:00,  1.55s/it]100%|██████████| 10/10 [00:15<00:00,  1.50s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034384965896606445
+
+Test set: Avg. loss: 0.2896, Accuracy: 9169/10000 (92%)
+
+Round:  14
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [81, 42, 56, 82, 4, 63, 2, 28, 60, 46]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.44s/it] 20%|██        | 2/10 [00:03<00:12,  1.52s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:08,  1.40s/it] 50%|█████     | 5/10 [00:07<00:06,  1.38s/it] 60%|██████    | 6/10 [00:08<00:05,  1.40s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.44s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03410959243774414
+
+Test set: Avg. loss: 0.2797, Accuracy: 9205/10000 (92%)
+
+Round:  15
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [10, 92, 71, 77, 73, 68, 42, 51, 49, 93]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.34s/it] 20%|██        | 2/10 [00:02<00:10,  1.37s/it] 30%|███       | 3/10 [00:04<00:09,  1.40s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.50s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03433728218078613
+
+Test set: Avg. loss: 0.2695, Accuracy: 9233/10000 (92%)
+
+Round:  16
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [56, 16, 93, 39, 77, 12, 64, 1, 24, 90]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.34s/it] 20%|██        | 2/10 [00:02<00:11,  1.41s/it] 30%|███       | 3/10 [00:04<00:10,  1.48s/it] 40%|████      | 4/10 [00:05<00:08,  1.48s/it] 50%|█████     | 5/10 [00:07<00:07,  1.50s/it] 60%|██████    | 6/10 [00:08<00:06,  1.51s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:12<00:03,  1.56s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.60s/it]100%|██████████| 10/10 [00:15<00:00,  1.62s/it]100%|██████████| 10/10 [00:15<00:00,  1.54s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034700870513916016
+
+Test set: Avg. loss: 0.2573, Accuracy: 9263/10000 (93%)
+
+Round:  17
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [41, 19, 39, 27, 50, 68, 6, 53, 29, 48]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.58s/it] 20%|██        | 2/10 [00:03<00:12,  1.58s/it] 30%|███       | 3/10 [00:04<00:11,  1.58s/it] 40%|████      | 4/10 [00:06<00:09,  1.62s/it] 50%|█████     | 5/10 [00:07<00:07,  1.56s/it] 60%|██████    | 6/10 [00:09<00:06,  1.59s/it] 70%|███████   | 7/10 [00:11<00:04,  1.56s/it] 80%|████████  | 8/10 [00:12<00:03,  1.57s/it] 90%|█████████ | 9/10 [00:14<00:01,  1.55s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]100%|██████████| 10/10 [00:15<00:00,  1.56s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034003496170043945
+
+Test set: Avg. loss: 0.2487, Accuracy: 9280/10000 (93%)
+
+Round:  18
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [6, 79, 82, 94, 69, 64, 51, 45, 90, 49]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.53s/it] 20%|██        | 2/10 [00:03<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:10,  1.56s/it] 40%|████      | 4/10 [00:06<00:09,  1.51s/it] 50%|█████     | 5/10 [00:07<00:07,  1.56s/it] 60%|██████    | 6/10 [00:09<00:06,  1.53s/it] 70%|███████   | 7/10 [00:10<00:04,  1.56s/it] 80%|████████  | 8/10 [00:12<00:03,  1.50s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034638166427612305
+
+Test set: Avg. loss: 0.2382, Accuracy: 9323/10000 (93%)
+
+Round:  19
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [54, 5, 88, 33, 28, 62, 63, 12, 25, 9]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.44s/it] 20%|██        | 2/10 [00:03<00:12,  1.53s/it] 30%|███       | 3/10 [00:04<00:10,  1.53s/it] 40%|████      | 4/10 [00:06<00:09,  1.52s/it] 50%|█████     | 5/10 [00:07<00:07,  1.49s/it] 60%|██████    | 6/10 [00:08<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.49s/it] 80%|████████  | 8/10 [00:12<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.54s/it]100%|██████████| 10/10 [00:15<00:00,  1.55s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03446388244628906
+
+Test set: Avg. loss: 0.2317, Accuracy: 9328/10000 (93%)
+
+Round:  20
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [27, 43, 20, 5, 40, 23, 0, 83, 77, 61]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:10,  1.26s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.35s/it] 60%|██████    | 6/10 [00:08<00:05,  1.39s/it] 70%|███████   | 7/10 [00:09<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03450345993041992
+
+Test set: Avg. loss: 0.2268, Accuracy: 9345/10000 (93%)
+
+Round:  21
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [70, 45, 5, 87, 71, 62, 9, 16, 58, 0]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.14s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:09,  1.36s/it] 40%|████      | 4/10 [00:05<00:08,  1.38s/it] 50%|█████     | 5/10 [00:06<00:07,  1.40s/it] 60%|██████    | 6/10 [00:08<00:05,  1.38s/it] 70%|███████   | 7/10 [00:09<00:04,  1.39s/it] 80%|████████  | 8/10 [00:11<00:02,  1.47s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03469371795654297
+
+Test set: Avg. loss: 0.2209, Accuracy: 9360/10000 (94%)
+
+Round:  22
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [76, 3, 64, 0, 93, 51, 35, 94, 50, 71]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.46s/it] 20%|██        | 2/10 [00:03<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:10,  1.48s/it] 40%|████      | 4/10 [00:05<00:08,  1.47s/it] 50%|█████     | 5/10 [00:07<00:07,  1.47s/it] 60%|██████    | 6/10 [00:08<00:06,  1.52s/it] 70%|███████   | 7/10 [00:10<00:04,  1.57s/it] 80%|████████  | 8/10 [00:12<00:03,  1.60s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.54s/it]100%|██████████| 10/10 [00:15<00:00,  1.59s/it]100%|██████████| 10/10 [00:15<00:00,  1.54s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03446197509765625
+
+Test set: Avg. loss: 0.2127, Accuracy: 9397/10000 (94%)
+
+Round:  23
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [87, 24, 43, 8, 9, 83, 21, 53, 23, 47]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.59s/it] 20%|██        | 2/10 [00:02<00:11,  1.48s/it] 30%|███       | 3/10 [00:04<00:10,  1.53s/it] 40%|████      | 4/10 [00:06<00:09,  1.52s/it] 50%|█████     | 5/10 [00:07<00:07,  1.56s/it] 60%|██████    | 6/10 [00:09<00:06,  1.59s/it] 70%|███████   | 7/10 [00:10<00:04,  1.60s/it] 80%|████████  | 8/10 [00:12<00:03,  1.56s/it] 90%|█████████ | 9/10 [00:14<00:01,  1.60s/it]100%|██████████| 10/10 [00:15<00:00,  1.57s/it]100%|██████████| 10/10 [00:15<00:00,  1.56s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03403878211975098
+
+Test set: Avg. loss: 0.2085, Accuracy: 9385/10000 (94%)
+
+Round:  24
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [11, 72, 92, 77, 57, 48, 3, 66, 40, 8]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.58s/it] 20%|██        | 2/10 [00:03<00:12,  1.54s/it] 30%|███       | 3/10 [00:04<00:10,  1.49s/it] 40%|████      | 4/10 [00:05<00:08,  1.48s/it] 50%|█████     | 5/10 [00:07<00:07,  1.50s/it] 60%|██████    | 6/10 [00:09<00:06,  1.53s/it] 70%|███████   | 7/10 [00:10<00:04,  1.57s/it] 80%|████████  | 8/10 [00:12<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03443145751953125
+
+Test set: Avg. loss: 0.2016, Accuracy: 9419/10000 (94%)
+
+Round:  25
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [16, 3, 96, 66, 25, 55, 86, 53, 57, 68]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.47s/it] 20%|██        | 2/10 [00:02<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:06<00:09,  1.53s/it] 50%|█████     | 5/10 [00:07<00:07,  1.57s/it] 60%|██████    | 6/10 [00:09<00:06,  1.55s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034586191177368164
+
+Test set: Avg. loss: 0.1942, Accuracy: 9436/10000 (94%)
+
+Round:  26
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [85, 61, 60, 43, 73, 81, 38, 33, 20, 66]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.59s/it] 20%|██        | 2/10 [00:03<00:12,  1.57s/it] 30%|███       | 3/10 [00:04<00:11,  1.58s/it] 40%|████      | 4/10 [00:06<00:09,  1.57s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.45s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.45s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03464913368225098
+
+Test set: Avg. loss: 0.1894, Accuracy: 9450/10000 (94%)
+
+Round:  27
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [29, 6, 23, 26, 48, 83, 25, 39, 72, 10]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.54s/it] 20%|██        | 2/10 [00:03<00:13,  1.63s/it] 30%|███       | 3/10 [00:04<00:10,  1.54s/it] 40%|████      | 4/10 [00:06<00:09,  1.53s/it] 50%|█████     | 5/10 [00:07<00:07,  1.52s/it] 60%|██████    | 6/10 [00:09<00:06,  1.50s/it] 70%|███████   | 7/10 [00:10<00:04,  1.47s/it] 80%|████████  | 8/10 [00:11<00:02,  1.43s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.41s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034311771392822266
+
+Test set: Avg. loss: 0.1848, Accuracy: 9458/10000 (95%)
+
+Round:  28
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [88, 1, 50, 90, 52, 77, 31, 18, 89, 57]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:10,  1.32s/it] 30%|███       | 3/10 [00:04<00:09,  1.40s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.43s/it] 70%|███████   | 7/10 [00:09<00:04,  1.42s/it] 80%|████████  | 8/10 [00:11<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03663277626037598
+
+Test set: Avg. loss: 0.1810, Accuracy: 9463/10000 (95%)
+
+Round:  29
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [97, 99, 48, 92, 27, 84, 47, 85, 75, 40]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.36s/it] 20%|██        | 2/10 [00:02<00:11,  1.39s/it] 30%|███       | 3/10 [00:04<00:09,  1.42s/it] 40%|████      | 4/10 [00:05<00:08,  1.45s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.50s/it] 70%|███████   | 7/10 [00:10<00:04,  1.49s/it] 80%|████████  | 8/10 [00:11<00:02,  1.50s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03464245796203613
+
+Test set: Avg. loss: 0.1770, Accuracy: 9484/10000 (95%)
+
+Round:  30
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [42, 10, 31, 87, 6, 91, 16, 36, 74, 1]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.46s/it] 20%|██        | 2/10 [00:02<00:11,  1.49s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:06<00:09,  1.55s/it] 50%|█████     | 5/10 [00:07<00:07,  1.55s/it] 60%|██████    | 6/10 [00:09<00:06,  1.58s/it] 70%|███████   | 7/10 [00:10<00:04,  1.57s/it] 80%|████████  | 8/10 [00:12<00:03,  1.54s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.54s/it]100%|██████████| 10/10 [00:15<00:00,  1.53s/it]100%|██████████| 10/10 [00:15<00:00,  1.54s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03483462333679199
+
+Test set: Avg. loss: 0.1709, Accuracy: 9510/10000 (95%)
+
+Round:  31
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [92, 29, 68, 54, 10, 3, 85, 20, 80, 24]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.51s/it] 20%|██        | 2/10 [00:02<00:11,  1.48s/it] 30%|███       | 3/10 [00:04<00:10,  1.53s/it] 40%|████      | 4/10 [00:06<00:09,  1.59s/it] 50%|█████     | 5/10 [00:07<00:07,  1.56s/it] 60%|██████    | 6/10 [00:09<00:06,  1.59s/it] 70%|███████   | 7/10 [00:11<00:04,  1.60s/it] 80%|████████  | 8/10 [00:12<00:03,  1.56s/it] 90%|█████████ | 9/10 [00:14<00:01,  1.57s/it]100%|██████████| 10/10 [00:15<00:00,  1.47s/it]100%|██████████| 10/10 [00:15<00:00,  1.53s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03459954261779785
+
+Test set: Avg. loss: 0.1666, Accuracy: 9529/10000 (95%)
+
+Round:  32
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [76, 31, 2, 25, 37, 46, 47, 28, 53, 57]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.59s/it] 20%|██        | 2/10 [00:03<00:12,  1.54s/it] 30%|███       | 3/10 [00:04<00:11,  1.58s/it] 40%|████      | 4/10 [00:06<00:09,  1.54s/it] 50%|█████     | 5/10 [00:07<00:07,  1.59s/it] 60%|██████    | 6/10 [00:09<00:06,  1.53s/it] 70%|███████   | 7/10 [00:10<00:04,  1.53s/it] 80%|████████  | 8/10 [00:12<00:02,  1.43s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03429722785949707
+
+Test set: Avg. loss: 0.1631, Accuracy: 9531/10000 (95%)
+
+Round:  33
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [91, 86, 35, 14, 94, 96, 88, 30, 27, 54]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.49s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:08,  1.50s/it] 50%|█████     | 5/10 [00:07<00:07,  1.56s/it] 60%|██████    | 6/10 [00:08<00:05,  1.48s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03420734405517578
+
+Test set: Avg. loss: 0.1575, Accuracy: 9543/10000 (95%)
+
+Round:  34
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [62, 97, 73, 32, 64, 92, 87, 40, 57, 88]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.64s/it] 20%|██        | 2/10 [00:03<00:12,  1.61s/it] 30%|███       | 3/10 [00:04<00:10,  1.55s/it] 40%|████      | 4/10 [00:05<00:08,  1.41s/it] 50%|█████     | 5/10 [00:07<00:07,  1.41s/it] 60%|██████    | 6/10 [00:08<00:05,  1.41s/it] 70%|███████   | 7/10 [00:10<00:04,  1.41s/it] 80%|████████  | 8/10 [00:11<00:02,  1.42s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03427243232727051
+
+Test set: Avg. loss: 0.1541, Accuracy: 9552/10000 (96%)
+
+Round:  35
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [84, 12, 50, 76, 88, 53, 38, 5, 46, 17]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.42s/it] 20%|██        | 2/10 [00:02<00:10,  1.34s/it] 30%|███       | 3/10 [00:04<00:09,  1.32s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:09<00:03,  1.28s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.35s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03499031066894531
+
+Test set: Avg. loss: 0.1501, Accuracy: 9554/10000 (96%)
+
+Round:  36
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [66, 59, 58, 80, 24, 73, 54, 27, 7, 13]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.29s/it] 20%|██        | 2/10 [00:02<00:11,  1.39s/it] 30%|███       | 3/10 [00:04<00:09,  1.42s/it] 40%|████      | 4/10 [00:05<00:08,  1.44s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:11<00:03,  1.52s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.52s/it]100%|██████████| 10/10 [00:15<00:00,  1.59s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03467965126037598
+
+Test set: Avg. loss: 0.1469, Accuracy: 9561/10000 (96%)
+
+Round:  37
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [86, 17, 36, 8, 83, 9, 3, 0, 7, 94]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.52s/it] 20%|██        | 2/10 [00:03<00:12,  1.54s/it] 30%|███       | 3/10 [00:04<00:10,  1.55s/it] 40%|████      | 4/10 [00:06<00:09,  1.53s/it] 50%|█████     | 5/10 [00:07<00:07,  1.51s/it] 60%|██████    | 6/10 [00:09<00:05,  1.48s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:12<00:02,  1.48s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:15<00:00,  1.49s/it]100%|██████████| 10/10 [00:15<00:00,  1.50s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03480410575866699
+
+Test set: Avg. loss: 0.1447, Accuracy: 9575/10000 (96%)
+
+Round:  38
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [93, 4, 17, 33, 74, 54, 97, 85, 96, 65]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.57s/it] 20%|██        | 2/10 [00:03<00:12,  1.62s/it] 30%|███       | 3/10 [00:04<00:11,  1.64s/it] 40%|████      | 4/10 [00:06<00:09,  1.61s/it] 50%|█████     | 5/10 [00:08<00:08,  1.60s/it] 60%|██████    | 6/10 [00:09<00:06,  1.56s/it] 70%|███████   | 7/10 [00:11<00:04,  1.57s/it] 80%|████████  | 8/10 [00:12<00:03,  1.54s/it] 90%|█████████ | 9/10 [00:14<00:01,  1.54s/it]100%|██████████| 10/10 [00:15<00:00,  1.53s/it]100%|██████████| 10/10 [00:15<00:00,  1.56s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034166812896728516
+
+Test set: Avg. loss: 0.1407, Accuracy: 9589/10000 (96%)
+
+Round:  39
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [12, 28, 80, 94, 84, 90, 98, 69, 78, 89]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.62s/it] 20%|██        | 2/10 [00:03<00:12,  1.58s/it] 30%|███       | 3/10 [00:04<00:10,  1.54s/it] 40%|████      | 4/10 [00:06<00:08,  1.49s/it] 50%|█████     | 5/10 [00:07<00:07,  1.47s/it] 60%|██████    | 6/10 [00:09<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.54s/it] 80%|████████  | 8/10 [00:12<00:03,  1.55s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034584760665893555
+
+Test set: Avg. loss: 0.1380, Accuracy: 9595/10000 (96%)
+
+Round:  40
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [90, 49, 52, 78, 17, 83, 28, 7, 13, 65]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.42s/it] 20%|██        | 2/10 [00:02<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:10,  1.52s/it] 40%|████      | 4/10 [00:06<00:09,  1.50s/it] 50%|█████     | 5/10 [00:07<00:07,  1.50s/it] 60%|██████    | 6/10 [00:08<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03428459167480469
+
+Test set: Avg. loss: 0.1355, Accuracy: 9605/10000 (96%)
+
+Round:  41
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [42, 87, 85, 24, 18, 51, 58, 50, 60, 10]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:15,  1.67s/it] 20%|██        | 2/10 [00:03<00:12,  1.60s/it] 30%|███       | 3/10 [00:04<00:10,  1.54s/it] 40%|████      | 4/10 [00:06<00:08,  1.48s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.43s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.41s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03724789619445801
+
+Test set: Avg. loss: 0.1338, Accuracy: 9596/10000 (96%)
+
+Round:  42
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [83, 29, 64, 72, 54, 63, 86, 78, 88, 19]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.51s/it] 20%|██        | 2/10 [00:02<00:11,  1.44s/it] 30%|███       | 3/10 [00:04<00:10,  1.48s/it] 40%|████      | 4/10 [00:05<00:08,  1.45s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.48s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.43s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03480172157287598
+
+Test set: Avg. loss: 0.1317, Accuracy: 9606/10000 (96%)
+
+Round:  43
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [69, 95, 87, 88, 21, 51, 75, 65, 63, 23]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.58s/it] 20%|██        | 2/10 [00:03<00:12,  1.53s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:06<00:09,  1.50s/it] 50%|█████     | 5/10 [00:07<00:07,  1.48s/it] 60%|██████    | 6/10 [00:09<00:06,  1.52s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:12<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.53s/it]100%|██████████| 10/10 [00:15<00:00,  1.57s/it]100%|██████████| 10/10 [00:15<00:00,  1.53s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03461337089538574
+
+Test set: Avg. loss: 0.1270, Accuracy: 9623/10000 (96%)
+
+Round:  44
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [47, 41, 87, 58, 49, 52, 94, 84, 69, 97]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.45s/it] 20%|██        | 2/10 [00:02<00:11,  1.46s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:08,  1.49s/it] 50%|█████     | 5/10 [00:07<00:07,  1.51s/it] 60%|██████    | 6/10 [00:08<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.39s/it]100%|██████████| 10/10 [00:14<00:00,  1.35s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034653425216674805
+
+Test set: Avg. loss: 0.1252, Accuracy: 9614/10000 (96%)
+
+Round:  45
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [23, 72, 98, 66, 2, 74, 14, 25, 33, 41]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.22s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:07<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:04,  1.37s/it] 80%|████████  | 8/10 [00:10<00:02,  1.37s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.48s/it]100%|██████████| 10/10 [00:13<00:00,  1.49s/it]100%|██████████| 10/10 [00:13<00:00,  1.39s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034864187240600586
+
+Test set: Avg. loss: 0.1214, Accuracy: 9630/10000 (96%)
+
+Round:  46
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [40, 35, 9, 88, 71, 25, 46, 48, 86, 96]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.42s/it] 20%|██        | 2/10 [00:02<00:11,  1.45s/it] 30%|███       | 3/10 [00:04<00:10,  1.49s/it] 40%|████      | 4/10 [00:06<00:09,  1.53s/it] 50%|█████     | 5/10 [00:07<00:08,  1.62s/it] 60%|██████    | 6/10 [00:09<00:06,  1.60s/it] 70%|███████   | 7/10 [00:10<00:04,  1.61s/it] 80%|████████  | 8/10 [00:12<00:03,  1.61s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.52s/it]100%|██████████| 10/10 [00:15<00:00,  1.53s/it]100%|██████████| 10/10 [00:15<00:00,  1.55s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.0342564582824707
+
+Test set: Avg. loss: 0.1191, Accuracy: 9629/10000 (96%)
+
+Round:  47
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [67, 85, 80, 60, 58, 76, 94, 65, 96, 51]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.50s/it] 20%|██        | 2/10 [00:03<00:12,  1.56s/it] 30%|███       | 3/10 [00:04<00:11,  1.60s/it] 40%|████      | 4/10 [00:06<00:09,  1.57s/it] 50%|█████     | 5/10 [00:07<00:08,  1.60s/it] 60%|██████    | 6/10 [00:09<00:06,  1.50s/it] 70%|███████   | 7/10 [00:10<00:04,  1.48s/it] 80%|████████  | 8/10 [00:12<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.46s/it]100%|██████████| 10/10 [00:15<00:00,  1.49s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.034490108489990234
+
+Test set: Avg. loss: 0.1174, Accuracy: 9645/10000 (96%)
+
+Round:  48
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [88, 43, 73, 53, 65, 50, 92, 6, 72, 79]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.53s/it] 20%|██        | 2/10 [00:02<00:11,  1.48s/it] 30%|███       | 3/10 [00:04<00:10,  1.53s/it] 40%|████      | 4/10 [00:05<00:08,  1.48s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:11<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03431868553161621
+
+Test set: Avg. loss: 0.1142, Accuracy: 9651/10000 (97%)
+
+Round:  49
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the  CSI-base Max Rate selection
+The PlainCSI Selected Clients are: [70, 4, 25, 27, 12, 88, 47, 9, 34, 46]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.41s/it] 20%|██        | 2/10 [00:02<00:11,  1.48s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:06<00:09,  1.52s/it] 50%|█████     | 5/10 [00:07<00:07,  1.53s/it] 60%|██████    | 6/10 [00:08<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:12<00:03,  1.53s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.50s/it]100%|██████████| 10/10 [00:15<00:00,  1.50s/it]
+attack trimmedmean
+agg: trimmedmean
+trimmedmean running time:  0.03451418876647949
+
+Test set: Avg. loss: 0.1127, Accuracy: 9653/10000 (97%)
+

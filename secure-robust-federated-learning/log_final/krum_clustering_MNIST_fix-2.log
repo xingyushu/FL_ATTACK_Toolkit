@@ -1,0 +1,399 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [66 32] Attack Type: krum
+Selected workers: [66, 32, 25, 6, 95, 16, 30, 35, 65, 91]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:02<00:26,  2.90s/it] 20%|██        | 2/10 [00:04<00:16,  2.04s/it] 30%|███       | 3/10 [00:05<00:12,  1.80s/it] 40%|████      | 4/10 [00:07<00:10,  1.67s/it] 50%|█████     | 5/10 [00:08<00:07,  1.56s/it] 60%|██████    | 6/10 [00:10<00:06,  1.52s/it] 70%|███████   | 7/10 [00:11<00:04,  1.51s/it] 80%|████████  | 8/10 [00:13<00:02,  1.50s/it] 90%|█████████ | 9/10 [00:14<00:01,  1.47s/it]100%|██████████| 10/10 [00:15<00:00,  1.44s/it]100%|██████████| 10/10 [00:15<00:00,  1.59s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011269569396972656
+
+Test set: Avg. loss: 106.1515, Accuracy: 1009/10000 (10%)
+
+Round:  1
+Client Selection Procss-------------------
+Malicious node indices: [66 32] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [62 47] Attack Type: krum
+Selected workers: [62, 47, 81, 76, 71, 35, 82, 74, 48, 61]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.38s/it] 20%|██        | 2/10 [00:02<00:11,  1.40s/it] 30%|███       | 3/10 [00:04<00:10,  1.45s/it] 40%|████      | 4/10 [00:05<00:08,  1.45s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.45s/it] 70%|███████   | 7/10 [00:09<00:04,  1.40s/it] 80%|████████  | 8/10 [00:11<00:02,  1.42s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011214733123779297
+
+Test set: Avg. loss: 3.3470, Accuracy: 974/10000 (10%)
+
+Round:  2
+Client Selection Procss-------------------
+Malicious node indices: [62 47] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [ 4 27] Attack Type: krum
+Selected workers: [4, 27, 22, 29, 95, 15, 3, 91, 98, 72]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.54s/it] 20%|██        | 2/10 [00:02<00:11,  1.44s/it] 30%|███       | 3/10 [00:04<00:09,  1.36s/it] 40%|████      | 4/10 [00:05<00:08,  1.38s/it] 50%|█████     | 5/10 [00:06<00:06,  1.36s/it] 60%|██████    | 6/10 [00:08<00:05,  1.35s/it] 70%|███████   | 7/10 [00:09<00:04,  1.36s/it] 80%|████████  | 8/10 [00:11<00:02,  1.39s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.40s/it]100%|██████████| 10/10 [00:13<00:00,  1.42s/it]100%|██████████| 10/10 [00:13<00:00,  1.40s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011785268783569336
+
+Test set: Avg. loss: 3937.3248, Accuracy: 1009/10000 (10%)
+
+Round:  3
+Client Selection Procss-------------------
+Malicious node indices: [ 4 27] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [23 39] Attack Type: krum
+Selected workers: [23, 39, 80, 84, 78, 51, 93, 10, 38, 62]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.40s/it] 20%|██        | 2/10 [00:02<00:11,  1.48s/it] 30%|███       | 3/10 [00:04<00:10,  1.48s/it] 40%|████      | 4/10 [00:05<00:08,  1.47s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.40s/it] 70%|███████   | 7/10 [00:10<00:04,  1.44s/it] 80%|████████  | 8/10 [00:11<00:02,  1.41s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.012185811996459961
+
+Test set: Avg. loss: 519.9499, Accuracy: 821/10000 (8%)
+
+Round:  4
+Client Selection Procss-------------------
+Malicious node indices: [23 39] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [88 85] Attack Type: krum
+Selected workers: [88, 85, 77, 92, 19, 68, 11, 72, 36, 59]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.43s/it] 20%|██        | 2/10 [00:03<00:12,  1.52s/it] 30%|███       | 3/10 [00:04<00:10,  1.48s/it] 40%|████      | 4/10 [00:05<00:08,  1.46s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.43s/it] 80%|████████  | 8/10 [00:11<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.37s/it]100%|██████████| 10/10 [00:14<00:00,  1.40s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01261591911315918
+
+Test set: Avg. loss: 4038.7232, Accuracy: 1522/10000 (15%)
+
+Round:  5
+Client Selection Procss-------------------
+Malicious node indices: [88 85] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [48 54] Attack Type: krum
+Selected workers: [48, 54, 9, 12, 50, 97, 40, 83, 20, 77]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.24s/it] 20%|██        | 2/10 [00:02<00:10,  1.36s/it] 30%|███       | 3/10 [00:03<00:09,  1.34s/it] 40%|████      | 4/10 [00:05<00:08,  1.38s/it] 50%|█████     | 5/10 [00:06<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.43s/it] 70%|███████   | 7/10 [00:09<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.45s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.41s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.012386560440063477
+
+Test set: Avg. loss: 130125.5493, Accuracy: 980/10000 (10%)
+
+Round:  6
+Client Selection Procss-------------------
+Malicious node indices: [48 54] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [ 0 47] Attack Type: krum
+Selected workers: [0, 47, 93, 60, 89, 34, 73, 62, 12, 76]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.45s/it] 20%|██        | 2/10 [00:02<00:11,  1.43s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:08,  1.48s/it] 50%|█████     | 5/10 [00:07<00:07,  1.48s/it] 60%|██████    | 6/10 [00:08<00:05,  1.47s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.42s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011498451232910156
+
+Test set: Avg. loss: 8441.3385, Accuracy: 974/10000 (10%)
+
+Round:  7
+Client Selection Procss-------------------
+Malicious node indices: [ 0 47] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [14 48] Attack Type: krum
+Selected workers: [14, 48, 64, 9, 73, 53, 79, 49, 51, 57]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.44s/it] 20%|██        | 2/10 [00:02<00:11,  1.44s/it] 30%|███       | 3/10 [00:04<00:10,  1.48s/it] 40%|████      | 4/10 [00:05<00:08,  1.47s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.47s/it] 70%|███████   | 7/10 [00:10<00:04,  1.44s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01149129867553711
+
+Test set: Avg. loss: 39665.6813, Accuracy: 974/10000 (10%)
+
+Round:  8
+Client Selection Procss-------------------
+Malicious node indices: [14 48] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [98 32] Attack Type: krum
+Selected workers: [98, 32, 61, 60, 15, 11, 96, 85, 50, 83]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.41s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:04<00:09,  1.40s/it] 40%|████      | 4/10 [00:05<00:08,  1.39s/it] 50%|█████     | 5/10 [00:07<00:07,  1.42s/it] 60%|██████    | 6/10 [00:08<00:05,  1.39s/it] 70%|███████   | 7/10 [00:09<00:04,  1.37s/it] 80%|████████  | 8/10 [00:10<00:02,  1.33s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.28s/it]100%|██████████| 10/10 [00:13<00:00,  1.35s/it]100%|██████████| 10/10 [00:13<00:00,  1.36s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011525154113769531
+
+Test set: Avg. loss: 23.0004, Accuracy: 1135/10000 (11%)
+
+Round:  9
+Client Selection Procss-------------------
+Malicious node indices: [98 32] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [53 65] Attack Type: krum
+Selected workers: [53, 65, 41, 33, 5, 14, 4, 11, 9, 76]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.42s/it] 20%|██        | 2/10 [00:02<00:11,  1.44s/it] 30%|███       | 3/10 [00:04<00:09,  1.43s/it] 40%|████      | 4/10 [00:05<00:08,  1.49s/it] 50%|█████     | 5/10 [00:07<00:07,  1.51s/it] 60%|██████    | 6/10 [00:08<00:05,  1.50s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.48s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.013671636581420898
+
+Test set: Avg. loss: 4441.0726, Accuracy: 1135/10000 (11%)
+
+Round:  10
+Client Selection Procss-------------------
+Malicious node indices: [53 65] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [78 23] Attack Type: krum
+Selected workers: [78, 23, 85, 0, 21, 59, 32, 54, 66, 52]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.41s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:08,  1.45s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.42s/it] 70%|███████   | 7/10 [00:10<00:04,  1.43s/it] 80%|████████  | 8/10 [00:11<00:02,  1.45s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01331019401550293
+
+Test set: Avg. loss: 31042.4887, Accuracy: 1135/10000 (11%)
+
+Round:  11
+Client Selection Procss-------------------
+Malicious node indices: [78 23] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [77 64] Attack Type: krum
+Selected workers: [77, 64, 81, 57, 75, 3, 98, 5, 1, 27]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.42s/it] 20%|██        | 2/10 [00:02<00:11,  1.41s/it] 30%|███       | 3/10 [00:04<00:09,  1.39s/it] 40%|████      | 4/10 [00:05<00:08,  1.40s/it] 50%|█████     | 5/10 [00:06<00:06,  1.40s/it] 60%|██████    | 6/10 [00:08<00:05,  1.42s/it] 70%|███████   | 7/10 [00:09<00:04,  1.38s/it] 80%|████████  | 8/10 [00:11<00:02,  1.41s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.41s/it]100%|██████████| 10/10 [00:14<00:00,  1.40s/it]100%|██████████| 10/10 [00:14<00:00,  1.40s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.012749671936035156
+
+Test set: Avg. loss: 79205.5001, Accuracy: 1135/10000 (11%)
+
+Round:  12
+Client Selection Procss-------------------
+Malicious node indices: [77 64] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [59  6] Attack Type: krum
+Selected workers: [59, 6, 9, 73, 93, 2, 7, 62, 55, 97]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.39s/it] 20%|██        | 2/10 [00:02<00:11,  1.45s/it] 30%|███       | 3/10 [00:04<00:10,  1.46s/it] 40%|████      | 4/10 [00:05<00:08,  1.44s/it] 50%|█████     | 5/10 [00:07<00:07,  1.43s/it] 60%|██████    | 6/10 [00:08<00:05,  1.41s/it] 70%|███████   | 7/10 [00:10<00:04,  1.43s/it] 80%|████████  | 8/10 [00:11<00:02,  1.47s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.37s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011144399642944336
+
+Test set: Avg. loss: 6956.8828, Accuracy: 1797/10000 (18%)
+
+Round:  13
+Client Selection Procss-------------------
+Malicious node indices: [59  6] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [76 34] Attack Type: krum
+Selected workers: [76, 34, 15, 50, 27, 78, 24, 35, 51, 39]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.34s/it] 20%|██        | 2/10 [00:02<00:10,  1.37s/it] 30%|███       | 3/10 [00:04<00:09,  1.38s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:06<00:07,  1.41s/it] 60%|██████    | 6/10 [00:08<00:05,  1.33s/it] 70%|███████   | 7/10 [00:09<00:04,  1.35s/it] 80%|████████  | 8/10 [00:11<00:02,  1.43s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.43s/it]100%|██████████| 10/10 [00:13<00:00,  1.42s/it]100%|██████████| 10/10 [00:13<00:00,  1.40s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011332273483276367
+
+Test set: Avg. loss: 101940.7035, Accuracy: 891/10000 (9%)
+
+Round:  14
+Client Selection Procss-------------------
+Malicious node indices: [76 34] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [ 5 11] Attack Type: krum
+Selected workers: [5, 11, 12, 56, 53, 73, 38, 75, 92, 65]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.47s/it] 20%|██        | 2/10 [00:02<00:11,  1.47s/it] 30%|███       | 3/10 [00:04<00:10,  1.52s/it] 40%|████      | 4/10 [00:05<00:09,  1.50s/it] 50%|█████     | 5/10 [00:07<00:07,  1.48s/it] 60%|██████    | 6/10 [00:08<00:05,  1.48s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.44s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011461496353149414
+
+Test set: Avg. loss: 2862.5159, Accuracy: 1010/10000 (10%)
+
+Round:  15
+Client Selection Procss-------------------
+Malicious node indices: [ 5 11] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [33 63] Attack Type: krum
+Selected workers: [33, 63, 10, 35, 56, 90, 88, 75, 13, 48]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.35s/it] 20%|██        | 2/10 [00:02<00:11,  1.41s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:08,  1.49s/it] 50%|█████     | 5/10 [00:07<00:07,  1.49s/it] 60%|██████    | 6/10 [00:08<00:05,  1.46s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.45s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.012127399444580078
+
+Test set: Avg. loss: 2500.6436, Accuracy: 1010/10000 (10%)
+
+Round:  16
+Client Selection Procss-------------------
+Malicious node indices: [33 63] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [86 16] Attack Type: krum
+Selected workers: [86, 16, 39, 70, 30, 67, 50, 57, 40, 77]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.43s/it] 20%|██        | 2/10 [00:02<00:11,  1.48s/it] 30%|███       | 3/10 [00:04<00:10,  1.49s/it] 40%|████      | 4/10 [00:05<00:08,  1.45s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.41s/it] 70%|███████   | 7/10 [00:10<00:04,  1.42s/it] 80%|████████  | 8/10 [00:11<00:02,  1.43s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011329174041748047
+
+Test set: Avg. loss: 2583.8071, Accuracy: 1010/10000 (10%)
+
+Round:  17
+Client Selection Procss-------------------
+Malicious node indices: [86 16] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [94 63] Attack Type: krum
+Selected workers: [94, 63, 9, 46, 91, 88, 38, 27, 65, 50]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.36s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:04<00:10,  1.46s/it] 40%|████      | 4/10 [00:05<00:08,  1.45s/it] 50%|█████     | 5/10 [00:07<00:07,  1.41s/it] 60%|██████    | 6/10 [00:08<00:05,  1.41s/it] 70%|███████   | 7/10 [00:09<00:04,  1.41s/it] 80%|████████  | 8/10 [00:11<00:02,  1.39s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.36s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]100%|██████████| 10/10 [00:13<00:00,  1.38s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011313676834106445
+
+Test set: Avg. loss: 2472.1147, Accuracy: 1010/10000 (10%)
+
+Round:  18
+Client Selection Procss-------------------
+Malicious node indices: [94 63] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [95  2] Attack Type: krum
+Selected workers: [95, 2, 72, 58, 18, 45, 1, 67, 21, 26]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.45s/it] 20%|██        | 2/10 [00:02<00:12,  1.50s/it] 30%|███       | 3/10 [00:04<00:09,  1.38s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.36s/it] 60%|██████    | 6/10 [00:08<00:05,  1.42s/it] 70%|███████   | 7/10 [00:09<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.48s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01135563850402832
+
+Test set: Avg. loss: 2469.9401, Accuracy: 1010/10000 (10%)
+
+Round:  19
+Client Selection Procss-------------------
+Malicious node indices: [95  2] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [71 51] Attack Type: krum
+Selected workers: [71, 51, 43, 86, 92, 96, 85, 35, 1, 65]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.43s/it] 20%|██        | 2/10 [00:02<00:11,  1.49s/it] 30%|███       | 3/10 [00:04<00:10,  1.45s/it] 40%|████      | 4/10 [00:05<00:08,  1.47s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:11<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.53s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011059045791625977
+
+Test set: Avg. loss: 2534.0490, Accuracy: 1010/10000 (10%)
+
+Round:  20
+Client Selection Procss-------------------
+Malicious node indices: [71 51] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [96 85] Attack Type: krum
+Selected workers: [96, 85, 1, 83, 98, 94, 24, 45, 5, 66]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.39s/it] 20%|██        | 2/10 [00:02<00:12,  1.50s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:05<00:09,  1.51s/it] 50%|█████     | 5/10 [00:07<00:07,  1.48s/it] 60%|██████    | 6/10 [00:08<00:05,  1.46s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011583805084228516
+
+Test set: Avg. loss: 2388.0397, Accuracy: 1010/10000 (10%)
+
+Round:  21
+Client Selection Procss-------------------
+Malicious node indices: [96 85] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [96 20] Attack Type: krum
+Selected workers: [96, 20, 36, 9, 8, 33, 86, 92, 25, 27]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.59s/it] 20%|██        | 2/10 [00:03<00:12,  1.53s/it] 30%|███       | 3/10 [00:04<00:10,  1.51s/it] 40%|████      | 4/10 [00:06<00:08,  1.48s/it] 50%|█████     | 5/10 [00:07<00:07,  1.49s/it] 60%|██████    | 6/10 [00:08<00:05,  1.37s/it] 70%|███████   | 7/10 [00:10<00:04,  1.38s/it] 80%|████████  | 8/10 [00:11<00:02,  1.43s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.01265573501586914
+
+Test set: Avg. loss: 2396.2857, Accuracy: 1010/10000 (10%)
+
+Round:  22
+Client Selection Procss-------------------
+Malicious node indices: [96 20] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [40 90] Attack Type: krum
+Selected workers: [40, 90, 6, 91, 33, 3, 48, 30, 94, 98]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.51s/it] 20%|██        | 2/10 [00:03<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:10,  1.54s/it] 40%|████      | 4/10 [00:06<00:09,  1.52s/it] 50%|█████     | 5/10 [00:07<00:07,  1.49s/it] 60%|██████    | 6/10 [00:09<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.015628814697265625
+
+Test set: Avg. loss: 19839.0749, Accuracy: 1010/10000 (10%)
+
+Round:  23
+Client Selection Procss-------------------
+Malicious node indices: [40 90] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [88 14] Attack Type: krum
+Selected workers: [88, 14, 22, 40, 78, 43, 3, 57, 9, 25]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.49s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:04<00:09,  1.38s/it] 40%|████      | 4/10 [00:05<00:08,  1.35s/it] 50%|█████     | 5/10 [00:07<00:07,  1.41s/it] 60%|██████    | 6/10 [00:08<00:05,  1.42s/it] 70%|███████   | 7/10 [00:09<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011495351791381836
+
+Test set: Avg. loss: 2080.7723, Accuracy: 1010/10000 (10%)
+
+Round:  24
+Client Selection Procss-------------------
+Malicious node indices: [88 14] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [ 2 42] Attack Type: krum
+Selected workers: [2, 42, 45, 5, 95, 92, 72, 93, 3, 82]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.44s/it] 20%|██        | 2/10 [00:02<00:11,  1.46s/it] 30%|███       | 3/10 [00:04<00:09,  1.39s/it] 40%|████      | 4/10 [00:05<00:08,  1.39s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.45s/it] 70%|███████   | 7/10 [00:09<00:04,  1.40s/it] 80%|████████  | 8/10 [00:11<00:02,  1.36s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.41s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.41s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011548519134521484
+
+Test set: Avg. loss: 1987691.4304, Accuracy: 1010/10000 (10%)
+
+Round:  25
+Client Selection Procss-------------------
+Malicious node indices: [ 2 42] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [87 37] Attack Type: krum
+Selected workers: [87, 37, 78, 65, 71, 17, 56, 82, 89, 68]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.50s/it] 20%|██        | 2/10 [00:02<00:11,  1.43s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:07,  1.27s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:08<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:04,  1.34s/it] 80%|████████  | 8/10 [00:10<00:02,  1.38s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.40s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011119365692138672
+
+Test set: Avg. loss: 2482.2556, Accuracy: 1010/10000 (10%)
+
+Round:  26
+Client Selection Procss-------------------
+Malicious node indices: [87 37] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [23 16] Attack Type: krum
+Selected workers: [23, 16, 43, 53, 40, 19, 88, 63, 68, 4]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.46s/it] 20%|██        | 2/10 [00:02<00:11,  1.43s/it] 30%|███       | 3/10 [00:04<00:09,  1.42s/it] 40%|████      | 4/10 [00:05<00:08,  1.45s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.46s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.45s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.44s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011265993118286133
+
+Test set: Avg. loss: 2455.7031, Accuracy: 1010/10000 (10%)
+
+Round:  27
+Client Selection Procss-------------------
+Malicious node indices: [23 16] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [63 62] Attack Type: krum
+Selected workers: [63, 62, 73, 98, 41, 96, 85, 38, 13, 32]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.41s/it] 20%|██        | 2/10 [00:02<00:11,  1.44s/it] 30%|███       | 3/10 [00:04<00:10,  1.48s/it] 40%|████      | 4/10 [00:05<00:08,  1.47s/it] 50%|█████     | 5/10 [00:07<00:07,  1.44s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.41s/it] 80%|████████  | 8/10 [00:11<00:02,  1.39s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.40s/it]100%|██████████| 10/10 [00:13<00:00,  1.34s/it]100%|██████████| 10/10 [00:13<00:00,  1.40s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011567354202270508
+
+Test set: Avg. loss: 2455.8815, Accuracy: 1010/10000 (10%)
+
+Round:  28
+Client Selection Procss-------------------
+Malicious node indices: [63 62] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [81 11] Attack Type: krum
+Selected workers: [81, 11, 4, 68, 58, 97, 17, 37, 69, 66]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.41s/it] 20%|██        | 2/10 [00:02<00:11,  1.43s/it] 30%|███       | 3/10 [00:04<00:10,  1.43s/it] 40%|████      | 4/10 [00:05<00:08,  1.40s/it] 50%|█████     | 5/10 [00:07<00:07,  1.47s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.45s/it] 80%|████████  | 8/10 [00:11<00:02,  1.50s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.45s/it]100%|██████████| 10/10 [00:14<00:00,  1.37s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]
+attack krum
+agg: Secure Byzantine-Robust Distributed Learning via Clustering
+clustering running time:  0.011746644973754883
+
+Test set: Avg. loss: 8544204.5293, Accuracy: 1010/10000 (10%)
+
+Round:  29
+Client Selection Procss-------------------
+Malicious node indices: [81 11] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [51 32] Attack Type: krum
+Selected workers: [51, 32, 39, 78, 27, 57, 10, 49, 2, 86]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.32s/it] 20%|██        | 2/10 [00:02<00:11,  1.40s/it] 30%|███       | 3/10 [00:04<00:09,  1.39s/it] 40%|████      | 4/10 [00:05<00:07,  1.29s/it] 50%|█████     | 5/10 [00:06<00:06,  1.39s/it] 60%|██████    | 6/10 [00:08<00:05,  1.45s/it] 70%|███████   | 7/10 [00:09<00:04,  1.47s/it] 80%|████████  | 8/10 [00:11<00:02,  1.48s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]
+attack krum
+Traceback (most recent call last):
+  File "/home/xingyu/secure-robust-federated-learning/src/simulate.py", line 540, in <module>
+    local_grads = attack_krum_improved(network, local_grads, mal_index, idx)
+  File "/home/xingyu/secure-robust-federated-learning/src/attack.py", line 299, in attack_krum_improved
+    temp_min_dis += distance.euclidean(local_grads[i][param_index].flatten(), local_grads[j][param_index].flatten())
+  File "/root/anaconda3/lib/python3.9/site-packages/scipy/spatial/distance.py", line 518, in euclidean
+    return minkowski(u, v, p=2, w=w)
+  File "/root/anaconda3/lib/python3.9/site-packages/scipy/spatial/distance.py", line 478, in minkowski
+    dist = norm(u_v, ord=p)
+  File "/root/anaconda3/lib/python3.9/site-packages/scipy/linalg/_misc.py", line 145, in norm
+    a = np.asarray_chkfinite(a)
+  File "/root/anaconda3/lib/python3.9/site-packages/numpy/lib/function_base.py", line 488, in asarray_chkfinite
+    raise ValueError(
+ValueError: array must not contain infs or NaNs

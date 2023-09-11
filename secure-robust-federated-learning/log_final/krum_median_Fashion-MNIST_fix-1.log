@@ -1,0 +1,31 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [66] Attack Type: krum
+Selected workers: [66, 25, 6, 95, 16, 30, 34, 64, 90, 11]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:02<00:26,  2.90s/it] 20%|██        | 2/10 [00:04<00:15,  1.96s/it] 30%|███       | 3/10 [00:05<00:11,  1.71s/it] 40%|████      | 4/10 [00:06<00:09,  1.56s/it] 50%|█████     | 5/10 [00:08<00:07,  1.47s/it] 60%|██████    | 6/10 [00:09<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.40s/it] 80%|████████  | 8/10 [00:12<00:02,  1.36s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.36s/it]100%|██████████| 10/10 [00:14<00:00,  1.36s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]
+attack krum
+agg: median
+median running time:  0.046149492263793945
+
+Test set: Avg. loss: 2.2969, Accuracy: 1000/10000 (10%)
+
+Round:  1
+Client Selection Procss-------------------
+Malicious node indices: [66] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [62] Attack Type: krum
+Selected workers: [62, 70, 53, 99, 49, 93, 27, 67, 28, 71]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.28s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.29s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:07<00:05,  1.34s/it] 70%|███████   | 7/10 [00:09<00:03,  1.32s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack krum
+Traceback (most recent call last):
+  File "/home/xingyu/secure-robust-federated-learning/src/simulate.py", line 540, in <module>
+    local_grads = attack_krum_improved(network, local_grads, mal_index, idx)
+  File "/home/xingyu/secure-robust-federated-learning/src/attack.py", line 317, in attack_krum_improved
+    _, choose_index = krum(krum_local, f=1)
+  File "/home/xingyu/secure-robust-federated-learning/src/robust_estimator.py", line 247, in krum
+    metric = krum_(samples, f)
+  File "/home/xingyu/secure-robust-federated-learning/src/robust_estimator.py", line 241, in krum_
+    del samples_[idx]
+KeyboardInterrupt

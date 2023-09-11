@@ -1,0 +1,21 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [66 32] Attack Type: krum
+Selected workers: [66, 32, 25, 6, 95, 16, 30, 35, 65, 91]
+  0%|          | 0/10 [00:00<?, ?it/s]  0%|          | 0/10 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/xingyu/secure-robust-federated-learning/src/simulate.py", line 502, in <module>
+    output = network(feature)
+  File "/home/xingyu/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/xingyu/secure-robust-federated-learning/src/networks.py", line 56, in forward
+    x = self.pool(F.relu(self.conv1(x)))
+  File "/home/xingyu/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/xingyu/.local/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/xingyu/.local/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt

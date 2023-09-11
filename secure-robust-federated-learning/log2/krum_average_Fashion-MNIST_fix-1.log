@@ -1,0 +1,650 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [66] Attack Type: krum
+Selected workers: [66, 25, 6, 95, 16, 30, 34, 64, 90, 11]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:02<00:26,  2.90s/it] 20%|██        | 2/10 [00:04<00:15,  2.00s/it] 30%|███       | 3/10 [00:05<00:11,  1.69s/it] 40%|████      | 4/10 [00:06<00:09,  1.56s/it] 50%|█████     | 5/10 [00:08<00:07,  1.48s/it] 60%|██████    | 6/10 [00:09<00:05,  1.42s/it] 70%|███████   | 7/10 [00:10<00:04,  1.40s/it] 80%|████████  | 8/10 [00:12<00:02,  1.36s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.32s/it]100%|██████████| 10/10 [00:14<00:00,  1.33s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack krum
+agg: average
+average running time:  0.0070590972900390625
+
+Test set: Avg. loss: 2.6131, Accuracy: 508/10000 (5%)
+
+Round:  1
+Client Selection Procss-------------------
+Malicious node indices: [66] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [62] Attack Type: krum
+Selected workers: [62, 70, 53, 99, 49, 93, 27, 67, 28, 71]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.28s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.29s/it] 50%|█████     | 5/10 [00:06<00:06,  1.29s/it] 60%|██████    | 6/10 [00:07<00:05,  1.26s/it] 70%|███████   | 7/10 [00:08<00:03,  1.25s/it] 80%|████████  | 8/10 [00:10<00:02,  1.27s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]
+attack krum
+agg: average
+average running time:  0.006863832473754883
+
+Test set: Avg. loss: 2.2990, Accuracy: 1000/10000 (10%)
+
+Round:  2
+Client Selection Procss-------------------
+Malicious node indices: [62] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [40] Attack Type: krum
+Selected workers: [40, 3, 21, 96, 14, 86, 98, 51, 13, 76]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.32s/it] 20%|██        | 2/10 [00:02<00:10,  1.33s/it] 30%|███       | 3/10 [00:04<00:09,  1.34s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.33s/it] 70%|███████   | 7/10 [00:09<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.34s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.33s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]
+attack krum
+agg: average
+average running time:  0.007058858871459961
+
+Test set: Avg. loss: 3.5243, Accuracy: 62/10000 (1%)
+
+Round:  3
+Client Selection Procss-------------------
+Malicious node indices: [40] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [23] Attack Type: krum
+Selected workers: [23, 38, 1, 34, 85, 75, 9, 66, 12, 22]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.33s/it] 20%|██        | 2/10 [00:02<00:10,  1.35s/it] 30%|███       | 3/10 [00:04<00:09,  1.37s/it] 40%|████      | 4/10 [00:05<00:08,  1.35s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:08<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.32s/it] 80%|████████  | 8/10 [00:10<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]
+attack krum
+agg: average
+average running time:  0.0068187713623046875
+
+Test set: Avg. loss: 5.2491, Accuracy: 23/10000 (0%)
+
+Round:  4
+Client Selection Procss-------------------
+Malicious node indices: [23] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [8] Attack Type: krum
+Selected workers: [8, 57, 43, 81, 36, 12, 61, 89, 73, 38]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.37s/it] 20%|██        | 2/10 [00:02<00:10,  1.30s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.30s/it] 70%|███████   | 7/10 [00:09<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.33s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006928682327270508
+
+Test set: Avg. loss: 2.3580, Accuracy: 371/10000 (4%)
+
+Round:  5
+Client Selection Procss-------------------
+Malicious node indices: [8] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [53] Attack Type: krum
+Selected workers: [53, 50, 58, 73, 44, 76, 27, 63, 45, 9]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.32s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:03<00:09,  1.30s/it] 40%|████      | 4/10 [00:05<00:07,  1.29s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.30s/it] 70%|███████   | 7/10 [00:09<00:03,  1.28s/it] 80%|████████  | 8/10 [00:10<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack krum
+agg: average
+average running time:  0.006932973861694336
+
+Test set: Avg. loss: 3.4420, Accuracy: 99/10000 (1%)
+
+Round:  6
+Client Selection Procss-------------------
+Malicious node indices: [53] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [0] Attack Type: krum
+Selected workers: [0, 93, 59, 83, 34, 73, 61, 12, 76, 30]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.29s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:08,  1.24s/it] 40%|████      | 4/10 [00:05<00:07,  1.27s/it] 50%|█████     | 5/10 [00:06<00:06,  1.29s/it] 60%|██████    | 6/10 [00:07<00:05,  1.27s/it] 70%|███████   | 7/10 [00:08<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.27s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack krum
+agg: average
+average running time:  0.0070726871490478516
+
+Test set: Avg. loss: 2.2973, Accuracy: 593/10000 (6%)
+
+Round:  7
+Client Selection Procss-------------------
+Malicious node indices: [0] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [14] Attack Type: krum
+Selected workers: [14, 64, 9, 73, 53, 79, 77, 51, 57, 58]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.28s/it] 20%|██        | 2/10 [00:02<00:10,  1.33s/it] 30%|███       | 3/10 [00:03<00:09,  1.32s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:07<00:05,  1.33s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006959676742553711
+
+Test set: Avg. loss: 2.6464, Accuracy: 64/10000 (1%)
+
+Round:  8
+Client Selection Procss-------------------
+Malicious node indices: [14] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [98] Attack Type: krum
+Selected workers: [98, 76, 52, 15, 11, 49, 46, 60, 40, 30]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.35s/it] 20%|██        | 2/10 [00:02<00:10,  1.32s/it] 30%|███       | 3/10 [00:04<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]
+attack krum
+agg: average
+average running time:  0.007071971893310547
+
+Test set: Avg. loss: 5.2225, Accuracy: 19/10000 (0%)
+
+Round:  9
+Client Selection Procss-------------------
+Malicious node indices: [98] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [53] Attack Type: krum
+Selected workers: [53, 41, 33, 5, 14, 4, 11, 9, 75, 13]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:10,  1.26s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.29s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]
+attack krum
+agg: average
+average running time:  0.007038116455078125
+
+Test set: Avg. loss: 4.0515, Accuracy: 236/10000 (2%)
+
+Round:  10
+Client Selection Procss-------------------
+Malicious node indices: [53] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [78] Attack Type: krum
+Selected workers: [78, 76, 0, 98, 39, 2, 92, 72, 21, 99]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.29s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]
+attack krum
+agg: average
+average running time:  0.00687098503112793
+
+Test set: Avg. loss: 5.9882, Accuracy: 57/10000 (1%)
+
+Round:  11
+Client Selection Procss-------------------
+Malicious node indices: [78] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [77] Attack Type: krum
+Selected workers: [77, 38, 58, 99, 3, 96, 5, 1, 27, 0]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.28s/it] 20%|██        | 2/10 [00:02<00:10,  1.30s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.33s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.34s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006949901580810547
+
+Test set: Avg. loss: 2.9494, Accuracy: 811/10000 (8%)
+
+Round:  12
+Client Selection Procss-------------------
+Malicious node indices: [77] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [59] Attack Type: krum
+Selected workers: [59, 98, 63, 7, 2, 8, 74, 47, 99, 76]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.33s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.26s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:09<00:03,  1.32s/it] 80%|████████  | 8/10 [00:10<00:02,  1.34s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.34s/it]100%|██████████| 10/10 [00:13<00:00,  1.35s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]
+attack krum
+agg: average
+average running time:  0.0067942142486572266
+
+Test set: Avg. loss: 2.5781, Accuracy: 859/10000 (9%)
+
+Round:  13
+Client Selection Procss-------------------
+Malicious node indices: [59] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [68] Attack Type: krum
+Selected workers: [68, 27, 36, 31, 81, 29, 37, 63, 78, 15]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.22s/it] 20%|██        | 2/10 [00:02<00:10,  1.28s/it] 30%|███       | 3/10 [00:03<00:09,  1.32s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.32s/it] 80%|████████  | 8/10 [00:10<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006601095199584961
+
+Test set: Avg. loss: 5.4919, Accuracy: 395/10000 (4%)
+
+Round:  14
+Client Selection Procss-------------------
+Malicious node indices: [68] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [5] Attack Type: krum
+Selected workers: [5, 11, 55, 52, 73, 37, 75, 69, 64, 38]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.35s/it] 20%|██        | 2/10 [00:02<00:10,  1.33s/it] 30%|███       | 3/10 [00:04<00:09,  1.34s/it] 40%|████      | 4/10 [00:05<00:07,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.33s/it] 70%|███████   | 7/10 [00:09<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.33s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]
+attack krum
+agg: average
+average running time:  0.006754159927368164
+
+Test set: Avg. loss: 8.1547, Accuracy: 401/10000 (4%)
+
+Round:  15
+Client Selection Procss-------------------
+Malicious node indices: [5] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [33] Attack Type: krum
+Selected workers: [33, 10, 35, 57, 83, 88, 77, 13, 48, 45]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.35s/it] 20%|██        | 2/10 [00:02<00:10,  1.34s/it] 30%|███       | 3/10 [00:04<00:09,  1.34s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:08<00:05,  1.34s/it] 70%|███████   | 7/10 [00:09<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.33s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.34s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]
+attack krum
+agg: average
+average running time:  0.0066297054290771484
+
+Test set: Avg. loss: 3.6113, Accuracy: 924/10000 (9%)
+
+Round:  16
+Client Selection Procss-------------------
+Malicious node indices: [33] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [86] Attack Type: krum
+Selected workers: [86, 38, 69, 29, 66, 49, 56, 39, 76, 64]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:10,  1.32s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.30s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack krum
+agg: average
+average running time:  0.006703615188598633
+
+Test set: Avg. loss: 2.0548, Accuracy: 2898/10000 (29%)
+
+Round:  17
+Client Selection Procss-------------------
+Malicious node indices: [86] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [94] Attack Type: krum
+Selected workers: [94, 71, 83, 39, 19, 51, 21, 9, 40, 36]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.29s/it] 20%|██        | 2/10 [00:02<00:09,  1.25s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack krum
+agg: average
+average running time:  0.006721019744873047
+
+Test set: Avg. loss: 4.6758, Accuracy: 1005/10000 (10%)
+
+Round:  18
+Client Selection Procss-------------------
+Malicious node indices: [94] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [64] Attack Type: krum
+Selected workers: [64, 48, 92, 18, 16, 1, 74, 99, 68, 49]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.34s/it] 20%|██        | 2/10 [00:02<00:10,  1.33s/it] 30%|███       | 3/10 [00:03<00:09,  1.32s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.34s/it] 60%|██████    | 6/10 [00:07<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006684780120849609
+
+Test set: Avg. loss: 5.4757, Accuracy: 918/10000 (9%)
+
+Round:  19
+Client Selection Procss-------------------
+Malicious node indices: [64] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [71] Attack Type: krum
+Selected workers: [71, 70, 86, 83, 69, 67, 35, 1, 54, 23]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.32s/it] 20%|██        | 2/10 [00:02<00:10,  1.27s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.32s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006659984588623047
+
+Test set: Avg. loss: 1.8465, Accuracy: 3318/10000 (33%)
+
+Round:  20
+Client Selection Procss-------------------
+Malicious node indices: [71] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [96] Attack Type: krum
+Selected workers: [96, 24, 1, 48, 75, 83, 3, 38, 61, 64]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.35s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.34s/it] 60%|██████    | 6/10 [00:08<00:05,  1.35s/it] 70%|███████   | 7/10 [00:09<00:04,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006864786148071289
+
+Test set: Avg. loss: 6.4069, Accuracy: 1592/10000 (16%)
+
+Round:  21
+Client Selection Procss-------------------
+Malicious node indices: [96] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [11] Attack Type: krum
+Selected workers: [11, 40, 94, 91, 62, 9, 36, 90, 30, 8]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.31s/it] 20%|██        | 2/10 [00:02<00:10,  1.33s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006586790084838867
+
+Test set: Avg. loss: 12.5164, Accuracy: 1036/10000 (10%)
+
+Round:  22
+Client Selection Procss-------------------
+Malicious node indices: [11] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [40] Attack Type: krum
+Selected workers: [40, 65, 98, 3, 9, 75, 10, 6, 72, 33]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.31s/it] 20%|██        | 2/10 [00:02<00:10,  1.30s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.29s/it] 60%|██████    | 6/10 [00:07<00:05,  1.30s/it] 70%|███████   | 7/10 [00:09<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.30s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]
+attack krum
+agg: average
+average running time:  0.006730556488037109
+
+Test set: Avg. loss: 6.8533, Accuracy: 1000/10000 (10%)
+
+Round:  23
+Client Selection Procss-------------------
+Malicious node indices: [40] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [86] Attack Type: krum
+Selected workers: [86, 24, 75, 42, 45, 21, 47, 44, 36, 28]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:07<00:05,  1.30s/it] 70%|███████   | 7/10 [00:09<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.0066373348236083984
+
+Test set: Avg. loss: 2.4306, Accuracy: 1982/10000 (20%)
+
+Round:  24
+Client Selection Procss-------------------
+Malicious node indices: [86] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [23] Attack Type: krum
+Selected workers: [23, 48, 52, 2, 75, 61, 68, 47, 96, 43]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.29s/it] 20%|██        | 2/10 [00:02<00:10,  1.28s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:07<00:05,  1.30s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.30s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]
+attack krum
+agg: average
+average running time:  0.0067179203033447266
+
+Test set: Avg. loss: 4.2357, Accuracy: 2363/10000 (24%)
+
+Round:  25
+Client Selection Procss-------------------
+Malicious node indices: [23] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [13] Attack Type: krum
+Selected workers: [13, 43, 86, 83, 50, 62, 37, 94, 93, 76]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.26s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:08,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.35s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006643772125244141
+
+Test set: Avg. loss: 3.7778, Accuracy: 2008/10000 (20%)
+
+Round:  26
+Client Selection Procss-------------------
+Malicious node indices: [13] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [21] Attack Type: krum
+Selected workers: [21, 11, 38, 22, 18, 36, 91, 61, 55, 26]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.31s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.27s/it] 50%|█████     | 5/10 [00:06<00:06,  1.28s/it] 60%|██████    | 6/10 [00:07<00:05,  1.30s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack krum
+agg: average
+average running time:  0.006784200668334961
+
+Test set: Avg. loss: 8.4307, Accuracy: 1120/10000 (11%)
+
+Round:  27
+Client Selection Procss-------------------
+Malicious node indices: [21] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [70] Attack Type: krum
+Selected workers: [70, 97, 74, 33, 78, 16, 99, 18, 88, 94]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:09,  1.22s/it] 30%|███       | 3/10 [00:03<00:08,  1.26s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack krum
+agg: average
+average running time:  0.0065631866455078125
+
+Test set: Avg. loss: 7.7393, Accuracy: 1000/10000 (10%)
+
+Round:  28
+Client Selection Procss-------------------
+Malicious node indices: [70] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [3] Attack Type: krum
+Selected workers: [3, 93, 38, 68, 97, 86, 78, 30, 5, 40]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.22s/it] 20%|██        | 2/10 [00:02<00:10,  1.26s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:07<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.27s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack krum
+agg: average
+average running time:  0.006561756134033203
+
+Test set: Avg. loss: 5.2775, Accuracy: 1006/10000 (10%)
+
+Round:  29
+Client Selection Procss-------------------
+Malicious node indices: [3] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [94] Attack Type: krum
+Selected workers: [94, 56, 75, 67, 38, 60, 36, 49, 34, 40]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:10,  1.32s/it] 30%|███       | 3/10 [00:03<00:09,  1.30s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.30s/it] 70%|███████   | 7/10 [00:09<00:03,  1.32s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006837606430053711
+
+Test set: Avg. loss: 14.9342, Accuracy: 996/10000 (10%)
+
+Round:  30
+Client Selection Procss-------------------
+Malicious node indices: [94] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [10] Attack Type: krum
+Selected workers: [10, 39, 84, 86, 58, 80, 94, 83, 37, 51]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.33s/it] 20%|██        | 2/10 [00:02<00:10,  1.34s/it] 30%|███       | 3/10 [00:03<00:09,  1.33s/it] 40%|████      | 4/10 [00:05<00:08,  1.34s/it] 50%|█████     | 5/10 [00:06<00:06,  1.34s/it] 60%|██████    | 6/10 [00:07<00:05,  1.33s/it] 70%|███████   | 7/10 [00:09<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.28s/it]100%|██████████| 10/10 [00:13<00:00,  1.29s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006775379180908203
+
+Test set: Avg. loss: 22.5461, Accuracy: 877/10000 (9%)
+
+Round:  31
+Client Selection Procss-------------------
+Malicious node indices: [10] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [92] Attack Type: krum
+Selected workers: [92, 78, 35, 59, 72, 18, 32, 39, 14, 70]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.33s/it] 20%|██        | 2/10 [00:02<00:10,  1.27s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.27s/it] 60%|██████    | 6/10 [00:07<00:05,  1.27s/it] 70%|███████   | 7/10 [00:08<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack krum
+agg: average
+average running time:  0.006856441497802734
+
+Test set: Avg. loss: 7.8902, Accuracy: 999/10000 (10%)
+
+Round:  32
+Client Selection Procss-------------------
+Malicious node indices: [92] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [54] Attack Type: krum
+Selected workers: [54, 73, 67, 87, 22, 0, 53, 31, 13, 34]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.28s/it] 20%|██        | 2/10 [00:02<00:10,  1.30s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]
+attack krum
+agg: average
+average running time:  0.006826639175415039
+
+Test set: Avg. loss: 20.4428, Accuracy: 999/10000 (10%)
+
+Round:  33
+Client Selection Procss-------------------
+Malicious node indices: [54] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [35] Attack Type: krum
+Selected workers: [35, 32, 77, 13, 48, 51, 23, 80, 99, 70]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:10,  1.32s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.28s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:09<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]
+attack krum
+agg: average
+average running time:  0.006796121597290039
+
+Test set: Avg. loss: 14.7431, Accuracy: 1001/10000 (10%)
+
+Round:  34
+Client Selection Procss-------------------
+Malicious node indices: [35] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [65] Attack Type: krum
+Selected workers: [65, 64, 48, 41, 53, 47, 57, 4, 85, 39]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.31s/it] 20%|██        | 2/10 [00:02<00:10,  1.30s/it] 30%|███       | 3/10 [00:03<00:08,  1.27s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.28s/it] 60%|██████    | 6/10 [00:07<00:05,  1.28s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack krum
+agg: average
+average running time:  0.0070536136627197266
+
+Test set: Avg. loss: 3.1957, Accuracy: 2063/10000 (21%)
+
+Round:  35
+Client Selection Procss-------------------
+Malicious node indices: [65] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [29] Attack Type: krum
+Selected workers: [29, 9, 10, 58, 35, 16, 24, 81, 17, 18]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.33s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.33s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.007047891616821289
+
+Test set: Avg. loss: 19.9713, Accuracy: 454/10000 (5%)
+
+Round:  36
+Client Selection Procss-------------------
+Malicious node indices: [29] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [52] Attack Type: krum
+Selected workers: [52, 75, 36, 2, 89, 92, 88, 18, 48, 32]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.28s/it] 20%|██        | 2/10 [00:02<00:10,  1.28s/it] 30%|███       | 3/10 [00:03<00:09,  1.34s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:07<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.30s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006696224212646484
+
+Test set: Avg. loss: 19.6433, Accuracy: 796/10000 (8%)
+
+Round:  37
+Client Selection Procss-------------------
+Malicious node indices: [52] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [98] Attack Type: krum
+Selected workers: [98, 22, 32, 79, 8, 3, 58, 86, 81, 24]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.24s/it] 20%|██        | 2/10 [00:02<00:10,  1.25s/it] 30%|███       | 3/10 [00:03<00:08,  1.25s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.35s/it] 60%|██████    | 6/10 [00:07<00:05,  1.35s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack krum
+agg: average
+average running time:  0.006869077682495117
+
+Test set: Avg. loss: 13.1654, Accuracy: 1227/10000 (12%)
+
+Round:  38
+Client Selection Procss-------------------
+Malicious node indices: [98] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [85] Attack Type: krum
+Selected workers: [85, 19, 45, 46, 48, 25, 88, 83, 1, 0]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.33s/it] 20%|██        | 2/10 [00:02<00:10,  1.30s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.29s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:09<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack krum
+agg: average
+average running time:  0.0069696903228759766
+
+Test set: Avg. loss: 4.9888, Accuracy: 1816/10000 (18%)
+
+Round:  39
+Client Selection Procss-------------------
+Malicious node indices: [85] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [70] Attack Type: krum
+Selected workers: [70, 43, 86, 66, 89, 78, 71, 81, 96, 23]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.23s/it] 20%|██        | 2/10 [00:02<00:10,  1.30s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.29s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.33s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.00681614875793457
+
+Test set: Avg. loss: 5.3168, Accuracy: 1694/10000 (17%)
+
+Round:  40
+Client Selection Procss-------------------
+Malicious node indices: [70] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [19] Attack Type: krum
+Selected workers: [19, 71, 14, 96, 26, 95, 32, 25, 39, 86]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.38s/it] 20%|██        | 2/10 [00:02<00:10,  1.35s/it] 30%|███       | 3/10 [00:04<00:09,  1.36s/it] 40%|████      | 4/10 [00:05<00:08,  1.35s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.30s/it] 70%|███████   | 7/10 [00:09<00:03,  1.27s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006819963455200195
+
+Test set: Avg. loss: 8.6244, Accuracy: 1546/10000 (15%)
+
+Round:  41
+Client Selection Procss-------------------
+Malicious node indices: [19] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [11] Attack Type: krum
+Selected workers: [11, 33, 93, 30, 2, 22, 3, 50, 67, 61]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.29s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:07<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]
+attack krum
+agg: average
+average running time:  0.006882667541503906
+
+Test set: Avg. loss: 1.1455, Accuracy: 5360/10000 (54%)
+
+Round:  42
+Client Selection Procss-------------------
+Malicious node indices: [11] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [67] Attack Type: krum
+Selected workers: [67, 25, 24, 70, 78, 27, 23, 48, 62, 21]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.33s/it] 20%|██        | 2/10 [00:02<00:10,  1.27s/it] 30%|███       | 3/10 [00:03<00:08,  1.24s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]
+attack krum
+agg: average
+average running time:  0.006912946701049805
+
+Test set: Avg. loss: 7.2873, Accuracy: 1726/10000 (17%)
+
+Round:  43
+Client Selection Procss-------------------
+Malicious node indices: [67] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [94] Attack Type: krum
+Selected workers: [94, 79, 93, 71, 57, 61, 67, 38, 58, 81]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.32s/it] 20%|██        | 2/10 [00:02<00:10,  1.32s/it] 30%|███       | 3/10 [00:03<00:09,  1.32s/it] 40%|████      | 4/10 [00:05<00:08,  1.34s/it] 50%|█████     | 5/10 [00:06<00:06,  1.36s/it] 60%|██████    | 6/10 [00:08<00:05,  1.37s/it] 70%|███████   | 7/10 [00:09<00:04,  1.34s/it] 80%|████████  | 8/10 [00:10<00:02,  1.34s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.34s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.34s/it]
+attack krum
+agg: average
+average running time:  0.0068018436431884766
+
+Test set: Avg. loss: 12.9714, Accuracy: 1019/10000 (10%)
+
+Round:  44
+Client Selection Procss-------------------
+Malicious node indices: [94] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [74] Attack Type: krum
+Selected workers: [74, 92, 81, 79, 27, 87, 95, 45, 32, 62]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.25s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.35s/it] 60%|██████    | 6/10 [00:07<00:05,  1.35s/it] 70%|███████   | 7/10 [00:09<00:04,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.33s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]
+attack krum
+agg: average
+average running time:  0.006863594055175781
+
+Test set: Avg. loss: 2.1182, Accuracy: 3474/10000 (35%)
+
+Round:  45
+Client Selection Procss-------------------
+Malicious node indices: [74] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [12] Attack Type: krum
+Selected workers: [12, 33, 18, 2, 22, 93, 42, 65, 28, 57]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.23s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:09,  1.32s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.33s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.0066852569580078125
+
+Test set: Avg. loss: 1.7642, Accuracy: 4679/10000 (47%)
+
+Round:  46
+Client Selection Procss-------------------
+Malicious node indices: [12] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [8] Attack Type: krum
+Selected workers: [8, 99, 24, 27, 43, 30, 83, 0, 12, 25]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.31s/it] 20%|██        | 2/10 [00:02<00:10,  1.34s/it] 30%|███       | 3/10 [00:04<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:08,  1.35s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:07<00:05,  1.33s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.30s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:13<00:00,  1.29s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006705284118652344
+
+Test set: Avg. loss: 3.5180, Accuracy: 2381/10000 (24%)
+
+Round:  47
+Client Selection Procss-------------------
+Malicious node indices: [8] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [83] Attack Type: krum
+Selected workers: [83, 72, 41, 48, 14, 94, 44, 3, 76, 90]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.26s/it] 20%|██        | 2/10 [00:02<00:10,  1.28s/it] 30%|███       | 3/10 [00:03<00:09,  1.30s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]
+attack krum
+agg: average
+average running time:  0.006652116775512695
+
+Test set: Avg. loss: 2.9561, Accuracy: 3633/10000 (36%)
+
+Round:  48
+Client Selection Procss-------------------
+Malicious node indices: [83] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [1] Attack Type: krum
+Selected workers: [1, 86, 52, 56, 4, 12, 57, 84, 43, 38]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:10,  1.33s/it] 30%|███       | 3/10 [00:03<00:09,  1.30s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: average
+average running time:  0.006780385971069336
+
+Test set: Avg. loss: 2.3529, Accuracy: 4061/10000 (41%)
+
+Round:  49
+Client Selection Procss-------------------
+Malicious node indices: [1] Attack Type: krum
+This is the fix-attacker training!
+Malicious node indices: [55] Attack Type: krum
+Selected workers: [55, 63, 62, 80, 17, 22, 23, 9, 32, 47]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.37s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:08,  1.27s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack krum
+agg: average
+average running time:  0.0068094730377197266
+
+Test set: Avg. loss: 3.8683, Accuracy: 2756/10000 (28%)
+

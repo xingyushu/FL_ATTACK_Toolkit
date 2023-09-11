@@ -31,7 +31,7 @@
 import argparse
 from attack import attack_krum, attack_trimmedmean, attack_xie, backdoor, mal_single,attack_krum_improved
 from data import MalDataset
-from networks import ConvNet
+from networks import ConvNet,ConvNetCifar
 import numpy as np
 import random
 from robust_estimator import krum, filterL2, median, trimmed_mean, bulyan, ex_noregret, mom_filterL2, mom_ex_noregret, mom_krum,Fltrust
@@ -164,6 +164,7 @@ if __name__ == '__main__':
             torchvision.transforms.Normalize(
                 (0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010))
         ])
+
 
         train_set = torchvision.datasets.CIFAR10(root='./data', train=True, download=True, transform=transform)
         train_loader = DataLoader(train_set, batch_size=args.batchsize)
@@ -579,6 +580,8 @@ if __name__ == '__main__':
                 average_grad[idx] = Fltrust(fltrust_local, f=len(mal_index))
             print('fltrust running time: ', time.time()-s)
 
+            
+
 
 
         elif args.agg == 'filterl2':
@@ -744,10 +747,19 @@ if __name__ == '__main__':
 
 
         params = list(network.parameters())
+        # with torch.no_grad():
+        #     for idx in range(len(params)):
+        #         grad = torch.from_numpy(average_grad[idx]).to(device)
+        #         params[idx].data.sub_(grad)
         with torch.no_grad():
             for idx in range(len(params)):
-                grad = torch.from_numpy(average_grad[idx]).to(device)
+                if isinstance(average_grad[idx], np.ndarray):
+                    grad = torch.from_numpy(average_grad[idx]).to(device)
+                else:  # it's already a tensor
+                    grad = average_grad[idx].to(device)
                 params[idx].data.sub_(grad)
+
+
 
 
         if (round_idx + 1) % args.checkpoint == 0:

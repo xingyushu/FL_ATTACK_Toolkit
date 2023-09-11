@@ -1,0 +1,750 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [46, 31, 78, 34, 17, 96, 77, 79, 15, 63]
+Malicious node indices: [18, 60]
+conspirator is: 60
+Attack clients by FL_CPE are: [18, 46, 31, 78, 34, 17, 96, 77, 79, 60]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:02<00:23,  2.66s/it] 20%|██        | 2/10 [00:03<00:14,  1.84s/it] 30%|███       | 3/10 [00:05<00:11,  1.58s/it] 40%|████      | 4/10 [00:06<00:08,  1.46s/it] 50%|█████     | 5/10 [00:07<00:07,  1.41s/it] 60%|██████    | 6/10 [00:09<00:05,  1.39s/it] 70%|███████   | 7/10 [00:10<00:04,  1.36s/it] 80%|████████  | 8/10 [00:11<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.30s/it]100%|██████████| 10/10 [00:14<00:00,  1.33s/it]100%|██████████| 10/10 [00:14<00:00,  1.43s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.764446020126343
+
+Test set: Avg. loss: 2.2492, Accuracy: 2442/10000 (24%)
+
+Round:  1
+Client Selection Procss-------------------
+Malicious node indices: [18, 60] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [30, 55, 23, 33, 43, 59, 32, 36, 52, 22]
+Malicious node indices: [18, 37]
+conspirator is: 37
+Attack clients by FL_CPE are: [18, 30, 55, 23, 33, 43, 59, 32, 36, 37]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.11s/it] 20%|██        | 2/10 [00:02<00:08,  1.12s/it] 30%|███       | 3/10 [00:03<00:08,  1.14s/it] 40%|████      | 4/10 [00:04<00:06,  1.17s/it] 50%|█████     | 5/10 [00:05<00:05,  1.18s/it] 60%|██████    | 6/10 [00:07<00:04,  1.19s/it] 70%|███████   | 7/10 [00:08<00:03,  1.19s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.20s/it]100%|██████████| 10/10 [00:11<00:00,  1.22s/it]100%|██████████| 10/10 [00:11<00:00,  1.19s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.658382177352905
+
+Test set: Avg. loss: 2.1534, Accuracy: 4622/10000 (46%)
+
+Round:  2
+Client Selection Procss-------------------
+Malicious node indices: [18, 37] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [24, 81, 13, 33, 26, 35, 67, 9, 96, 69]
+Malicious node indices: [18, 66]
+conspirator is: 66
+Attack clients by FL_CPE are: [18, 24, 81, 13, 33, 26, 35, 67, 9, 66]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.22s/it] 20%|██        | 2/10 [00:02<00:09,  1.20s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:04<00:07,  1.23s/it] 50%|█████     | 5/10 [00:06<00:06,  1.26s/it] 60%|██████    | 6/10 [00:07<00:04,  1.25s/it] 70%|███████   | 7/10 [00:08<00:03,  1.25s/it] 80%|████████  | 8/10 [00:09<00:02,  1.24s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.673977375030518
+
+Test set: Avg. loss: 1.9188, Accuracy: 6945/10000 (69%)
+
+Round:  3
+Client Selection Procss-------------------
+Malicious node indices: [18, 66] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [40, 19, 99, 17, 51, 22, 36, 94, 9, 48]
+Malicious node indices: [18, 63]
+conspirator is: 63
+Attack clients by FL_CPE are: [18, 40, 19, 99, 17, 51, 22, 36, 94, 63]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.04s/it] 20%|██        | 2/10 [00:02<00:09,  1.19s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.19s/it] 50%|█████     | 5/10 [00:05<00:05,  1.18s/it] 60%|██████    | 6/10 [00:07<00:04,  1.24s/it] 70%|███████   | 7/10 [00:08<00:03,  1.26s/it] 80%|████████  | 8/10 [00:09<00:02,  1.22s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.32s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.672947883605957
+
+Test set: Avg. loss: 1.3680, Accuracy: 7604/10000 (76%)
+
+Round:  4
+Client Selection Procss-------------------
+Malicious node indices: [18, 63] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [67, 9, 96, 74, 91, 60, 36, 68, 51, 23]
+Malicious node indices: [18, 19]
+conspirator is: 19
+Attack clients by FL_CPE are: [18, 67, 9, 96, 74, 91, 60, 36, 68, 19]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.39s/it] 20%|██        | 2/10 [00:02<00:10,  1.27s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.24s/it] 50%|█████     | 5/10 [00:06<00:06,  1.26s/it] 60%|██████    | 6/10 [00:07<00:05,  1.25s/it] 70%|███████   | 7/10 [00:08<00:03,  1.23s/it] 80%|████████  | 8/10 [00:10<00:02,  1.25s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.6855950355529785
+
+Test set: Avg. loss: 0.8342, Accuracy: 8151/10000 (82%)
+
+Round:  5
+Client Selection Procss-------------------
+Malicious node indices: [18, 19] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [89, 34, 8, 68, 55, 49, 97, 6, 24, 76]
+Malicious node indices: [18, 98]
+conspirator is: 98
+Attack clients by FL_CPE are: [18, 89, 34, 8, 68, 55, 49, 97, 6, 98]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.21s/it] 20%|██        | 2/10 [00:02<00:09,  1.20s/it] 30%|███       | 3/10 [00:03<00:08,  1.19s/it] 40%|████      | 4/10 [00:04<00:07,  1.18s/it] 50%|█████     | 5/10 [00:06<00:06,  1.23s/it] 60%|██████    | 6/10 [00:07<00:04,  1.21s/it] 70%|███████   | 7/10 [00:08<00:03,  1.21s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.20s/it]100%|██████████| 10/10 [00:12<00:00,  1.20s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.6836817264556885
+
+Test set: Avg. loss: 0.6095, Accuracy: 8496/10000 (85%)
+
+Round:  6
+Client Selection Procss-------------------
+Malicious node indices: [18, 98] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [23, 0, 17, 36, 4, 9, 6, 7, 25, 19]
+Malicious node indices: [18, 68]
+conspirator is: 68
+Attack clients by FL_CPE are: [18, 23, 0, 17, 36, 4, 9, 6, 7, 68]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.13s/it] 20%|██        | 2/10 [00:02<00:09,  1.21s/it] 30%|███       | 3/10 [00:03<00:08,  1.24s/it] 40%|████      | 4/10 [00:04<00:07,  1.22s/it] 50%|█████     | 5/10 [00:06<00:05,  1.20s/it] 60%|██████    | 6/10 [00:07<00:04,  1.19s/it] 70%|███████   | 7/10 [00:08<00:03,  1.21s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.19s/it]100%|██████████| 10/10 [00:12<00:00,  1.19s/it]100%|██████████| 10/10 [00:12<00:00,  1.20s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.701595783233643
+
+Test set: Avg. loss: 0.4937, Accuracy: 8764/10000 (88%)
+
+Round:  7
+Client Selection Procss-------------------
+Malicious node indices: [18, 68] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [64, 75, 70, 53, 15, 24, 29, 14, 51, 39]
+Malicious node indices: [18, 71]
+conspirator is: 71
+Attack clients by FL_CPE are: [18, 64, 75, 70, 53, 15, 24, 29, 14, 71]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.20s/it] 20%|██        | 2/10 [00:02<00:10,  1.27s/it] 30%|███       | 3/10 [00:03<00:08,  1.21s/it] 40%|████      | 4/10 [00:04<00:07,  1.18s/it] 50%|█████     | 5/10 [00:05<00:05,  1.18s/it] 60%|██████    | 6/10 [00:07<00:04,  1.21s/it] 70%|███████   | 7/10 [00:08<00:03,  1.20s/it] 80%|████████  | 8/10 [00:09<00:02,  1.23s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.21s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.686874628067017
+
+Test set: Avg. loss: 0.4361, Accuracy: 8816/10000 (88%)
+
+Round:  8
+Client Selection Procss-------------------
+Malicious node indices: [18, 71] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [62, 3, 36, 50, 75, 29, 2, 21, 82, 0]
+Malicious node indices: [18, 25]
+conspirator is: 25
+Attack clients by FL_CPE are: [18, 62, 3, 36, 50, 75, 29, 2, 21, 25]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.04s/it] 20%|██        | 2/10 [00:02<00:09,  1.14s/it] 30%|███       | 3/10 [00:03<00:08,  1.16s/it] 40%|████      | 4/10 [00:04<00:07,  1.23s/it] 50%|█████     | 5/10 [00:06<00:06,  1.25s/it] 60%|██████    | 6/10 [00:07<00:05,  1.27s/it] 70%|███████   | 7/10 [00:08<00:03,  1.28s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.36s/it]100%|██████████| 10/10 [00:12<00:00,  1.38s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.655825853347778
+
+Test set: Avg. loss: 0.3928, Accuracy: 8914/10000 (89%)
+
+Round:  9
+Client Selection Procss-------------------
+Malicious node indices: [18, 25] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [36, 53, 7, 60, 63, 64, 42, 33, 38, 41]
+Malicious node indices: [18, 30]
+conspirator is: 30
+Attack clients by FL_CPE are: [18, 36, 53, 7, 60, 63, 64, 42, 33, 30]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.12s/it] 20%|██        | 2/10 [00:02<00:09,  1.15s/it] 30%|███       | 3/10 [00:03<00:08,  1.16s/it] 40%|████      | 4/10 [00:04<00:07,  1.20s/it] 50%|█████     | 5/10 [00:05<00:05,  1.19s/it] 60%|██████    | 6/10 [00:07<00:04,  1.22s/it] 70%|███████   | 7/10 [00:08<00:03,  1.21s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.21s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.700886249542236
+
+Test set: Avg. loss: 0.3672, Accuracy: 8956/10000 (90%)
+
+Round:  10
+Client Selection Procss-------------------
+Malicious node indices: [18, 30] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [26, 18, 39, 31, 71, 60, 37, 23, 68, 70]
+Malicious node indices: [18, 45]
+conspirator is: 45
+Attack clients by FL_CPE are: [18, 26, 39, 31, 71, 60, 37, 23, 45, 2]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.21s/it] 20%|██        | 2/10 [00:02<00:09,  1.22s/it] 30%|███       | 3/10 [00:03<00:08,  1.20s/it] 40%|████      | 4/10 [00:04<00:07,  1.27s/it] 50%|█████     | 5/10 [00:06<00:06,  1.28s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:04,  1.34s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.6104960441589355
+
+Test set: Avg. loss: 0.3504, Accuracy: 9016/10000 (90%)
+
+Round:  11
+Client Selection Procss-------------------
+Malicious node indices: [18, 45] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [2, 12, 23, 90, 83, 46, 40, 96, 53, 42]
+Malicious node indices: [18, 98]
+conspirator is: 98
+Attack clients by FL_CPE are: [18, 2, 12, 23, 90, 83, 46, 40, 96, 98]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.13s/it] 20%|██        | 2/10 [00:02<00:09,  1.21s/it] 30%|███       | 3/10 [00:03<00:08,  1.20s/it] 40%|████      | 4/10 [00:04<00:07,  1.18s/it] 50%|█████     | 5/10 [00:06<00:06,  1.21s/it] 60%|██████    | 6/10 [00:07<00:04,  1.21s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.25s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.638825416564941
+
+Test set: Avg. loss: 0.3323, Accuracy: 9041/10000 (90%)
+
+Round:  12
+Client Selection Procss-------------------
+Malicious node indices: [18, 98] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [48, 96, 79, 42, 32, 22, 56, 3, 87, 28]
+Malicious node indices: [18, 36]
+conspirator is: 36
+Attack clients by FL_CPE are: [18, 48, 96, 79, 42, 32, 22, 56, 3, 36]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.24s/it] 20%|██        | 2/10 [00:02<00:10,  1.25s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.38s/it] 60%|██████    | 6/10 [00:07<00:05,  1.34s/it] 70%|███████   | 7/10 [00:09<00:04,  1.35s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.636167526245117
+
+Test set: Avg. loss: 0.3112, Accuracy: 9103/10000 (91%)
+
+Round:  13
+Client Selection Procss-------------------
+Malicious node indices: [18, 36] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [36, 59, 60, 68, 75, 19, 18, 64, 30, 67]
+Malicious node indices: [18, 50]
+conspirator is: 50
+Attack clients by FL_CPE are: [18, 36, 59, 60, 68, 75, 19, 64, 50, 31]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.13s/it] 20%|██        | 2/10 [00:02<00:09,  1.14s/it] 30%|███       | 3/10 [00:03<00:08,  1.17s/it] 40%|████      | 4/10 [00:04<00:06,  1.16s/it] 50%|█████     | 5/10 [00:05<00:05,  1.16s/it] 60%|██████    | 6/10 [00:07<00:04,  1.19s/it] 70%|███████   | 7/10 [00:08<00:03,  1.19s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.20s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.597432374954224
+
+Test set: Avg. loss: 0.2965, Accuracy: 9145/10000 (91%)
+
+Round:  14
+Client Selection Procss-------------------
+Malicious node indices: [18, 50] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [2, 90, 19, 8, 78, 32, 96, 98, 48, 22]
+Malicious node indices: [18, 6]
+conspirator is: 6
+Attack clients by FL_CPE are: [18, 2, 90, 19, 8, 78, 32, 96, 98, 6]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.50s/it] 20%|██        | 2/10 [00:02<00:11,  1.39s/it] 30%|███       | 3/10 [00:04<00:09,  1.34s/it] 40%|████      | 4/10 [00:05<00:07,  1.29s/it] 50%|█████     | 5/10 [00:06<00:06,  1.29s/it] 60%|██████    | 6/10 [00:07<00:05,  1.26s/it] 70%|███████   | 7/10 [00:09<00:03,  1.25s/it] 80%|████████  | 8/10 [00:10<00:02,  1.26s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.6226770877838135
+
+Test set: Avg. loss: 0.2901, Accuracy: 9160/10000 (92%)
+
+Round:  15
+Client Selection Procss-------------------
+Malicious node indices: [18, 6] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [93, 17, 52, 95, 44, 91, 45, 65, 49, 77]
+Malicious node indices: [18, 3]
+conspirator is: 3
+Attack clients by FL_CPE are: [18, 93, 17, 52, 95, 44, 91, 45, 65, 3]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.06s/it] 20%|██        | 2/10 [00:02<00:09,  1.14s/it] 30%|███       | 3/10 [00:03<00:08,  1.20s/it] 40%|████      | 4/10 [00:04<00:07,  1.22s/it] 50%|█████     | 5/10 [00:05<00:05,  1.20s/it] 60%|██████    | 6/10 [00:07<00:04,  1.18s/it] 70%|███████   | 7/10 [00:08<00:03,  1.19s/it] 80%|████████  | 8/10 [00:09<00:02,  1.21s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.20s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.608108282089233
+
+Test set: Avg. loss: 0.2800, Accuracy: 9192/10000 (92%)
+
+Round:  16
+Client Selection Procss-------------------
+Malicious node indices: [18, 3] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [21, 32, 14, 24, 10, 19, 86, 42, 78, 59]
+Malicious node indices: [18, 98]
+conspirator is: 98
+Attack clients by FL_CPE are: [18, 21, 32, 14, 24, 10, 19, 86, 42, 98]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.19s/it] 20%|██        | 2/10 [00:02<00:09,  1.22s/it] 30%|███       | 3/10 [00:03<00:08,  1.21s/it] 40%|████      | 4/10 [00:04<00:07,  1.19s/it] 50%|█████     | 5/10 [00:06<00:06,  1.24s/it] 60%|██████    | 6/10 [00:07<00:05,  1.26s/it] 70%|███████   | 7/10 [00:08<00:03,  1.26s/it] 80%|████████  | 8/10 [00:09<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.61806583404541
+
+Test set: Avg. loss: 0.2665, Accuracy: 9244/10000 (92%)
+
+Round:  17
+Client Selection Procss-------------------
+Malicious node indices: [18, 98] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [58, 65, 2, 20, 47, 17, 79, 69, 39, 52]
+Malicious node indices: [18, 77]
+conspirator is: 77
+Attack clients by FL_CPE are: [18, 58, 65, 2, 20, 47, 17, 79, 69, 77]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.11s/it] 20%|██        | 2/10 [00:02<00:09,  1.25s/it] 30%|███       | 3/10 [00:03<00:09,  1.30s/it] 40%|████      | 4/10 [00:05<00:08,  1.39s/it] 50%|█████     | 5/10 [00:06<00:06,  1.35s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:09<00:03,  1.28s/it] 80%|████████  | 8/10 [00:10<00:02,  1.26s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.609457492828369
+
+Test set: Avg. loss: 0.2539, Accuracy: 9269/10000 (93%)
+
+Round:  18
+Client Selection Procss-------------------
+Malicious node indices: [18, 77] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [55, 25, 36, 4, 44, 76, 5, 57, 0, 68]
+Malicious node indices: [18, 1]
+conspirator is: 1
+Attack clients by FL_CPE are: [18, 55, 25, 36, 4, 44, 76, 5, 57, 1]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.20s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.21s/it] 50%|█████     | 5/10 [00:06<00:06,  1.22s/it] 60%|██████    | 6/10 [00:07<00:04,  1.20s/it] 70%|███████   | 7/10 [00:08<00:03,  1.20s/it] 80%|████████  | 8/10 [00:09<00:02,  1.20s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.623243808746338
+
+Test set: Avg. loss: 0.2480, Accuracy: 9277/10000 (93%)
+
+Round:  19
+Client Selection Procss-------------------
+Malicious node indices: [18, 1] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [40, 54, 20, 61, 62, 88, 57, 7, 69, 43]
+Malicious node indices: [18, 42]
+conspirator is: 42
+Attack clients by FL_CPE are: [18, 40, 54, 20, 61, 62, 88, 57, 7, 42]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:10,  1.25s/it] 30%|███       | 3/10 [00:03<00:08,  1.26s/it] 40%|████      | 4/10 [00:05<00:07,  1.29s/it] 50%|█████     | 5/10 [00:06<00:06,  1.36s/it] 60%|██████    | 6/10 [00:07<00:05,  1.37s/it] 70%|███████   | 7/10 [00:09<00:03,  1.32s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.29s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.613672971725464
+
+Test set: Avg. loss: 0.2437, Accuracy: 9292/10000 (93%)
+
+Round:  20
+Client Selection Procss-------------------
+Malicious node indices: [18, 42] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [86, 14, 84, 1, 55, 52, 63, 25, 26, 24]
+Malicious node indices: [18, 81]
+conspirator is: 81
+Attack clients by FL_CPE are: [18, 86, 14, 84, 1, 55, 52, 63, 25, 81]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.19s/it] 20%|██        | 2/10 [00:02<00:09,  1.19s/it] 30%|███       | 3/10 [00:03<00:08,  1.20s/it] 40%|████      | 4/10 [00:04<00:07,  1.20s/it] 50%|█████     | 5/10 [00:06<00:06,  1.21s/it] 60%|██████    | 6/10 [00:07<00:04,  1.21s/it] 70%|███████   | 7/10 [00:08<00:03,  1.20s/it] 80%|████████  | 8/10 [00:09<00:02,  1.27s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.657148361206055
+
+Test set: Avg. loss: 0.2340, Accuracy: 9337/10000 (93%)
+
+Round:  21
+Client Selection Procss-------------------
+Malicious node indices: [18, 81] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [88, 48, 65, 97, 28, 53, 52, 0, 6, 72]
+Malicious node indices: [18, 69]
+conspirator is: 69
+Attack clients by FL_CPE are: [18, 88, 48, 65, 97, 28, 53, 52, 0, 69]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.33s/it] 20%|██        | 2/10 [00:02<00:09,  1.24s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.22s/it] 50%|█████     | 5/10 [00:06<00:06,  1.21s/it] 60%|██████    | 6/10 [00:07<00:04,  1.21s/it] 70%|███████   | 7/10 [00:08<00:03,  1.26s/it] 80%|████████  | 8/10 [00:09<00:02,  1.24s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.33s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.571542024612427
+
+Test set: Avg. loss: 0.2302, Accuracy: 9328/10000 (93%)
+
+Round:  22
+Client Selection Procss-------------------
+Malicious node indices: [18, 69] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [19, 43, 0, 77, 37, 20, 80, 24, 16, 26]
+Malicious node indices: [18, 99]
+conspirator is: 99
+Attack clients by FL_CPE are: [18, 19, 43, 0, 77, 37, 20, 80, 24, 99]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.15s/it] 20%|██        | 2/10 [00:02<00:09,  1.15s/it] 30%|███       | 3/10 [00:03<00:08,  1.24s/it] 40%|████      | 4/10 [00:04<00:07,  1.27s/it] 50%|█████     | 5/10 [00:06<00:06,  1.25s/it] 60%|██████    | 6/10 [00:07<00:05,  1.25s/it] 70%|███████   | 7/10 [00:08<00:03,  1.26s/it] 80%|████████  | 8/10 [00:09<00:02,  1.25s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.62523078918457
+
+Test set: Avg. loss: 0.2232, Accuracy: 9352/10000 (94%)
+
+Round:  23
+Client Selection Procss-------------------
+Malicious node indices: [18, 99] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [63, 43, 81, 59, 85, 74, 19, 84, 42, 39]
+Malicious node indices: [18, 0]
+conspirator is: 0
+Attack clients by FL_CPE are: [18, 63, 43, 81, 59, 85, 74, 19, 84, 0]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.36s/it] 20%|██        | 2/10 [00:02<00:10,  1.27s/it] 30%|███       | 3/10 [00:03<00:08,  1.25s/it] 40%|████      | 4/10 [00:05<00:07,  1.27s/it] 50%|█████     | 5/10 [00:06<00:06,  1.25s/it] 60%|██████    | 6/10 [00:07<00:04,  1.25s/it] 70%|███████   | 7/10 [00:08<00:03,  1.23s/it] 80%|████████  | 8/10 [00:09<00:02,  1.23s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.607897043228149
+
+Test set: Avg. loss: 0.2167, Accuracy: 9364/10000 (94%)
+
+Round:  24
+Client Selection Procss-------------------
+Malicious node indices: [18, 0] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [44, 20, 12, 37, 86, 92, 75, 72, 17, 0]
+Malicious node indices: [18, 76]
+conspirator is: 76
+Attack clients by FL_CPE are: [18, 44, 20, 12, 37, 86, 92, 75, 72, 76]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.36s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:04<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.34s/it] 60%|██████    | 6/10 [00:07<00:05,  1.28s/it] 70%|███████   | 7/10 [00:09<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.34s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.40s/it]100%|██████████| 10/10 [00:13<00:00,  1.44s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.620791673660278
+
+Test set: Avg. loss: 0.2103, Accuracy: 9373/10000 (94%)
+
+Round:  25
+Client Selection Procss-------------------
+Malicious node indices: [18, 76] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [5, 65, 42, 9, 96, 27, 18, 83, 21, 8]
+Malicious node indices: [18, 74]
+conspirator is: 74
+Attack clients by FL_CPE are: [18, 5, 65, 42, 9, 96, 27, 83, 74, 11]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.16s/it] 20%|██        | 2/10 [00:02<00:09,  1.20s/it] 30%|███       | 3/10 [00:03<00:08,  1.19s/it] 40%|████      | 4/10 [00:04<00:07,  1.19s/it] 50%|█████     | 5/10 [00:06<00:06,  1.22s/it] 60%|██████    | 6/10 [00:07<00:04,  1.21s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.23s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.626801013946533
+
+Test set: Avg. loss: 0.2067, Accuracy: 9400/10000 (94%)
+
+Round:  26
+Client Selection Procss-------------------
+Malicious node indices: [18, 74] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [20, 4, 71, 96, 91, 26, 86, 40, 57, 27]
+Malicious node indices: [18, 14]
+conspirator is: 14
+Attack clients by FL_CPE are: [18, 20, 4, 71, 96, 91, 26, 86, 40, 14]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.17s/it] 20%|██        | 2/10 [00:02<00:10,  1.26s/it] 30%|███       | 3/10 [00:03<00:08,  1.25s/it] 40%|████      | 4/10 [00:04<00:07,  1.25s/it] 50%|█████     | 5/10 [00:06<00:06,  1.24s/it] 60%|██████    | 6/10 [00:07<00:05,  1.32s/it] 70%|███████   | 7/10 [00:08<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.34s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.668995141983032
+
+Test set: Avg. loss: 0.2022, Accuracy: 9429/10000 (94%)
+
+Round:  27
+Client Selection Procss-------------------
+Malicious node indices: [18, 14] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [43, 20, 32, 39, 88, 9, 92, 61, 17, 94]
+Malicious node indices: [18, 11]
+conspirator is: 11
+Attack clients by FL_CPE are: [18, 43, 20, 32, 39, 88, 9, 92, 61, 11]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.53s/it] 20%|██        | 2/10 [00:02<00:11,  1.45s/it] 30%|███       | 3/10 [00:04<00:09,  1.37s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.35s/it] 60%|██████    | 6/10 [00:08<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.27s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:13<00:00,  1.26s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.6455137729644775
+
+Test set: Avg. loss: 0.2005, Accuracy: 9429/10000 (94%)
+
+Round:  28
+Client Selection Procss-------------------
+Malicious node indices: [18, 11] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [46, 77, 16, 0, 33, 41, 4, 15, 80, 82]
+Malicious node indices: [18, 55]
+conspirator is: 55
+Attack clients by FL_CPE are: [18, 46, 77, 16, 0, 33, 41, 4, 15, 55]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.26s/it] 20%|██        | 2/10 [00:02<00:10,  1.26s/it] 30%|███       | 3/10 [00:03<00:08,  1.25s/it] 40%|████      | 4/10 [00:04<00:07,  1.23s/it] 50%|█████     | 5/10 [00:06<00:06,  1.23s/it] 60%|██████    | 6/10 [00:07<00:05,  1.25s/it] 70%|███████   | 7/10 [00:08<00:03,  1.27s/it] 80%|████████  | 8/10 [00:10<00:02,  1.26s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.681061029434204
+
+Test set: Avg. loss: 0.1915, Accuracy: 9436/10000 (94%)
+
+Round:  29
+Client Selection Procss-------------------
+Malicious node indices: [18, 55] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [84, 21, 53, 14, 9, 65, 2, 23, 34, 47]
+Malicious node indices: [18, 38]
+conspirator is: 38
+Attack clients by FL_CPE are: [18, 84, 21, 53, 14, 9, 65, 2, 23, 38]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.20s/it] 20%|██        | 2/10 [00:02<00:09,  1.20s/it] 30%|███       | 3/10 [00:03<00:08,  1.18s/it] 40%|████      | 4/10 [00:04<00:06,  1.16s/it] 50%|█████     | 5/10 [00:05<00:05,  1.15s/it] 60%|██████    | 6/10 [00:07<00:04,  1.20s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.23s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]100%|██████████| 10/10 [00:12<00:00,  1.21s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.666762351989746
+
+Test set: Avg. loss: 0.1856, Accuracy: 9460/10000 (95%)
+
+Round:  30
+Client Selection Procss-------------------
+Malicious node indices: [18, 38] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [22, 58, 51, 71, 72, 90, 75, 43, 31, 49]
+Malicious node indices: [18, 89]
+conspirator is: 89
+Attack clients by FL_CPE are: [18, 22, 58, 51, 71, 72, 90, 75, 43, 89]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.19s/it] 20%|██        | 2/10 [00:02<00:09,  1.24s/it] 30%|███       | 3/10 [00:03<00:08,  1.27s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.26s/it] 60%|██████    | 6/10 [00:07<00:05,  1.28s/it] 70%|███████   | 7/10 [00:08<00:03,  1.23s/it] 80%|████████  | 8/10 [00:09<00:02,  1.20s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.704813241958618
+
+Test set: Avg. loss: 0.1861, Accuracy: 9446/10000 (94%)
+
+Round:  31
+Client Selection Procss-------------------
+Malicious node indices: [18, 89] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [70, 19, 25, 42, 90, 93, 9, 64, 3, 8]
+Malicious node indices: [18, 1]
+conspirator is: 1
+Attack clients by FL_CPE are: [18, 70, 19, 25, 42, 90, 93, 9, 64, 1]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.14s/it] 20%|██        | 2/10 [00:02<00:09,  1.22s/it] 30%|███       | 3/10 [00:03<00:08,  1.26s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:07<00:05,  1.30s/it] 70%|███████   | 7/10 [00:09<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.37s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.42s/it]100%|██████████| 10/10 [00:13<00:00,  1.36s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.665113925933838
+
+Test set: Avg. loss: 0.1781, Accuracy: 9468/10000 (95%)
+
+Round:  32
+Client Selection Procss-------------------
+Malicious node indices: [18, 1] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [49, 5, 79, 43, 21, 15, 2, 93, 24, 75]
+Malicious node indices: [18, 41]
+conspirator is: 41
+Attack clients by FL_CPE are: [18, 49, 5, 79, 43, 21, 15, 2, 93, 41]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.06s/it] 20%|██        | 2/10 [00:02<00:09,  1.15s/it] 30%|███       | 3/10 [00:03<00:07,  1.14s/it] 40%|████      | 4/10 [00:04<00:07,  1.18s/it] 50%|█████     | 5/10 [00:05<00:05,  1.19s/it] 60%|██████    | 6/10 [00:07<00:04,  1.20s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.22s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.21s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.66110897064209
+
+Test set: Avg. loss: 0.1740, Accuracy: 9484/10000 (95%)
+
+Round:  33
+Client Selection Procss-------------------
+Malicious node indices: [18, 41] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [90, 9, 76, 52, 72, 20, 43, 95, 55, 39]
+Malicious node indices: [18, 66]
+conspirator is: 66
+Attack clients by FL_CPE are: [18, 90, 9, 76, 52, 72, 20, 43, 95, 66]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.15s/it] 20%|██        | 2/10 [00:02<00:09,  1.25s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:08,  1.36s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.36s/it] 70%|███████   | 7/10 [00:09<00:04,  1.36s/it] 80%|████████  | 8/10 [00:10<00:02,  1.34s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.699183225631714
+
+Test set: Avg. loss: 0.1680, Accuracy: 9502/10000 (95%)
+
+Round:  34
+Client Selection Procss-------------------
+Malicious node indices: [18, 66] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [28, 90, 76, 95, 63, 92, 23, 4, 53, 49]
+Malicious node indices: [18, 60]
+conspirator is: 60
+Attack clients by FL_CPE are: [18, 28, 90, 76, 95, 63, 92, 23, 4, 60]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.12s/it] 20%|██        | 2/10 [00:02<00:09,  1.15s/it] 30%|███       | 3/10 [00:03<00:08,  1.18s/it] 40%|████      | 4/10 [00:04<00:07,  1.24s/it] 50%|█████     | 5/10 [00:06<00:06,  1.28s/it] 60%|██████    | 6/10 [00:07<00:05,  1.26s/it] 70%|███████   | 7/10 [00:08<00:03,  1.27s/it] 80%|████████  | 8/10 [00:09<00:02,  1.27s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.33s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.684528827667236
+
+Test set: Avg. loss: 0.1640, Accuracy: 9518/10000 (95%)
+
+Round:  35
+Client Selection Procss-------------------
+Malicious node indices: [18, 60] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [68, 69, 31, 52, 49, 47, 85, 40, 86, 2]
+Malicious node indices: [18, 27]
+conspirator is: 27
+Attack clients by FL_CPE are: [18, 68, 69, 31, 52, 49, 47, 85, 40, 27]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.34s/it] 20%|██        | 2/10 [00:02<00:10,  1.26s/it] 30%|███       | 3/10 [00:03<00:08,  1.24s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.27s/it] 60%|██████    | 6/10 [00:07<00:05,  1.27s/it] 70%|███████   | 7/10 [00:08<00:03,  1.25s/it] 80%|████████  | 8/10 [00:10<00:02,  1.26s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.652157545089722
+
+Test set: Avg. loss: 0.1613, Accuracy: 9516/10000 (95%)
+
+Round:  36
+Client Selection Procss-------------------
+Malicious node indices: [18, 27] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [3, 68, 77, 50, 36, 70, 39, 31, 16, 80]
+Malicious node indices: [18, 15]
+conspirator is: 15
+Attack clients by FL_CPE are: [18, 3, 68, 77, 50, 36, 70, 39, 31, 15]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.44s/it] 20%|██        | 2/10 [00:03<00:12,  1.57s/it] 30%|███       | 3/10 [00:04<00:09,  1.38s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.26s/it] 60%|██████    | 6/10 [00:08<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.26s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.653244256973267
+
+Test set: Avg. loss: 0.1617, Accuracy: 9508/10000 (95%)
+
+Round:  37
+Client Selection Procss-------------------
+Malicious node indices: [18, 15] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [45, 8, 22, 10, 80, 40, 62, 66, 35, 46]
+Malicious node indices: [18, 50]
+conspirator is: 50
+Attack clients by FL_CPE are: [18, 45, 8, 22, 10, 80, 40, 62, 66, 50]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.15s/it] 20%|██        | 2/10 [00:02<00:09,  1.18s/it] 30%|███       | 3/10 [00:03<00:08,  1.18s/it] 40%|████      | 4/10 [00:04<00:07,  1.29s/it] 50%|█████     | 5/10 [00:06<00:06,  1.34s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:08<00:03,  1.27s/it] 80%|████████  | 8/10 [00:10<00:02,  1.24s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.664483070373535
+
+Test set: Avg. loss: 0.1570, Accuracy: 9534/10000 (95%)
+
+Round:  38
+Client Selection Procss-------------------
+Malicious node indices: [18, 50] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [32, 12, 48, 68, 17, 94, 31, 13, 58, 42]
+Malicious node indices: [18, 98]
+conspirator is: 98
+Attack clients by FL_CPE are: [18, 32, 12, 48, 68, 17, 94, 31, 13, 98]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.16s/it] 20%|██        | 2/10 [00:02<00:09,  1.19s/it] 30%|███       | 3/10 [00:03<00:08,  1.26s/it] 40%|████      | 4/10 [00:04<00:07,  1.26s/it] 50%|█████     | 5/10 [00:06<00:06,  1.26s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:08<00:03,  1.26s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.33s/it]100%|██████████| 10/10 [00:12<00:00,  1.34s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.653799772262573
+
+Test set: Avg. loss: 0.1511, Accuracy: 9545/10000 (95%)
+
+Round:  39
+Client Selection Procss-------------------
+Malicious node indices: [18, 98] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [18, 56, 58, 85, 71, 99, 28, 94, 29, 35]
+Malicious node indices: [18, 98]
+conspirator is: 98
+Attack clients by FL_CPE are: [18, 56, 58, 85, 71, 99, 28, 94, 98, 33]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.15s/it] 20%|██        | 2/10 [00:02<00:09,  1.19s/it] 30%|███       | 3/10 [00:03<00:08,  1.23s/it] 40%|████      | 4/10 [00:04<00:07,  1.22s/it] 50%|█████     | 5/10 [00:05<00:05,  1.20s/it] 60%|██████    | 6/10 [00:07<00:04,  1.23s/it] 70%|███████   | 7/10 [00:08<00:03,  1.27s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.6388938426971436
+
+Test set: Avg. loss: 0.1504, Accuracy: 9550/10000 (96%)
+
+Round:  40
+Client Selection Procss-------------------
+Malicious node indices: [18, 98] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [99, 6, 49, 96, 86, 35, 13, 10, 32, 34]
+Malicious node indices: [18, 70]
+conspirator is: 70
+Attack clients by FL_CPE are: [18, 99, 6, 49, 96, 86, 35, 13, 10, 70]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.08s/it] 20%|██        | 2/10 [00:02<00:09,  1.18s/it] 30%|███       | 3/10 [00:03<00:08,  1.19s/it] 40%|████      | 4/10 [00:04<00:07,  1.19s/it] 50%|█████     | 5/10 [00:05<00:05,  1.19s/it] 60%|██████    | 6/10 [00:07<00:04,  1.20s/it] 70%|███████   | 7/10 [00:08<00:03,  1.19s/it] 80%|████████  | 8/10 [00:09<00:02,  1.18s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.19s/it]100%|██████████| 10/10 [00:11<00:00,  1.20s/it]100%|██████████| 10/10 [00:11<00:00,  1.19s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.691301345825195
+
+Test set: Avg. loss: 0.1457, Accuracy: 9561/10000 (96%)
+
+Round:  41
+Client Selection Procss-------------------
+Malicious node indices: [18, 70] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [21, 53, 4, 8, 9, 61, 14, 18, 81, 20]
+Malicious node indices: [18, 17]
+conspirator is: 17
+Attack clients by FL_CPE are: [18, 21, 53, 4, 8, 9, 61, 14, 17, 25]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.19s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.28s/it] 60%|██████    | 6/10 [00:07<00:04,  1.24s/it] 70%|███████   | 7/10 [00:08<00:03,  1.24s/it] 80%|████████  | 8/10 [00:10<00:02,  1.25s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.33s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.626535415649414
+
+Test set: Avg. loss: 0.1451, Accuracy: 9566/10000 (96%)
+
+Round:  42
+Client Selection Procss-------------------
+Malicious node indices: [18, 17] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [2, 45, 46, 12, 39, 0, 11, 64, 24, 55]
+Malicious node indices: [18, 36]
+conspirator is: 36
+Attack clients by FL_CPE are: [18, 2, 45, 46, 12, 39, 0, 11, 64, 36]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.20s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:04<00:07,  1.24s/it] 50%|█████     | 5/10 [00:06<00:06,  1.23s/it] 60%|██████    | 6/10 [00:07<00:04,  1.23s/it] 70%|███████   | 7/10 [00:08<00:03,  1.25s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.32s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.668869256973267
+
+Test set: Avg. loss: 0.1398, Accuracy: 9584/10000 (96%)
+
+Round:  43
+Client Selection Procss-------------------
+Malicious node indices: [18, 36] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [61, 43, 85, 58, 20, 34, 71, 59, 94, 45]
+Malicious node indices: [18, 13]
+conspirator is: 13
+Attack clients by FL_CPE are: [18, 61, 43, 85, 58, 20, 34, 71, 59, 13]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.10s/it] 20%|██        | 2/10 [00:02<00:08,  1.12s/it] 30%|███       | 3/10 [00:03<00:08,  1.26s/it] 40%|████      | 4/10 [00:04<00:07,  1.22s/it] 50%|█████     | 5/10 [00:05<00:06,  1.20s/it] 60%|██████    | 6/10 [00:07<00:04,  1.20s/it] 70%|███████   | 7/10 [00:08<00:03,  1.22s/it] 80%|████████  | 8/10 [00:09<00:02,  1.22s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.665379285812378
+
+Test set: Avg. loss: 0.1423, Accuracy: 9590/10000 (96%)
+
+Round:  44
+Client Selection Procss-------------------
+Malicious node indices: [18, 13] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [86, 92, 61, 77, 74, 96, 64, 99, 24, 80]
+Malicious node indices: [18, 82]
+conspirator is: 82
+Attack clients by FL_CPE are: [18, 86, 92, 61, 77, 74, 96, 64, 99, 82]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.24s/it] 20%|██        | 2/10 [00:02<00:09,  1.19s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:04<00:07,  1.19s/it] 50%|█████     | 5/10 [00:06<00:06,  1.22s/it] 60%|██████    | 6/10 [00:07<00:04,  1.20s/it] 70%|███████   | 7/10 [00:08<00:03,  1.21s/it] 80%|████████  | 8/10 [00:09<00:02,  1.20s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.21s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.666617393493652
+
+Test set: Avg. loss: 0.1394, Accuracy: 9579/10000 (96%)
+
+Round:  45
+Client Selection Procss-------------------
+Malicious node indices: [18, 82] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [77, 98, 27, 58, 95, 22, 55, 37, 81, 7]
+Malicious node indices: [18, 57]
+conspirator is: 57
+Attack clients by FL_CPE are: [18, 77, 98, 27, 58, 95, 22, 55, 37, 57]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.09s/it] 20%|██        | 2/10 [00:02<00:09,  1.17s/it] 30%|███       | 3/10 [00:03<00:08,  1.17s/it] 40%|████      | 4/10 [00:04<00:07,  1.19s/it] 50%|█████     | 5/10 [00:05<00:05,  1.19s/it] 60%|██████    | 6/10 [00:07<00:04,  1.20s/it] 70%|███████   | 7/10 [00:08<00:03,  1.29s/it] 80%|████████  | 8/10 [00:09<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.34s/it]100%|██████████| 10/10 [00:12<00:00,  1.32s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.664826393127441
+
+Test set: Avg. loss: 0.1370, Accuracy: 9588/10000 (96%)
+
+Round:  46
+Client Selection Procss-------------------
+Malicious node indices: [18, 57] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [47, 12, 83, 25, 90, 88, 6, 82, 94, 9]
+Malicious node indices: [18, 66]
+conspirator is: 66
+Attack clients by FL_CPE are: [18, 47, 12, 83, 25, 90, 88, 6, 82, 66]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.17s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:08,  1.20s/it] 40%|████      | 4/10 [00:04<00:07,  1.25s/it] 50%|█████     | 5/10 [00:06<00:06,  1.28s/it] 60%|██████    | 6/10 [00:07<00:05,  1.27s/it] 70%|███████   | 7/10 [00:08<00:03,  1.28s/it] 80%|████████  | 8/10 [00:10<00:02,  1.27s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.655929088592529
+
+Test set: Avg. loss: 0.1324, Accuracy: 9605/10000 (96%)
+
+Round:  47
+Client Selection Procss-------------------
+Malicious node indices: [18, 66] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [4, 52, 73, 69, 67, 96, 32, 70, 41, 18]
+Malicious node indices: [18, 97]
+conspirator is: 97
+Attack clients by FL_CPE are: [18, 4, 52, 73, 69, 67, 96, 32, 70, 97]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.28s/it] 20%|██        | 2/10 [00:02<00:09,  1.19s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.25s/it] 60%|██████    | 6/10 [00:07<00:04,  1.23s/it] 70%|███████   | 7/10 [00:08<00:03,  1.21s/it] 80%|████████  | 8/10 [00:09<00:02,  1.20s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.19s/it]100%|██████████| 10/10 [00:12<00:00,  1.19s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.647108793258667
+
+Test set: Avg. loss: 0.1301, Accuracy: 9605/10000 (96%)
+
+Round:  48
+Client Selection Procss-------------------
+Malicious node indices: [18, 97] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [56, 82, 60, 91, 86, 76, 68, 62, 65, 26]
+Malicious node indices: [18, 23]
+conspirator is: 23
+Attack clients by FL_CPE are: [18, 56, 82, 60, 91, 86, 76, 68, 62, 23]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.22s/it] 20%|██        | 2/10 [00:02<00:09,  1.19s/it] 30%|███       | 3/10 [00:03<00:08,  1.16s/it] 40%|████      | 4/10 [00:04<00:07,  1.17s/it] 50%|█████     | 5/10 [00:05<00:05,  1.16s/it] 60%|██████    | 6/10 [00:06<00:04,  1.15s/it] 70%|███████   | 7/10 [00:08<00:03,  1.15s/it] 80%|████████  | 8/10 [00:09<00:02,  1.16s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.16s/it]100%|██████████| 10/10 [00:11<00:00,  1.19s/it]100%|██████████| 10/10 [00:11<00:00,  1.17s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.6917924880981445
+
+Test set: Avg. loss: 0.1261, Accuracy: 9602/10000 (96%)
+
+Round:  49
+Client Selection Procss-------------------
+Malicious node indices: [18, 23] Attack Type: trimmedmean
+This is FL_CPE  selection ATTACK
+Original selected_clients is: [97, 4, 56, 49, 51, 44, 13, 55, 45, 23]
+Malicious node indices: [18, 89]
+conspirator is: 89
+Attack clients by FL_CPE are: [18, 97, 4, 56, 49, 51, 44, 13, 55, 89]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.18s/it] 20%|██        | 2/10 [00:02<00:09,  1.15s/it] 30%|███       | 3/10 [00:03<00:08,  1.17s/it] 40%|████      | 4/10 [00:04<00:07,  1.20s/it] 50%|█████     | 5/10 [00:05<00:05,  1.17s/it] 60%|██████    | 6/10 [00:07<00:04,  1.19s/it] 70%|███████   | 7/10 [00:08<00:03,  1.20s/it] 80%|████████  | 8/10 [00:09<00:02,  1.23s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.24s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]100%|██████████| 10/10 [00:12<00:00,  1.21s/it]
+attack trimmedmean
+agg: bulyankrum
+bulyankrum running time:  6.642746210098267
+
+Test set: Avg. loss: 0.1275, Accuracy: 9621/10000 (96%)
+

@@ -1,0 +1,650 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [66] Attack Type: trimmedmean
+Selected workers: [66, 25, 6, 95, 16, 30, 34, 64, 90, 11]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:03<00:28,  3.15s/it] 20%|██        | 2/10 [00:04<00:17,  2.19s/it] 30%|███       | 3/10 [00:06<00:13,  1.90s/it] 40%|████      | 4/10 [00:07<00:10,  1.76s/it] 50%|█████     | 5/10 [00:09<00:08,  1.66s/it] 60%|██████    | 6/10 [00:10<00:06,  1.61s/it] 70%|███████   | 7/10 [00:12<00:04,  1.58s/it] 80%|████████  | 8/10 [00:13<00:03,  1.56s/it] 90%|█████████ | 9/10 [00:15<00:01,  1.52s/it]100%|██████████| 10/10 [00:16<00:00,  1.52s/it]100%|██████████| 10/10 [00:16<00:00,  1.67s/it]
+attack trimmedmean
+agg: median
+median running time:  0.049703359603881836
+
+Test set: Avg. loss: 2.2484, Accuracy: 2658/10000 (27%)
+
+Round:  1
+Client Selection Procss-------------------
+Malicious node indices: [66] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [62] Attack Type: trimmedmean
+Selected workers: [62, 70, 53, 99, 49, 93, 27, 67, 28, 71]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.38s/it] 20%|██        | 2/10 [00:02<00:11,  1.44s/it] 30%|███       | 3/10 [00:04<00:10,  1.46s/it] 40%|████      | 4/10 [00:05<00:08,  1.50s/it] 50%|█████     | 5/10 [00:07<00:07,  1.51s/it] 60%|██████    | 6/10 [00:08<00:05,  1.47s/it] 70%|███████   | 7/10 [00:10<00:04,  1.47s/it] 80%|████████  | 8/10 [00:11<00:03,  1.50s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.52s/it]100%|██████████| 10/10 [00:15<00:00,  1.56s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]
+attack trimmedmean
+agg: median
+median running time:  0.050267934799194336
+
+Test set: Avg. loss: 2.1457, Accuracy: 4545/10000 (45%)
+
+Round:  2
+Client Selection Procss-------------------
+Malicious node indices: [62] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [40] Attack Type: trimmedmean
+Selected workers: [40, 3, 21, 96, 14, 86, 98, 51, 13, 76]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.45s/it] 20%|██        | 2/10 [00:03<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:10,  1.53s/it] 40%|████      | 4/10 [00:06<00:09,  1.51s/it] 50%|█████     | 5/10 [00:07<00:07,  1.51s/it] 60%|██████    | 6/10 [00:09<00:06,  1.53s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.45s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack trimmedmean
+agg: median
+median running time:  0.050768136978149414
+
+Test set: Avg. loss: 1.8922, Accuracy: 6869/10000 (69%)
+
+Round:  3
+Client Selection Procss-------------------
+Malicious node indices: [40] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [23] Attack Type: trimmedmean
+Selected workers: [23, 38, 1, 34, 85, 75, 9, 66, 12, 22]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.48s/it] 20%|██        | 2/10 [00:02<00:11,  1.49s/it] 30%|███       | 3/10 [00:04<00:10,  1.52s/it] 40%|████      | 4/10 [00:06<00:09,  1.54s/it] 50%|█████     | 5/10 [00:07<00:07,  1.50s/it] 60%|██████    | 6/10 [00:09<00:05,  1.50s/it] 70%|███████   | 7/10 [00:10<00:04,  1.49s/it] 80%|████████  | 8/10 [00:12<00:02,  1.50s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.49s/it]100%|██████████| 10/10 [00:15<00:00,  1.53s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]
+attack trimmedmean
+agg: median
+median running time:  0.0505671501159668
+
+Test set: Avg. loss: 1.3152, Accuracy: 7839/10000 (78%)
+
+Round:  4
+Client Selection Procss-------------------
+Malicious node indices: [23] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [8] Attack Type: trimmedmean
+Selected workers: [8, 57, 43, 81, 36, 12, 61, 89, 73, 38]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.57s/it] 20%|██        | 2/10 [00:03<00:11,  1.50s/it] 30%|███       | 3/10 [00:04<00:10,  1.52s/it] 40%|████      | 4/10 [00:06<00:09,  1.52s/it] 50%|█████     | 5/10 [00:07<00:07,  1.47s/it] 60%|██████    | 6/10 [00:08<00:05,  1.43s/it] 70%|███████   | 7/10 [00:10<00:04,  1.36s/it] 80%|████████  | 8/10 [00:11<00:02,  1.35s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.39s/it]
+attack trimmedmean
+agg: median
+median running time:  0.04982328414916992
+
+Test set: Avg. loss: 0.7962, Accuracy: 8297/10000 (83%)
+
+Round:  5
+Client Selection Procss-------------------
+Malicious node indices: [8] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [53] Attack Type: trimmedmean
+Selected workers: [53, 50, 58, 73, 44, 76, 27, 63, 45, 9]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.29s/it] 20%|██        | 2/10 [00:02<00:11,  1.45s/it] 30%|███       | 3/10 [00:04<00:10,  1.46s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.48s/it] 60%|██████    | 6/10 [00:08<00:05,  1.47s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:11<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05020594596862793
+
+Test set: Avg. loss: 0.5817, Accuracy: 8626/10000 (86%)
+
+Round:  6
+Client Selection Procss-------------------
+Malicious node indices: [53] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [0] Attack Type: trimmedmean
+Selected workers: [0, 93, 59, 83, 34, 73, 61, 12, 76, 30]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:10,  1.37s/it] 30%|███       | 3/10 [00:04<00:10,  1.46s/it] 40%|████      | 4/10 [00:05<00:09,  1.52s/it] 50%|█████     | 5/10 [00:07<00:07,  1.55s/it] 60%|██████    | 6/10 [00:09<00:06,  1.55s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:12<00:03,  1.57s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.56s/it]100%|██████████| 10/10 [00:15<00:00,  1.53s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05043959617614746
+
+Test set: Avg. loss: 0.4795, Accuracy: 8780/10000 (88%)
+
+Round:  7
+Client Selection Procss-------------------
+Malicious node indices: [0] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [14] Attack Type: trimmedmean
+Selected workers: [14, 64, 9, 73, 53, 79, 77, 51, 57, 58]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.55s/it] 20%|██        | 2/10 [00:03<00:12,  1.55s/it] 30%|███       | 3/10 [00:04<00:10,  1.54s/it] 40%|████      | 4/10 [00:06<00:09,  1.51s/it] 50%|█████     | 5/10 [00:07<00:07,  1.55s/it] 60%|██████    | 6/10 [00:09<00:06,  1.59s/it] 70%|███████   | 7/10 [00:10<00:04,  1.56s/it] 80%|████████  | 8/10 [00:12<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.53s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.53s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05067944526672363
+
+Test set: Avg. loss: 0.4224, Accuracy: 8863/10000 (89%)
+
+Round:  8
+Client Selection Procss-------------------
+Malicious node indices: [14] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [98] Attack Type: trimmedmean
+Selected workers: [98, 76, 52, 15, 11, 49, 46, 60, 40, 30]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.43s/it] 20%|██        | 2/10 [00:02<00:11,  1.46s/it] 30%|███       | 3/10 [00:04<00:10,  1.46s/it] 40%|████      | 4/10 [00:05<00:09,  1.51s/it] 50%|█████     | 5/10 [00:07<00:07,  1.49s/it] 60%|██████    | 6/10 [00:08<00:05,  1.47s/it] 70%|███████   | 7/10 [00:10<00:04,  1.47s/it] 80%|████████  | 8/10 [00:11<00:02,  1.48s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.56s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]
+attack trimmedmean
+agg: median
+median running time:  0.050550222396850586
+
+Test set: Avg. loss: 0.3848, Accuracy: 8929/10000 (89%)
+
+Round:  9
+Client Selection Procss-------------------
+Malicious node indices: [98] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [53] Attack Type: trimmedmean
+Selected workers: [53, 41, 33, 5, 14, 4, 11, 9, 75, 13]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.47s/it] 20%|██        | 2/10 [00:03<00:12,  1.57s/it] 30%|███       | 3/10 [00:04<00:10,  1.46s/it] 40%|████      | 4/10 [00:06<00:09,  1.50s/it] 50%|█████     | 5/10 [00:07<00:07,  1.48s/it] 60%|██████    | 6/10 [00:09<00:06,  1.51s/it] 70%|███████   | 7/10 [00:10<00:04,  1.48s/it] 80%|████████  | 8/10 [00:11<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.48s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05049753189086914
+
+Test set: Avg. loss: 0.3576, Accuracy: 8999/10000 (90%)
+
+Round:  10
+Client Selection Procss-------------------
+Malicious node indices: [53] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [78] Attack Type: trimmedmean
+Selected workers: [78, 76, 0, 98, 39, 2, 92, 72, 21, 99]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.53s/it] 20%|██        | 2/10 [00:03<00:11,  1.49s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:06<00:09,  1.51s/it] 50%|█████     | 5/10 [00:07<00:07,  1.50s/it] 60%|██████    | 6/10 [00:08<00:05,  1.48s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.43s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.43s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05131196975708008
+
+Test set: Avg. loss: 0.3381, Accuracy: 9035/10000 (90%)
+
+Round:  11
+Client Selection Procss-------------------
+Malicious node indices: [78] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [77] Attack Type: trimmedmean
+Selected workers: [77, 38, 58, 99, 3, 96, 5, 1, 27, 0]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.45s/it] 20%|██        | 2/10 [00:03<00:12,  1.55s/it] 30%|███       | 3/10 [00:04<00:10,  1.51s/it] 40%|████      | 4/10 [00:06<00:09,  1.51s/it] 50%|█████     | 5/10 [00:07<00:07,  1.51s/it] 60%|██████    | 6/10 [00:09<00:06,  1.51s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:12<00:03,  1.55s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.55s/it]100%|██████████| 10/10 [00:15<00:00,  1.54s/it]100%|██████████| 10/10 [00:15<00:00,  1.53s/it]
+attack trimmedmean
+agg: median
+median running time:  0.050745487213134766
+
+Test set: Avg. loss: 0.3211, Accuracy: 9098/10000 (91%)
+
+Round:  12
+Client Selection Procss-------------------
+Malicious node indices: [77] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [59] Attack Type: trimmedmean
+Selected workers: [59, 98, 63, 7, 2, 8, 74, 47, 99, 76]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.45s/it] 20%|██        | 2/10 [00:02<00:11,  1.49s/it] 30%|███       | 3/10 [00:04<00:10,  1.48s/it] 40%|████      | 4/10 [00:05<00:09,  1.50s/it] 50%|█████     | 5/10 [00:07<00:07,  1.52s/it] 60%|██████    | 6/10 [00:08<00:05,  1.50s/it] 70%|███████   | 7/10 [00:10<00:04,  1.56s/it] 80%|████████  | 8/10 [00:12<00:03,  1.56s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.56s/it]100%|██████████| 10/10 [00:15<00:00,  1.50s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05055665969848633
+
+Test set: Avg. loss: 0.3032, Accuracy: 9139/10000 (91%)
+
+Round:  13
+Client Selection Procss-------------------
+Malicious node indices: [59] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [68] Attack Type: trimmedmean
+Selected workers: [68, 27, 36, 31, 81, 29, 37, 63, 78, 15]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.45s/it] 20%|██        | 2/10 [00:02<00:11,  1.46s/it] 30%|███       | 3/10 [00:04<00:10,  1.45s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.43s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.46s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack trimmedmean
+agg: median
+median running time:  0.051361799240112305
+
+Test set: Avg. loss: 0.2920, Accuracy: 9156/10000 (92%)
+
+Round:  14
+Client Selection Procss-------------------
+Malicious node indices: [68] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [5] Attack Type: trimmedmean
+Selected workers: [5, 11, 55, 52, 73, 37, 75, 69, 64, 38]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.56s/it] 20%|██        | 2/10 [00:03<00:13,  1.64s/it] 30%|███       | 3/10 [00:04<00:11,  1.66s/it] 40%|████      | 4/10 [00:06<00:09,  1.62s/it] 50%|█████     | 5/10 [00:07<00:07,  1.57s/it] 60%|██████    | 6/10 [00:09<00:06,  1.56s/it] 70%|███████   | 7/10 [00:11<00:04,  1.56s/it] 80%|████████  | 8/10 [00:12<00:03,  1.53s/it] 90%|█████████ | 9/10 [00:14<00:01,  1.55s/it]100%|██████████| 10/10 [00:15<00:00,  1.53s/it]100%|██████████| 10/10 [00:15<00:00,  1.56s/it]
+attack trimmedmean
+agg: median
+median running time:  0.050824880599975586
+
+Test set: Avg. loss: 0.2794, Accuracy: 9200/10000 (92%)
+
+Round:  15
+Client Selection Procss-------------------
+Malicious node indices: [5] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [33] Attack Type: trimmedmean
+Selected workers: [33, 10, 35, 57, 83, 88, 77, 13, 48, 45]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.42s/it] 20%|██        | 2/10 [00:02<00:11,  1.38s/it] 30%|███       | 3/10 [00:04<00:10,  1.43s/it] 40%|████      | 4/10 [00:05<00:08,  1.48s/it] 50%|█████     | 5/10 [00:07<00:07,  1.47s/it] 60%|██████    | 6/10 [00:08<00:05,  1.50s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:11<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05048942565917969
+
+Test set: Avg. loss: 0.2702, Accuracy: 9206/10000 (92%)
+
+Round:  16
+Client Selection Procss-------------------
+Malicious node indices: [33] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [86] Attack Type: trimmedmean
+Selected workers: [86, 38, 69, 29, 66, 49, 56, 39, 76, 64]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.36s/it] 20%|██        | 2/10 [00:02<00:10,  1.35s/it] 30%|███       | 3/10 [00:04<00:10,  1.43s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.50s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:11<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack trimmedmean
+agg: median
+median running time:  0.051634788513183594
+
+Test set: Avg. loss: 0.2637, Accuracy: 9237/10000 (92%)
+
+Round:  17
+Client Selection Procss-------------------
+Malicious node indices: [86] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [94] Attack Type: trimmedmean
+Selected workers: [94, 71, 83, 39, 19, 51, 21, 9, 40, 36]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.45s/it] 20%|██        | 2/10 [00:03<00:12,  1.53s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:06<00:09,  1.55s/it] 50%|█████     | 5/10 [00:07<00:07,  1.56s/it] 60%|██████    | 6/10 [00:09<00:06,  1.56s/it] 70%|███████   | 7/10 [00:10<00:04,  1.54s/it] 80%|████████  | 8/10 [00:12<00:03,  1.57s/it] 90%|█████████ | 9/10 [00:14<00:01,  1.60s/it]100%|██████████| 10/10 [00:15<00:00,  1.60s/it]100%|██████████| 10/10 [00:15<00:00,  1.57s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05110478401184082
+
+Test set: Avg. loss: 0.2544, Accuracy: 9256/10000 (93%)
+
+Round:  18
+Client Selection Procss-------------------
+Malicious node indices: [94] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [64] Attack Type: trimmedmean
+Selected workers: [64, 48, 92, 18, 16, 1, 74, 99, 68, 49]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.40s/it] 20%|██        | 2/10 [00:02<00:11,  1.43s/it] 30%|███       | 3/10 [00:04<00:10,  1.45s/it] 40%|████      | 4/10 [00:05<00:08,  1.47s/it] 50%|█████     | 5/10 [00:07<00:07,  1.45s/it] 60%|██████    | 6/10 [00:08<00:05,  1.48s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:11<00:03,  1.53s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.54s/it]100%|██████████| 10/10 [00:14<00:00,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05047345161437988
+
+Test set: Avg. loss: 0.2453, Accuracy: 9305/10000 (93%)
+
+Round:  19
+Client Selection Procss-------------------
+Malicious node indices: [64] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [71] Attack Type: trimmedmean
+Selected workers: [71, 70, 86, 83, 69, 67, 35, 1, 54, 23]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.41s/it] 20%|██        | 2/10 [00:02<00:11,  1.49s/it] 30%|███       | 3/10 [00:04<00:10,  1.53s/it] 40%|████      | 4/10 [00:06<00:09,  1.52s/it] 50%|█████     | 5/10 [00:07<00:07,  1.54s/it] 60%|██████    | 6/10 [00:09<00:05,  1.49s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:12<00:02,  1.50s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05086517333984375
+
+Test set: Avg. loss: 0.2349, Accuracy: 9326/10000 (93%)
+
+Round:  20
+Client Selection Procss-------------------
+Malicious node indices: [71] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [96] Attack Type: trimmedmean
+Selected workers: [96, 24, 1, 48, 75, 83, 3, 38, 61, 64]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.45s/it] 20%|██        | 2/10 [00:03<00:12,  1.52s/it] 30%|███       | 3/10 [00:04<00:10,  1.53s/it] 40%|████      | 4/10 [00:06<00:09,  1.56s/it] 50%|█████     | 5/10 [00:07<00:08,  1.60s/it] 60%|██████    | 6/10 [00:09<00:06,  1.54s/it] 70%|███████   | 7/10 [00:10<00:04,  1.49s/it] 80%|████████  | 8/10 [00:12<00:02,  1.48s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]
+attack trimmedmean
+agg: median
+median running time:  0.06007266044616699
+
+Test set: Avg. loss: 0.2311, Accuracy: 9341/10000 (93%)
+
+Round:  21
+Client Selection Procss-------------------
+Malicious node indices: [96] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [11] Attack Type: trimmedmean
+Selected workers: [11, 40, 94, 91, 62, 9, 36, 90, 30, 8]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.53s/it] 20%|██        | 2/10 [00:03<00:12,  1.52s/it] 30%|███       | 3/10 [00:04<00:10,  1.52s/it] 40%|████      | 4/10 [00:06<00:09,  1.57s/it] 50%|█████     | 5/10 [00:07<00:07,  1.59s/it] 60%|██████    | 6/10 [00:09<00:06,  1.57s/it] 70%|███████   | 7/10 [00:11<00:04,  1.61s/it] 80%|████████  | 8/10 [00:12<00:03,  1.64s/it] 90%|█████████ | 9/10 [00:14<00:01,  1.58s/it]100%|██████████| 10/10 [00:15<00:00,  1.56s/it]100%|██████████| 10/10 [00:15<00:00,  1.57s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05075788497924805
+
+Test set: Avg. loss: 0.2236, Accuracy: 9354/10000 (94%)
+
+Round:  22
+Client Selection Procss-------------------
+Malicious node indices: [11] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [40] Attack Type: trimmedmean
+Selected workers: [40, 65, 98, 3, 9, 75, 10, 6, 72, 33]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.47s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:06<00:09,  1.57s/it] 50%|█████     | 5/10 [00:07<00:07,  1.58s/it] 60%|██████    | 6/10 [00:09<00:06,  1.58s/it] 70%|███████   | 7/10 [00:10<00:04,  1.57s/it] 80%|████████  | 8/10 [00:12<00:03,  1.59s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.55s/it]100%|██████████| 10/10 [00:15<00:00,  1.62s/it]100%|██████████| 10/10 [00:15<00:00,  1.57s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05096912384033203
+
+Test set: Avg. loss: 0.2167, Accuracy: 9374/10000 (94%)
+
+Round:  23
+Client Selection Procss-------------------
+Malicious node indices: [40] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [86] Attack Type: trimmedmean
+Selected workers: [86, 24, 75, 42, 45, 21, 47, 44, 36, 28]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.40s/it] 20%|██        | 2/10 [00:02<00:11,  1.40s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:09,  1.51s/it] 50%|█████     | 5/10 [00:07<00:07,  1.50s/it] 60%|██████    | 6/10 [00:08<00:06,  1.53s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:11<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.50s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05164980888366699
+
+Test set: Avg. loss: 0.2121, Accuracy: 9369/10000 (94%)
+
+Round:  24
+Client Selection Procss-------------------
+Malicious node indices: [86] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [23] Attack Type: trimmedmean
+Selected workers: [23, 48, 52, 2, 75, 61, 68, 47, 96, 43]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.40s/it] 20%|██        | 2/10 [00:02<00:11,  1.43s/it] 30%|███       | 3/10 [00:04<00:09,  1.42s/it] 40%|████      | 4/10 [00:05<00:08,  1.43s/it] 50%|█████     | 5/10 [00:07<00:06,  1.40s/it] 60%|██████    | 6/10 [00:08<00:05,  1.35s/it] 70%|███████   | 7/10 [00:09<00:03,  1.32s/it] 80%|████████  | 8/10 [00:11<00:02,  1.36s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.38s/it]100%|██████████| 10/10 [00:13<00:00,  1.39s/it]100%|██████████| 10/10 [00:13<00:00,  1.38s/it]
+attack trimmedmean
+agg: median
+median running time:  0.051540374755859375
+
+Test set: Avg. loss: 0.2048, Accuracy: 9400/10000 (94%)
+
+Round:  25
+Client Selection Procss-------------------
+Malicious node indices: [23] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [13] Attack Type: trimmedmean
+Selected workers: [13, 43, 86, 83, 50, 62, 37, 94, 93, 76]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.51s/it] 20%|██        | 2/10 [00:03<00:12,  1.52s/it] 30%|███       | 3/10 [00:04<00:10,  1.55s/it] 40%|████      | 4/10 [00:06<00:09,  1.59s/it] 50%|█████     | 5/10 [00:07<00:07,  1.56s/it] 60%|██████    | 6/10 [00:09<00:06,  1.52s/it] 70%|███████   | 7/10 [00:10<00:04,  1.52s/it] 80%|████████  | 8/10 [00:12<00:02,  1.50s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.49s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]
+attack trimmedmean
+agg: median
+median running time:  0.050942182540893555
+
+Test set: Avg. loss: 0.2007, Accuracy: 9414/10000 (94%)
+
+Round:  26
+Client Selection Procss-------------------
+Malicious node indices: [13] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [21] Attack Type: trimmedmean
+Selected workers: [21, 11, 38, 22, 18, 36, 91, 61, 55, 26]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.48s/it] 20%|██        | 2/10 [00:03<00:12,  1.52s/it] 30%|███       | 3/10 [00:04<00:10,  1.53s/it] 40%|████      | 4/10 [00:06<00:09,  1.57s/it] 50%|█████     | 5/10 [00:07<00:07,  1.56s/it] 60%|██████    | 6/10 [00:09<00:06,  1.56s/it] 70%|███████   | 7/10 [00:10<00:04,  1.55s/it] 80%|████████  | 8/10 [00:12<00:03,  1.54s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]100%|██████████| 10/10 [00:15<00:00,  1.53s/it]
+attack trimmedmean
+agg: median
+median running time:  0.051157474517822266
+
+Test set: Avg. loss: 0.1937, Accuracy: 9441/10000 (94%)
+
+Round:  27
+Client Selection Procss-------------------
+Malicious node indices: [21] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [70] Attack Type: trimmedmean
+Selected workers: [70, 97, 74, 33, 78, 16, 99, 18, 88, 94]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.48s/it] 20%|██        | 2/10 [00:02<00:12,  1.50s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:06<00:09,  1.54s/it] 50%|█████     | 5/10 [00:07<00:07,  1.59s/it] 60%|██████    | 6/10 [00:09<00:06,  1.51s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:12<00:03,  1.56s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.52s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]100%|██████████| 10/10 [00:15<00:00,  1.53s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05078458786010742
+
+Test set: Avg. loss: 0.1894, Accuracy: 9449/10000 (94%)
+
+Round:  28
+Client Selection Procss-------------------
+Malicious node indices: [70] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [3] Attack Type: trimmedmean
+Selected workers: [3, 93, 38, 68, 97, 86, 78, 30, 5, 40]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.31s/it] 20%|██        | 2/10 [00:02<00:10,  1.36s/it] 30%|███       | 3/10 [00:04<00:09,  1.34s/it] 40%|████      | 4/10 [00:04<00:06,  1.15s/it] 50%|█████     | 5/10 [00:05<00:05,  1.04s/it] 60%|██████    | 6/10 [00:06<00:04,  1.11s/it] 70%|███████   | 7/10 [00:08<00:03,  1.09s/it] 80%|████████  | 8/10 [00:08<00:02,  1.02s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.06s/it]100%|██████████| 10/10 [00:11<00:00,  1.19s/it]100%|██████████| 10/10 [00:11<00:00,  1.15s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05113720893859863
+
+Test set: Avg. loss: 0.1846, Accuracy: 9467/10000 (95%)
+
+Round:  29
+Client Selection Procss-------------------
+Malicious node indices: [3] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [94] Attack Type: trimmedmean
+Selected workers: [94, 56, 75, 67, 38, 60, 36, 49, 34, 40]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.56s/it] 20%|██        | 2/10 [00:03<00:12,  1.52s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:06<00:09,  1.53s/it] 50%|█████     | 5/10 [00:07<00:07,  1.54s/it] 60%|██████    | 6/10 [00:09<00:06,  1.51s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:11<00:02,  1.46s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.30s/it]100%|██████████| 10/10 [00:14<00:00,  1.44s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05093574523925781
+
+Test set: Avg. loss: 0.1846, Accuracy: 9464/10000 (95%)
+
+Round:  30
+Client Selection Procss-------------------
+Malicious node indices: [94] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [10] Attack Type: trimmedmean
+Selected workers: [10, 39, 84, 86, 58, 80, 94, 83, 37, 51]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.56s/it] 20%|██        | 2/10 [00:03<00:13,  1.63s/it] 30%|███       | 3/10 [00:04<00:10,  1.57s/it] 40%|████      | 4/10 [00:06<00:09,  1.56s/it] 50%|█████     | 5/10 [00:07<00:07,  1.57s/it] 60%|██████    | 6/10 [00:09<00:06,  1.54s/it] 70%|███████   | 7/10 [00:10<00:04,  1.53s/it] 80%|████████  | 8/10 [00:12<00:03,  1.61s/it] 90%|█████████ | 9/10 [00:14<00:01,  1.55s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]100%|██████████| 10/10 [00:15<00:00,  1.55s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05078577995300293
+
+Test set: Avg. loss: 0.1749, Accuracy: 9492/10000 (95%)
+
+Round:  31
+Client Selection Procss-------------------
+Malicious node indices: [10] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [92] Attack Type: trimmedmean
+Selected workers: [92, 78, 35, 59, 72, 18, 32, 39, 14, 70]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:00<00:08,  1.00it/s] 20%|██        | 2/10 [00:02<00:11,  1.40s/it] 30%|███       | 3/10 [00:04<00:10,  1.45s/it] 40%|████      | 4/10 [00:05<00:08,  1.48s/it] 50%|█████     | 5/10 [00:07<00:07,  1.52s/it] 60%|██████    | 6/10 [00:08<00:06,  1.55s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:11<00:03,  1.52s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.53s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05085110664367676
+
+Test set: Avg. loss: 0.1703, Accuracy: 9511/10000 (95%)
+
+Round:  32
+Client Selection Procss-------------------
+Malicious node indices: [92] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [54] Attack Type: trimmedmean
+Selected workers: [54, 73, 67, 87, 22, 0, 53, 31, 13, 34]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:00<00:07,  1.17it/s] 20%|██        | 2/10 [00:01<00:06,  1.15it/s] 30%|███       | 3/10 [00:03<00:07,  1.10s/it] 40%|████      | 4/10 [00:04<00:06,  1.09s/it] 50%|█████     | 5/10 [00:05<00:05,  1.09s/it] 60%|██████    | 6/10 [00:06<00:04,  1.13s/it] 70%|███████   | 7/10 [00:08<00:03,  1.31s/it] 80%|████████  | 8/10 [00:09<00:02,  1.38s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.42s/it]100%|██████████| 10/10 [00:12<00:00,  1.45s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05103039741516113
+
+Test set: Avg. loss: 0.1676, Accuracy: 9517/10000 (95%)
+
+Round:  33
+Client Selection Procss-------------------
+Malicious node indices: [54] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [35] Attack Type: trimmedmean
+Selected workers: [35, 32, 77, 13, 48, 51, 23, 80, 99, 70]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.52s/it] 20%|██        | 2/10 [00:02<00:11,  1.48s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:09,  1.51s/it] 50%|█████     | 5/10 [00:07<00:07,  1.49s/it] 60%|██████    | 6/10 [00:08<00:05,  1.27s/it] 70%|███████   | 7/10 [00:09<00:03,  1.13s/it] 80%|████████  | 8/10 [00:10<00:02,  1.19s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.10s/it]100%|██████████| 10/10 [00:12<00:00,  1.03s/it]100%|██████████| 10/10 [00:12<00:00,  1.22s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05100274085998535
+
+Test set: Avg. loss: 0.1638, Accuracy: 9522/10000 (95%)
+
+Round:  34
+Client Selection Procss-------------------
+Malicious node indices: [35] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [65] Attack Type: trimmedmean
+Selected workers: [65, 64, 48, 41, 53, 47, 57, 4, 85, 39]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.46s/it] 20%|██        | 2/10 [00:02<00:11,  1.46s/it] 30%|███       | 3/10 [00:04<00:10,  1.53s/it] 40%|████      | 4/10 [00:06<00:09,  1.54s/it] 50%|█████     | 5/10 [00:07<00:07,  1.56s/it] 60%|██████    | 6/10 [00:09<00:06,  1.52s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:12<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.46s/it]100%|██████████| 10/10 [00:14<00:00,  1.39s/it]100%|██████████| 10/10 [00:14<00:00,  1.47s/it]
+attack trimmedmean
+agg: median
+median running time:  0.050572872161865234
+
+Test set: Avg. loss: 0.1637, Accuracy: 9512/10000 (95%)
+
+Round:  35
+Client Selection Procss-------------------
+Malicious node indices: [65] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [29] Attack Type: trimmedmean
+Selected workers: [29, 9, 10, 58, 35, 16, 24, 81, 17, 18]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.53s/it] 20%|██        | 2/10 [00:02<00:11,  1.48s/it] 30%|███       | 3/10 [00:04<00:10,  1.51s/it] 40%|████      | 4/10 [00:05<00:08,  1.49s/it] 50%|█████     | 5/10 [00:07<00:07,  1.50s/it] 60%|██████    | 6/10 [00:09<00:06,  1.55s/it] 70%|███████   | 7/10 [00:10<00:04,  1.53s/it] 80%|████████  | 8/10 [00:12<00:03,  1.57s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.59s/it]100%|██████████| 10/10 [00:15<00:00,  1.56s/it]100%|██████████| 10/10 [00:15<00:00,  1.54s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05102229118347168
+
+Test set: Avg. loss: 0.1558, Accuracy: 9552/10000 (96%)
+
+Round:  36
+Client Selection Procss-------------------
+Malicious node indices: [29] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [52] Attack Type: trimmedmean
+Selected workers: [52, 75, 36, 2, 89, 92, 88, 18, 48, 32]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.08s/it] 20%|██        | 2/10 [00:02<00:07,  1.00it/s] 30%|███       | 3/10 [00:03<00:07,  1.11s/it] 40%|████      | 4/10 [00:04<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.40s/it] 60%|██████    | 6/10 [00:07<00:05,  1.42s/it] 70%|███████   | 7/10 [00:09<00:04,  1.48s/it] 80%|████████  | 8/10 [00:11<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.46s/it]100%|██████████| 10/10 [00:13<00:00,  1.43s/it]100%|██████████| 10/10 [00:13<00:00,  1.38s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05089998245239258
+
+Test set: Avg. loss: 0.1516, Accuracy: 9565/10000 (96%)
+
+Round:  37
+Client Selection Procss-------------------
+Malicious node indices: [52] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [98] Attack Type: trimmedmean
+Selected workers: [98, 22, 32, 79, 8, 3, 58, 86, 81, 24]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.50s/it] 20%|██        | 2/10 [00:02<00:10,  1.35s/it] 30%|███       | 3/10 [00:03<00:07,  1.12s/it] 40%|████      | 4/10 [00:04<00:06,  1.08s/it] 50%|█████     | 5/10 [00:05<00:05,  1.15s/it] 60%|██████    | 6/10 [00:06<00:04,  1.05s/it] 70%|███████   | 7/10 [00:07<00:03,  1.05s/it] 80%|████████  | 8/10 [00:09<00:02,  1.22s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.32s/it]100%|██████████| 10/10 [00:12<00:00,  1.40s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05092668533325195
+
+Test set: Avg. loss: 0.1479, Accuracy: 9568/10000 (96%)
+
+Round:  38
+Client Selection Procss-------------------
+Malicious node indices: [98] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [85] Attack Type: trimmedmean
+Selected workers: [85, 19, 45, 46, 48, 25, 88, 83, 1, 0]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.40s/it] 20%|██        | 2/10 [00:02<00:12,  1.51s/it] 30%|███       | 3/10 [00:04<00:10,  1.52s/it] 40%|████      | 4/10 [00:05<00:08,  1.49s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.44s/it] 70%|███████   | 7/10 [00:09<00:03,  1.26s/it] 80%|████████  | 8/10 [00:10<00:02,  1.14s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.19s/it]100%|██████████| 10/10 [00:12<00:00,  1.16s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05120682716369629
+
+Test set: Avg. loss: 0.1439, Accuracy: 9574/10000 (96%)
+
+Round:  39
+Client Selection Procss-------------------
+Malicious node indices: [85] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [70] Attack Type: trimmedmean
+Selected workers: [70, 43, 86, 66, 89, 78, 71, 81, 96, 23]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.41s/it] 20%|██        | 2/10 [00:02<00:11,  1.44s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:09,  1.53s/it] 50%|█████     | 5/10 [00:07<00:07,  1.46s/it] 60%|██████    | 6/10 [00:08<00:05,  1.43s/it] 70%|███████   | 7/10 [00:10<00:04,  1.43s/it] 80%|████████  | 8/10 [00:11<00:02,  1.40s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.40s/it]100%|██████████| 10/10 [00:14<00:00,  1.38s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]
+attack trimmedmean
+agg: median
+median running time:  0.050438880920410156
+
+Test set: Avg. loss: 0.1404, Accuracy: 9575/10000 (96%)
+
+Round:  40
+Client Selection Procss-------------------
+Malicious node indices: [70] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [19] Attack Type: trimmedmean
+Selected workers: [19, 71, 14, 96, 26, 95, 32, 25, 39, 86]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.52s/it] 20%|██        | 2/10 [00:03<00:13,  1.63s/it] 30%|███       | 3/10 [00:04<00:10,  1.51s/it] 40%|████      | 4/10 [00:06<00:09,  1.53s/it] 50%|█████     | 5/10 [00:07<00:07,  1.47s/it] 60%|██████    | 6/10 [00:08<00:05,  1.42s/it] 70%|███████   | 7/10 [00:10<00:04,  1.50s/it] 80%|████████  | 8/10 [00:12<00:03,  1.53s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.50s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]
+attack trimmedmean
+agg: median
+median running time:  0.04998064041137695
+
+Test set: Avg. loss: 0.1386, Accuracy: 9593/10000 (96%)
+
+Round:  41
+Client Selection Procss-------------------
+Malicious node indices: [19] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [11] Attack Type: trimmedmean
+Selected workers: [11, 33, 93, 30, 2, 22, 3, 50, 67, 61]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.01s/it] 20%|██        | 2/10 [00:02<00:08,  1.09s/it] 30%|███       | 3/10 [00:03<00:07,  1.03s/it] 40%|████      | 4/10 [00:04<00:06,  1.02s/it] 50%|█████     | 5/10 [00:05<00:06,  1.20s/it] 60%|██████    | 6/10 [00:07<00:05,  1.35s/it] 70%|███████   | 7/10 [00:08<00:04,  1.42s/it] 80%|████████  | 8/10 [00:10<00:02,  1.48s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.57s/it]100%|██████████| 10/10 [00:13<00:00,  1.54s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05071616172790527
+
+Test set: Avg. loss: 0.1371, Accuracy: 9603/10000 (96%)
+
+Round:  42
+Client Selection Procss-------------------
+Malicious node indices: [11] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [67] Attack Type: trimmedmean
+Selected workers: [67, 25, 24, 70, 78, 27, 23, 48, 62, 21]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.36s/it] 20%|██        | 2/10 [00:02<00:11,  1.39s/it] 30%|███       | 3/10 [00:04<00:10,  1.47s/it] 40%|████      | 4/10 [00:05<00:07,  1.23s/it] 50%|█████     | 5/10 [00:06<00:05,  1.09s/it] 60%|██████    | 6/10 [00:07<00:04,  1.15s/it] 70%|███████   | 7/10 [00:08<00:03,  1.08s/it] 80%|████████  | 8/10 [00:09<00:02,  1.01s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.13s/it]100%|██████████| 10/10 [00:12<00:00,  1.32s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05139660835266113
+
+Test set: Avg. loss: 0.1342, Accuracy: 9591/10000 (96%)
+
+Round:  43
+Client Selection Procss-------------------
+Malicious node indices: [67] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [94] Attack Type: trimmedmean
+Selected workers: [94, 79, 93, 71, 57, 61, 67, 38, 58, 81]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.65s/it] 20%|██        | 2/10 [00:03<00:12,  1.59s/it] 30%|███       | 3/10 [00:04<00:10,  1.53s/it] 40%|████      | 4/10 [00:06<00:09,  1.56s/it] 50%|█████     | 5/10 [00:07<00:07,  1.50s/it] 60%|██████    | 6/10 [00:09<00:05,  1.47s/it] 70%|███████   | 7/10 [00:10<00:04,  1.44s/it] 80%|████████  | 8/10 [00:11<00:02,  1.39s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.20s/it]100%|██████████| 10/10 [00:13<00:00,  1.38s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05081057548522949
+
+Test set: Avg. loss: 0.1317, Accuracy: 9611/10000 (96%)
+
+Round:  44
+Client Selection Procss-------------------
+Malicious node indices: [94] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [74] Attack Type: trimmedmean
+Selected workers: [74, 92, 81, 79, 27, 87, 95, 45, 32, 62]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.43s/it] 20%|██        | 2/10 [00:03<00:12,  1.56s/it] 30%|███       | 3/10 [00:04<00:10,  1.50s/it] 40%|████      | 4/10 [00:06<00:09,  1.50s/it] 50%|█████     | 5/10 [00:07<00:07,  1.50s/it] 60%|██████    | 6/10 [00:09<00:06,  1.53s/it] 70%|███████   | 7/10 [00:10<00:04,  1.53s/it] 80%|████████  | 8/10 [00:12<00:03,  1.56s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.54s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]100%|██████████| 10/10 [00:15<00:00,  1.52s/it]
+attack trimmedmean
+agg: median
+median running time:  0.050328731536865234
+
+Test set: Avg. loss: 0.1300, Accuracy: 9607/10000 (96%)
+
+Round:  45
+Client Selection Procss-------------------
+Malicious node indices: [74] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [12] Attack Type: trimmedmean
+Selected workers: [12, 33, 18, 2, 22, 93, 42, 65, 28, 57]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.00s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:04<00:10,  1.45s/it] 40%|████      | 4/10 [00:05<00:09,  1.54s/it] 50%|█████     | 5/10 [00:07<00:07,  1.56s/it] 60%|██████    | 6/10 [00:08<00:06,  1.53s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:11<00:02,  1.49s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.52s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05074882507324219
+
+Test set: Avg. loss: 0.1280, Accuracy: 9617/10000 (96%)
+
+Round:  46
+Client Selection Procss-------------------
+Malicious node indices: [12] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [8] Attack Type: trimmedmean
+Selected workers: [8, 99, 24, 27, 43, 30, 83, 0, 12, 25]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:00<00:07,  1.16it/s] 20%|██        | 2/10 [00:01<00:06,  1.18it/s] 30%|███       | 3/10 [00:02<00:07,  1.05s/it] 40%|████      | 4/10 [00:03<00:06,  1.02s/it] 50%|█████     | 5/10 [00:04<00:04,  1.05it/s] 60%|██████    | 6/10 [00:06<00:04,  1.09s/it] 70%|███████   | 7/10 [00:07<00:03,  1.23s/it] 80%|████████  | 8/10 [00:09<00:02,  1.36s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.44s/it]100%|██████████| 10/10 [00:12<00:00,  1.50s/it]100%|██████████| 10/10 [00:12<00:00,  1.26s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05041623115539551
+
+Test set: Avg. loss: 0.1263, Accuracy: 9620/10000 (96%)
+
+Round:  47
+Client Selection Procss-------------------
+Malicious node indices: [8] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [83] Attack Type: trimmedmean
+Selected workers: [83, 72, 41, 48, 14, 94, 44, 3, 76, 90]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.47s/it] 20%|██        | 2/10 [00:03<00:12,  1.55s/it] 30%|███       | 3/10 [00:04<00:10,  1.49s/it] 40%|████      | 4/10 [00:05<00:08,  1.46s/it] 50%|█████     | 5/10 [00:07<00:06,  1.39s/it] 60%|██████    | 6/10 [00:08<00:04,  1.20s/it] 70%|███████   | 7/10 [00:08<00:03,  1.09s/it] 80%|████████  | 8/10 [00:10<00:02,  1.19s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.06s/it]100%|██████████| 10/10 [00:11<00:00,  1.00it/s]100%|██████████| 10/10 [00:11<00:00,  1.19s/it]
+attack trimmedmean
+agg: median
+median running time:  0.050940752029418945
+
+Test set: Avg. loss: 0.1222, Accuracy: 9633/10000 (96%)
+
+Round:  48
+Client Selection Procss-------------------
+Malicious node indices: [83] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [1] Attack Type: trimmedmean
+Selected workers: [1, 86, 52, 56, 4, 12, 57, 84, 43, 38]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:13,  1.54s/it] 20%|██        | 2/10 [00:03<00:12,  1.50s/it] 30%|███       | 3/10 [00:04<00:10,  1.45s/it] 40%|████      | 4/10 [00:05<00:08,  1.49s/it] 50%|█████     | 5/10 [00:07<00:07,  1.55s/it] 60%|██████    | 6/10 [00:09<00:06,  1.54s/it] 70%|███████   | 7/10 [00:10<00:04,  1.51s/it] 80%|████████  | 8/10 [00:12<00:03,  1.51s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.51s/it]100%|██████████| 10/10 [00:14<00:00,  1.42s/it]100%|██████████| 10/10 [00:14<00:00,  1.48s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05070924758911133
+
+Test set: Avg. loss: 0.1200, Accuracy: 9640/10000 (96%)
+
+Round:  49
+Client Selection Procss-------------------
+Malicious node indices: [1] Attack Type: trimmedmean
+This is the fix-attacker training!
+Malicious node indices: [55] Attack Type: trimmedmean
+Selected workers: [55, 63, 62, 80, 17, 22, 23, 9, 32, 47]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:14,  1.62s/it] 20%|██        | 2/10 [00:03<00:12,  1.52s/it] 30%|███       | 3/10 [00:04<00:10,  1.51s/it] 40%|████      | 4/10 [00:06<00:09,  1.52s/it] 50%|█████     | 5/10 [00:07<00:07,  1.58s/it] 60%|██████    | 6/10 [00:09<00:06,  1.56s/it] 70%|███████   | 7/10 [00:10<00:04,  1.56s/it] 80%|████████  | 8/10 [00:12<00:03,  1.54s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.49s/it]100%|██████████| 10/10 [00:15<00:00,  1.44s/it]100%|██████████| 10/10 [00:15<00:00,  1.51s/it]
+attack trimmedmean
+agg: median
+median running time:  0.05069708824157715
+
+Test set: Avg. loss: 0.1199, Accuracy: 9629/10000 (96%)
+

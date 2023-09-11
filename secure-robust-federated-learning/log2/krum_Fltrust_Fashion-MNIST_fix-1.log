@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/xingyu/secure-robust-federated-learning/src/simulate.py", line 32, in <module>
+    from attack import attack_krum, attack_trimmedmean, attack_xie, backdoor, mal_single,attack_krum_improved
+  File "/home/xingyu/secure-robust-federated-learning/src/attack.py", line 34, in <module>
+    from robust_estimator import krum
+  File "/home/xingyu/secure-robust-federated-learning/src/robust_estimator.py", line 287, in <module>
+    total_weight = np.sum(trust_scores)
+NameError: name 'trust_scores' is not defined

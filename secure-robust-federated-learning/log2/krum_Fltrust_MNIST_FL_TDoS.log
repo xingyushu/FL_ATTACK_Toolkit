@@ -1,0 +1,15 @@
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [79, 81, 37, 75, 30, 83, 53, 59, 69, 12]
+Attack clients by FL_TDoS are: [79, 81, 37, 75, 30, 18, 83, 53, 59, 69]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:02<00:26,  2.96s/it] 20%|██        | 2/10 [00:04<00:16,  2.10s/it] 30%|███       | 3/10 [00:05<00:12,  1.84s/it] 40%|████      | 4/10 [00:07<00:10,  1.68s/it] 50%|█████     | 5/10 [00:08<00:07,  1.44s/it] 60%|██████    | 6/10 [00:09<00:04,  1.24s/it] 70%|███████   | 7/10 [00:10<00:03,  1.22s/it] 80%|████████  | 8/10 [00:11<00:02,  1.20s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.10s/it]100%|██████████| 10/10 [00:13<00:00,  1.09s/it]100%|██████████| 10/10 [00:13<00:00,  1.36s/it]
+attack krum
+agg: Fltrust
+Traceback (most recent call last):
+  File "/home/xingyu/secure-robust-federated-learning/src/simulate.py", line 579, in <module>
+    average_grad[idx] = Fltrust(fltrust_local, f=len(mal_index))
+  File "/home/xingyu/secure-robust-federated-learning/src/robust_estimator.py", line 258, in Fltrust
+    cosine_similarity = torch.nn.functional.cosine_similarity(local_update.view(-1), server_update.view(-1))
+TypeError: Cannot interpret '-1' as a data type

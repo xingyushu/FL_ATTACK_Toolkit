@@ -1,16 +1,650 @@
-Traceback (most recent call last):
-  File "/home/xingyu/secure-robust-federated-learning/src/simulate.py", line 158, in <module>
-    network = ConvNet(input_size=28, input_channel=1, classes=10, filters1=30, filters2=30, fc_size=200).to(device)
-  File "/home/xingyu/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1145, in to
-    return self._apply(convert)
-  File "/home/xingyu/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 797, in _apply
-    module._apply(fn)
-  File "/home/xingyu/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 820, in _apply
-    param_applied = fn(param)
-  File "/home/xingyu/.local/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1143, in convert
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-RuntimeError: CUDA error: invalid device ordinal
-CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
-For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
-Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+Round:  0
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [79, 81, 37, 75, 30, 83, 53, 59, 69, 12]
+Attack clients by FL_TDoS are: [79, 81, 37, 75, 30, 18, 83, 53, 59, 69]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:02<00:24,  2.71s/it] 20%|██        | 2/10 [00:04<00:15,  1.90s/it] 30%|███       | 3/10 [00:05<00:11,  1.61s/it] 40%|████      | 4/10 [00:06<00:09,  1.52s/it] 50%|█████     | 5/10 [00:08<00:07,  1.50s/it] 60%|██████    | 6/10 [00:09<00:05,  1.44s/it] 70%|███████   | 7/10 [00:10<00:04,  1.43s/it] 80%|████████  | 8/10 [00:12<00:02,  1.39s/it] 90%|█████████ | 9/10 [00:13<00:01,  1.38s/it]100%|██████████| 10/10 [00:14<00:00,  1.37s/it]100%|██████████| 10/10 [00:14<00:00,  1.49s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.034768104553222656
+
+Test set: Avg. loss: 2.2970, Accuracy: 1000/10000 (10%)
+
+Round:  1
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [83, 68, 69, 14, 58, 56, 66, 22, 74, 27]
+Attack clients by FL_TDoS are: [83, 68, 18, 69, 14, 58, 56, 66, 22, 74]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.38s/it] 20%|██        | 2/10 [00:02<00:11,  1.39s/it] 30%|███       | 3/10 [00:04<00:10,  1.44s/it] 40%|████      | 4/10 [00:05<00:08,  1.39s/it] 50%|█████     | 5/10 [00:07<00:07,  1.41s/it] 60%|██████    | 6/10 [00:08<00:05,  1.38s/it] 70%|███████   | 7/10 [00:09<00:04,  1.37s/it] 80%|████████  | 8/10 [00:11<00:02,  1.40s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.37s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03502631187438965
+
+Test set: Avg. loss: 2.2867, Accuracy: 1000/10000 (10%)
+
+Round:  2
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [18, 43, 11, 26, 39, 93, 10, 30, 28, 34]
+Attack clients by FL_TDoS are: [18, 43, 11, 26, 39, 93, 10, 30, 28, 34]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.08s/it] 20%|██        | 2/10 [00:02<00:09,  1.18s/it] 30%|███       | 3/10 [00:03<00:08,  1.24s/it] 40%|████      | 4/10 [00:04<00:07,  1.29s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:08<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.33s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.34s/it]100%|██████████| 10/10 [00:12<00:00,  1.33s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03538084030151367
+
+Test set: Avg. loss: 2.2708, Accuracy: 1462/10000 (15%)
+
+Round:  3
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [41, 68, 80, 76, 33, 58, 39, 20, 88, 63]
+Attack clients by FL_TDoS are: [41, 18, 68, 80, 76, 33, 58, 39, 20, 88]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.42s/it] 20%|██        | 2/10 [00:02<00:10,  1.37s/it] 30%|███       | 3/10 [00:04<00:09,  1.40s/it] 40%|████      | 4/10 [00:05<00:08,  1.41s/it] 50%|█████     | 5/10 [00:06<00:06,  1.40s/it] 60%|██████    | 6/10 [00:08<00:05,  1.36s/it] 70%|███████   | 7/10 [00:09<00:04,  1.37s/it] 80%|████████  | 8/10 [00:10<00:02,  1.30s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.34s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03379702568054199
+
+Test set: Avg. loss: 2.2426, Accuracy: 2689/10000 (27%)
+
+Round:  4
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [69, 89, 68, 80, 22, 90, 25, 37, 92, 0]
+Attack clients by FL_TDoS are: [18, 69, 89, 68, 80, 22, 90, 25, 37, 92]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.28s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:04<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:08,  1.41s/it] 50%|█████     | 5/10 [00:06<00:06,  1.38s/it] 60%|██████    | 6/10 [00:08<00:05,  1.36s/it] 70%|███████   | 7/10 [00:09<00:04,  1.42s/it] 80%|████████  | 8/10 [00:11<00:02,  1.43s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.40s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.36s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.0346224308013916
+
+Test set: Avg. loss: 2.1819, Accuracy: 2901/10000 (29%)
+
+Round:  5
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [79, 91, 53, 14, 18, 74, 98, 60, 34, 17]
+Attack clients by FL_TDoS are: [18, 79, 91, 53, 14, 74, 98, 60, 34, 17]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.26s/it] 20%|██        | 2/10 [00:02<00:10,  1.27s/it] 30%|███       | 3/10 [00:03<00:08,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.33s/it] 70%|███████   | 7/10 [00:09<00:04,  1.36s/it] 80%|████████  | 8/10 [00:10<00:02,  1.36s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.36s/it]100%|██████████| 10/10 [00:13<00:00,  1.40s/it]100%|██████████| 10/10 [00:13<00:00,  1.35s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03377652168273926
+
+Test set: Avg. loss: 2.0378, Accuracy: 3065/10000 (31%)
+
+Round:  6
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [97, 50, 11, 41, 69, 53, 47, 55, 61, 66]
+Attack clients by FL_TDoS are: [18, 97, 50, 11, 41, 53, 69, 47, 55, 61]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.22s/it] 20%|██        | 2/10 [00:02<00:10,  1.30s/it] 30%|███       | 3/10 [00:03<00:09,  1.30s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.34s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.36s/it]100%|██████████| 10/10 [00:13<00:00,  1.39s/it]100%|██████████| 10/10 [00:13<00:00,  1.34s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03421330451965332
+
+Test set: Avg. loss: 1.7133, Accuracy: 5517/10000 (55%)
+
+Round:  7
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [96, 25, 67, 39, 76, 9, 8, 13, 58, 47]
+Attack clients by FL_TDoS are: [18, 96, 25, 39, 67, 76, 9, 8, 13, 58]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:09,  1.06s/it] 20%|██        | 2/10 [00:02<00:10,  1.25s/it] 30%|███       | 3/10 [00:03<00:08,  1.26s/it] 40%|████      | 4/10 [00:05<00:07,  1.29s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.33s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.0343320369720459
+
+Test set: Avg. loss: 1.3319, Accuracy: 6259/10000 (63%)
+
+Round:  8
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [20, 37, 15, 84, 81, 31, 53, 10, 48, 70]
+Attack clients by FL_TDoS are: [18, 20, 37, 84, 15, 81, 31, 10, 53, 48]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.17s/it] 20%|██        | 2/10 [00:02<00:10,  1.33s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:08,  1.35s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:07<00:05,  1.35s/it] 70%|███████   | 7/10 [00:09<00:03,  1.31s/it] 80%|████████  | 8/10 [00:10<00:02,  1.26s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.28s/it]100%|██████████| 10/10 [00:13<00:00,  1.29s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03392219543457031
+
+Test set: Avg. loss: 1.1006, Accuracy: 6262/10000 (63%)
+
+Round:  9
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [6, 25, 10, 59, 73, 53, 48, 56, 11, 45]
+Attack clients by FL_TDoS are: [6, 25, 10, 59, 73, 53, 48, 18, 56, 11]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:11,  1.39s/it] 30%|███       | 3/10 [00:04<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:08,  1.35s/it] 50%|█████     | 5/10 [00:06<00:06,  1.34s/it] 60%|██████    | 6/10 [00:08<00:05,  1.36s/it] 70%|███████   | 7/10 [00:09<00:04,  1.37s/it] 80%|████████  | 8/10 [00:10<00:02,  1.36s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.35s/it]100%|██████████| 10/10 [00:13<00:00,  1.35s/it]100%|██████████| 10/10 [00:13<00:00,  1.35s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03400707244873047
+
+Test set: Avg. loss: 0.9859, Accuracy: 6319/10000 (63%)
+
+Round:  10
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [87, 5, 21, 40, 22, 38, 70, 78, 77, 33]
+Attack clients by FL_TDoS are: [87, 5, 18, 21, 40, 22, 38, 70, 78, 77]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.34s/it] 20%|██        | 2/10 [00:02<00:10,  1.34s/it] 30%|███       | 3/10 [00:04<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:08,  1.35s/it] 50%|█████     | 5/10 [00:06<00:06,  1.37s/it] 60%|██████    | 6/10 [00:08<00:05,  1.36s/it] 70%|███████   | 7/10 [00:09<00:04,  1.37s/it] 80%|████████  | 8/10 [00:10<00:02,  1.37s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.39s/it]100%|██████████| 10/10 [00:13<00:00,  1.40s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.033164024353027344
+
+Test set: Avg. loss: 0.9182, Accuracy: 6626/10000 (66%)
+
+Round:  11
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [5, 58, 43, 2, 12, 51, 26, 87, 14, 27]
+Attack clients by FL_TDoS are: [18, 5, 58, 43, 2, 12, 51, 26, 14, 87]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.38s/it] 20%|██        | 2/10 [00:02<00:11,  1.40s/it] 30%|███       | 3/10 [00:04<00:09,  1.34s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.29s/it] 60%|██████    | 6/10 [00:07<00:05,  1.28s/it] 70%|███████   | 7/10 [00:09<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.34s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03400278091430664
+
+Test set: Avg. loss: 0.8789, Accuracy: 6716/10000 (67%)
+
+Round:  12
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [56, 86, 39, 80, 19, 30, 94, 42, 3, 52]
+Attack clients by FL_TDoS are: [18, 56, 86, 39, 80, 19, 30, 94, 42, 3]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.36s/it] 20%|██        | 2/10 [00:02<00:10,  1.27s/it] 30%|███       | 3/10 [00:03<00:09,  1.32s/it] 40%|████      | 4/10 [00:05<00:07,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.32s/it] 60%|██████    | 6/10 [00:07<00:05,  1.35s/it] 70%|███████   | 7/10 [00:09<00:03,  1.27s/it] 80%|████████  | 8/10 [00:10<00:02,  1.30s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03397250175476074
+
+Test set: Avg. loss: 0.8546, Accuracy: 6747/10000 (67%)
+
+Round:  13
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [73, 50, 88, 5, 70, 92, 57, 36, 78, 90]
+Attack clients by FL_TDoS are: [73, 50, 88, 5, 18, 70, 92, 57, 36, 78]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.25s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:03<00:09,  1.30s/it] 40%|████      | 4/10 [00:05<00:07,  1.28s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.34s/it] 70%|███████   | 7/10 [00:09<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.36s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.37s/it]100%|██████████| 10/10 [00:13<00:00,  1.35s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03354477882385254
+
+Test set: Avg. loss: 0.8308, Accuracy: 6857/10000 (69%)
+
+Round:  14
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [53, 45, 19, 60, 64, 26, 24, 13, 98, 22]
+Attack clients by FL_TDoS are: [53, 45, 19, 18, 60, 64, 26, 24, 13, 98]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.28s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03324580192565918
+
+Test set: Avg. loss: 0.8158, Accuracy: 6921/10000 (69%)
+
+Round:  15
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [80, 24, 18, 47, 44, 71, 31, 98, 56, 34]
+Attack clients by FL_TDoS are: [80, 24, 47, 18, 44, 71, 31, 98, 56, 34]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.29s/it] 20%|██        | 2/10 [00:02<00:10,  1.30s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:08,  1.34s/it] 50%|█████     | 5/10 [00:06<00:06,  1.37s/it] 60%|██████    | 6/10 [00:08<00:05,  1.39s/it] 70%|███████   | 7/10 [00:09<00:04,  1.38s/it] 80%|████████  | 8/10 [00:10<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.28s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.033583641052246094
+
+Test set: Avg. loss: 0.7996, Accuracy: 7023/10000 (70%)
+
+Round:  16
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [97, 1, 22, 62, 79, 82, 76, 61, 0, 8]
+Attack clients by FL_TDoS are: [18, 97, 1, 22, 62, 79, 82, 76, 61, 0]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.38s/it] 20%|██        | 2/10 [00:02<00:10,  1.34s/it] 30%|███       | 3/10 [00:04<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:08,  1.35s/it] 50%|█████     | 5/10 [00:06<00:06,  1.34s/it] 60%|██████    | 6/10 [00:08<00:05,  1.33s/it] 70%|███████   | 7/10 [00:09<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.34s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.38s/it]100%|██████████| 10/10 [00:13<00:00,  1.38s/it]100%|██████████| 10/10 [00:13<00:00,  1.36s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03385353088378906
+
+Test set: Avg. loss: 0.7837, Accuracy: 7125/10000 (71%)
+
+Round:  17
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [82, 56, 87, 19, 18, 4, 84, 54, 40, 42]
+Attack clients by FL_TDoS are: [18, 82, 56, 87, 19, 4, 84, 54, 40, 42]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.35s/it] 20%|██        | 2/10 [00:02<00:11,  1.43s/it] 30%|███       | 3/10 [00:04<00:09,  1.43s/it] 40%|████      | 4/10 [00:05<00:08,  1.44s/it] 50%|█████     | 5/10 [00:07<00:07,  1.41s/it] 60%|██████    | 6/10 [00:08<00:05,  1.32s/it] 70%|███████   | 7/10 [00:09<00:03,  1.32s/it] 80%|████████  | 8/10 [00:10<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.35s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03383803367614746
+
+Test set: Avg. loss: 0.7739, Accuracy: 7189/10000 (72%)
+
+Round:  18
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [22, 66, 99, 56, 84, 87, 28, 70, 19, 47]
+Attack clients by FL_TDoS are: [22, 66, 99, 56, 18, 84, 87, 28, 70, 19]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:10,  1.28s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.37s/it] 60%|██████    | 6/10 [00:08<00:05,  1.37s/it] 70%|███████   | 7/10 [00:09<00:04,  1.36s/it] 80%|████████  | 8/10 [00:10<00:02,  1.39s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.39s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]100%|██████████| 10/10 [00:13<00:00,  1.36s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03377079963684082
+
+Test set: Avg. loss: 0.7610, Accuracy: 7224/10000 (72%)
+
+Round:  19
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [89, 46, 90, 72, 47, 20, 64, 32, 95, 66]
+Attack clients by FL_TDoS are: [89, 46, 90, 72, 18, 47, 20, 64, 32, 95]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.35s/it] 20%|██        | 2/10 [00:02<00:11,  1.42s/it] 30%|███       | 3/10 [00:03<00:09,  1.30s/it] 40%|████      | 4/10 [00:05<00:07,  1.26s/it] 50%|█████     | 5/10 [00:06<00:06,  1.28s/it] 60%|██████    | 6/10 [00:07<00:05,  1.27s/it] 70%|███████   | 7/10 [00:08<00:03,  1.25s/it] 80%|████████  | 8/10 [00:10<00:02,  1.26s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.27s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.033715009689331055
+
+Test set: Avg. loss: 0.7485, Accuracy: 7251/10000 (73%)
+
+Round:  20
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [35, 83, 27, 42, 72, 51, 79, 41, 54, 81]
+Attack clients by FL_TDoS are: [18, 83, 35, 27, 42, 51, 72, 79, 41, 54]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.18s/it] 20%|██        | 2/10 [00:02<00:10,  1.26s/it] 30%|███       | 3/10 [00:03<00:09,  1.36s/it] 40%|████      | 4/10 [00:05<00:07,  1.29s/it] 50%|█████     | 5/10 [00:06<00:06,  1.25s/it] 60%|██████    | 6/10 [00:07<00:04,  1.24s/it] 70%|███████   | 7/10 [00:08<00:03,  1.27s/it] 80%|████████  | 8/10 [00:10<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03353595733642578
+
+Test set: Avg. loss: 0.7417, Accuracy: 7276/10000 (73%)
+
+Round:  21
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [78, 88, 75, 84, 79, 6, 53, 63, 56, 52]
+Attack clients by FL_TDoS are: [78, 88, 75, 18, 84, 79, 6, 53, 63, 56]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.39s/it] 20%|██        | 2/10 [00:02<00:10,  1.35s/it] 30%|███       | 3/10 [00:03<00:08,  1.22s/it] 40%|████      | 4/10 [00:05<00:07,  1.25s/it] 50%|█████     | 5/10 [00:06<00:06,  1.27s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:08<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.30s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03293657302856445
+
+Test set: Avg. loss: 0.7301, Accuracy: 7347/10000 (73%)
+
+Round:  22
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [81, 14, 17, 2, 40, 29, 86, 19, 98, 96]
+Attack clients by FL_TDoS are: [18, 81, 14, 17, 2, 40, 29, 86, 19, 98]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.12s/it] 20%|██        | 2/10 [00:02<00:10,  1.26s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.31s/it] 60%|██████    | 6/10 [00:07<00:05,  1.28s/it] 70%|███████   | 7/10 [00:08<00:03,  1.27s/it] 80%|████████  | 8/10 [00:10<00:02,  1.28s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03395724296569824
+
+Test set: Avg. loss: 0.7282, Accuracy: 7367/10000 (74%)
+
+Round:  23
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [56, 29, 53, 45, 6, 75, 98, 70, 91, 43]
+Attack clients by FL_TDoS are: [18, 56, 53, 29, 45, 6, 75, 98, 70, 91]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.20s/it] 20%|██        | 2/10 [00:02<00:09,  1.19s/it] 30%|███       | 3/10 [00:03<00:08,  1.17s/it] 40%|████      | 4/10 [00:04<00:07,  1.18s/it] 50%|█████     | 5/10 [00:05<00:05,  1.18s/it] 60%|██████    | 6/10 [00:07<00:04,  1.19s/it] 70%|███████   | 7/10 [00:08<00:03,  1.20s/it] 80%|████████  | 8/10 [00:09<00:02,  1.23s/it] 90%|█████████ | 9/10 [00:10<00:01,  1.25s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.23s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03348588943481445
+
+Test set: Avg. loss: 0.7130, Accuracy: 7378/10000 (74%)
+
+Round:  24
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [33, 67, 53, 98, 20, 40, 55, 28, 84, 83]
+Attack clients by FL_TDoS are: [33, 67, 53, 98, 20, 18, 40, 55, 28, 84]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.24s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:03<00:09,  1.33s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.30s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.32s/it] 80%|████████  | 8/10 [00:10<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03324007987976074
+
+Test set: Avg. loss: 0.7083, Accuracy: 7460/10000 (75%)
+
+Round:  25
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [60, 35, 17, 92, 59, 37, 29, 25, 80, 38]
+Attack clients by FL_TDoS are: [18, 60, 35, 17, 92, 37, 59, 29, 25, 80]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.29s/it] 20%|██        | 2/10 [00:02<00:10,  1.28s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.27s/it] 50%|█████     | 5/10 [00:06<00:06,  1.26s/it] 60%|██████    | 6/10 [00:07<00:05,  1.28s/it] 70%|███████   | 7/10 [00:08<00:03,  1.28s/it] 80%|████████  | 8/10 [00:10<00:02,  1.26s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03320169448852539
+
+Test set: Avg. loss: 0.7005, Accuracy: 7407/10000 (74%)
+
+Round:  26
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [66, 83, 88, 2, 58, 10, 64, 82, 8, 99]
+Attack clients by FL_TDoS are: [66, 83, 88, 2, 18, 58, 10, 64, 82, 8]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.21s/it] 20%|██        | 2/10 [00:02<00:09,  1.19s/it] 30%|███       | 3/10 [00:03<00:08,  1.23s/it] 40%|████      | 4/10 [00:04<00:07,  1.25s/it] 50%|█████     | 5/10 [00:06<00:06,  1.27s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:08<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.27s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03297543525695801
+
+Test set: Avg. loss: 0.6943, Accuracy: 7492/10000 (75%)
+
+Round:  27
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [40, 41, 86, 35, 4, 33, 61, 91, 18, 34]
+Attack clients by FL_TDoS are: [40, 41, 86, 35, 18, 4, 33, 61, 91, 34]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.38s/it] 20%|██        | 2/10 [00:02<00:09,  1.24s/it] 30%|███       | 3/10 [00:03<00:08,  1.28s/it] 40%|████      | 4/10 [00:05<00:07,  1.29s/it] 50%|█████     | 5/10 [00:06<00:06,  1.29s/it] 60%|██████    | 6/10 [00:07<00:05,  1.27s/it] 70%|███████   | 7/10 [00:09<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.033403635025024414
+
+Test set: Avg. loss: 0.6889, Accuracy: 7504/10000 (75%)
+
+Round:  28
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [46, 20, 90, 33, 68, 12, 63, 76, 67, 56]
+Attack clients by FL_TDoS are: [18, 46, 20, 90, 33, 68, 12, 63, 76, 67]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.32s/it] 20%|██        | 2/10 [00:02<00:10,  1.34s/it] 30%|███       | 3/10 [00:03<00:08,  1.20s/it] 40%|████      | 4/10 [00:05<00:07,  1.25s/it] 50%|█████     | 5/10 [00:06<00:06,  1.28s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.30s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.32s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03387618064880371
+
+Test set: Avg. loss: 0.6862, Accuracy: 7470/10000 (75%)
+
+Round:  29
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [5, 4, 20, 11, 47, 46, 80, 19, 68, 14]
+Attack clients by FL_TDoS are: [5, 4, 20, 11, 47, 46, 80, 18, 19, 68]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.36s/it] 20%|██        | 2/10 [00:02<00:10,  1.36s/it] 30%|███       | 3/10 [00:04<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:08,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.34s/it] 60%|██████    | 6/10 [00:08<00:05,  1.34s/it] 70%|███████   | 7/10 [00:09<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.34s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03360176086425781
+
+Test set: Avg. loss: 0.6822, Accuracy: 7519/10000 (75%)
+
+Round:  30
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [68, 16, 20, 37, 22, 89, 91, 63, 4, 30]
+Attack clients by FL_TDoS are: [18, 68, 16, 20, 37, 22, 89, 91, 63, 4]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.29s/it] 60%|██████    | 6/10 [00:07<00:05,  1.31s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03374505043029785
+
+Test set: Avg. loss: 0.6788, Accuracy: 7513/10000 (75%)
+
+Round:  31
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [98, 63, 35, 68, 18, 26, 55, 0, 31, 47]
+Attack clients by FL_TDoS are: [18, 98, 63, 35, 68, 26, 55, 0, 31, 47]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.33s/it] 20%|██        | 2/10 [00:02<00:10,  1.32s/it] 30%|███       | 3/10 [00:03<00:09,  1.32s/it] 40%|████      | 4/10 [00:05<00:07,  1.30s/it] 50%|█████     | 5/10 [00:06<00:06,  1.29s/it] 60%|██████    | 6/10 [00:07<00:05,  1.30s/it] 70%|███████   | 7/10 [00:09<00:03,  1.30s/it] 80%|████████  | 8/10 [00:10<00:02,  1.30s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.033629655838012695
+
+Test set: Avg. loss: 0.6720, Accuracy: 7553/10000 (76%)
+
+Round:  32
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [86, 12, 59, 42, 78, 80, 45, 66, 93, 77]
+Attack clients by FL_TDoS are: [86, 12, 18, 59, 42, 80, 78, 45, 66, 93]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.31s/it] 20%|██        | 2/10 [00:02<00:10,  1.27s/it] 30%|███       | 3/10 [00:03<00:09,  1.30s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.35s/it] 60%|██████    | 6/10 [00:07<00:05,  1.33s/it] 70%|███████   | 7/10 [00:09<00:04,  1.37s/it] 80%|████████  | 8/10 [00:10<00:02,  1.36s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.38s/it]100%|██████████| 10/10 [00:13<00:00,  1.35s/it]100%|██████████| 10/10 [00:13<00:00,  1.35s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.033334970474243164
+
+Test set: Avg. loss: 0.6740, Accuracy: 7518/10000 (75%)
+
+Round:  33
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [24, 36, 25, 51, 65, 48, 37, 90, 54, 66]
+Attack clients by FL_TDoS are: [18, 24, 36, 25, 51, 65, 48, 37, 90, 54]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:10,  1.33s/it] 30%|███       | 3/10 [00:03<00:09,  1.33s/it] 40%|████      | 4/10 [00:05<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.36s/it] 60%|██████    | 6/10 [00:08<00:05,  1.38s/it] 70%|███████   | 7/10 [00:09<00:04,  1.39s/it] 80%|████████  | 8/10 [00:10<00:02,  1.39s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.39s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03390383720397949
+
+Test set: Avg. loss: 0.6683, Accuracy: 7567/10000 (76%)
+
+Round:  34
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [67, 34, 91, 88, 44, 39, 82, 5, 52, 23]
+Attack clients by FL_TDoS are: [18, 67, 34, 91, 88, 44, 39, 82, 5, 52]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.31s/it] 20%|██        | 2/10 [00:02<00:10,  1.37s/it] 30%|███       | 3/10 [00:04<00:09,  1.40s/it] 40%|████      | 4/10 [00:05<00:08,  1.41s/it] 50%|█████     | 5/10 [00:06<00:06,  1.37s/it] 60%|██████    | 6/10 [00:08<00:05,  1.38s/it] 70%|███████   | 7/10 [00:09<00:04,  1.41s/it] 80%|████████  | 8/10 [00:11<00:02,  1.41s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.38s/it]100%|██████████| 10/10 [00:13<00:00,  1.39s/it]100%|██████████| 10/10 [00:13<00:00,  1.39s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.0333094596862793
+
+Test set: Avg. loss: 0.6656, Accuracy: 7544/10000 (75%)
+
+Round:  35
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [75, 55, 45, 14, 31, 50, 69, 82, 46, 35]
+Attack clients by FL_TDoS are: [75, 55, 18, 45, 14, 31, 50, 69, 82, 46]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.34s/it] 20%|██        | 2/10 [00:02<00:10,  1.28s/it] 30%|███       | 3/10 [00:03<00:09,  1.34s/it] 40%|████      | 4/10 [00:05<00:08,  1.36s/it] 50%|█████     | 5/10 [00:06<00:07,  1.40s/it] 60%|██████    | 6/10 [00:08<00:05,  1.39s/it] 70%|███████   | 7/10 [00:09<00:04,  1.38s/it] 80%|████████  | 8/10 [00:10<00:02,  1.37s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.37s/it]100%|██████████| 10/10 [00:13<00:00,  1.38s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03391599655151367
+
+Test set: Avg. loss: 0.6625, Accuracy: 7584/10000 (76%)
+
+Round:  36
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [92, 57, 77, 8, 2, 91, 81, 22, 29, 72]
+Attack clients by FL_TDoS are: [18, 92, 77, 57, 2, 8, 91, 81, 22, 29]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.34s/it] 20%|██        | 2/10 [00:02<00:11,  1.38s/it] 30%|███       | 3/10 [00:04<00:09,  1.40s/it] 40%|████      | 4/10 [00:05<00:08,  1.36s/it] 50%|█████     | 5/10 [00:06<00:06,  1.34s/it] 60%|██████    | 6/10 [00:08<00:05,  1.35s/it] 70%|███████   | 7/10 [00:09<00:04,  1.36s/it] 80%|████████  | 8/10 [00:10<00:02,  1.38s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.38s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03387141227722168
+
+Test set: Avg. loss: 0.6634, Accuracy: 7504/10000 (75%)
+
+Round:  37
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [98, 91, 37, 21, 62, 23, 25, 7, 58, 35]
+Attack clients by FL_TDoS are: [18, 98, 91, 37, 21, 62, 23, 25, 7, 58]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.32s/it] 20%|██        | 2/10 [00:02<00:10,  1.31s/it] 30%|███       | 3/10 [00:03<00:09,  1.30s/it] 40%|████      | 4/10 [00:05<00:07,  1.31s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:08<00:05,  1.37s/it] 70%|███████   | 7/10 [00:09<00:04,  1.36s/it] 80%|████████  | 8/10 [00:10<00:02,  1.39s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.38s/it]100%|██████████| 10/10 [00:13<00:00,  1.37s/it]100%|██████████| 10/10 [00:13<00:00,  1.35s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.034108877182006836
+
+Test set: Avg. loss: 0.6560, Accuracy: 7591/10000 (76%)
+
+Round:  38
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [25, 0, 37, 89, 18, 39, 59, 68, 86, 62]
+Attack clients by FL_TDoS are: [18, 0, 25, 37, 89, 39, 59, 68, 86, 62]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.27s/it] 20%|██        | 2/10 [00:02<00:10,  1.28s/it] 30%|███       | 3/10 [00:03<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:08,  1.36s/it] 50%|█████     | 5/10 [00:06<00:06,  1.38s/it] 60%|██████    | 6/10 [00:08<00:05,  1.39s/it] 70%|███████   | 7/10 [00:09<00:04,  1.36s/it] 80%|████████  | 8/10 [00:10<00:02,  1.35s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.38s/it]100%|██████████| 10/10 [00:13<00:00,  1.38s/it]100%|██████████| 10/10 [00:13<00:00,  1.36s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03356528282165527
+
+Test set: Avg. loss: 0.6572, Accuracy: 7622/10000 (76%)
+
+Round:  39
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [67, 25, 4, 70, 55, 93, 52, 0, 13, 56]
+Attack clients by FL_TDoS are: [18, 67, 25, 4, 70, 55, 93, 52, 0, 13]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.36s/it] 20%|██        | 2/10 [00:02<00:11,  1.39s/it] 30%|███       | 3/10 [00:04<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:08,  1.35s/it] 50%|█████     | 5/10 [00:06<00:06,  1.37s/it] 60%|██████    | 6/10 [00:08<00:05,  1.38s/it] 70%|███████   | 7/10 [00:09<00:04,  1.41s/it] 80%|████████  | 8/10 [00:11<00:02,  1.42s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.38s/it]100%|██████████| 10/10 [00:13<00:00,  1.38s/it]100%|██████████| 10/10 [00:13<00:00,  1.38s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03390145301818848
+
+Test set: Avg. loss: 0.6535, Accuracy: 7577/10000 (76%)
+
+Round:  40
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [15, 56, 1, 9, 77, 39, 27, 69, 22, 74]
+Attack clients by FL_TDoS are: [18, 15, 56, 1, 9, 39, 77, 27, 69, 22]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.29s/it] 20%|██        | 2/10 [00:02<00:10,  1.29s/it] 30%|███       | 3/10 [00:03<00:09,  1.35s/it] 40%|████      | 4/10 [00:05<00:08,  1.36s/it] 50%|█████     | 5/10 [00:06<00:06,  1.35s/it] 60%|██████    | 6/10 [00:08<00:05,  1.37s/it] 70%|███████   | 7/10 [00:09<00:04,  1.38s/it] 80%|████████  | 8/10 [00:10<00:02,  1.38s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.34s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.033643484115600586
+
+Test set: Avg. loss: 0.6468, Accuracy: 7628/10000 (76%)
+
+Round:  41
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [79, 85, 5, 74, 47, 54, 8, 97, 96, 76]
+Attack clients by FL_TDoS are: [79, 85, 5, 74, 47, 54, 18, 8, 97, 96]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.32s/it] 20%|██        | 2/10 [00:02<00:11,  1.38s/it] 30%|███       | 3/10 [00:04<00:09,  1.40s/it] 40%|████      | 4/10 [00:05<00:08,  1.38s/it] 50%|█████     | 5/10 [00:06<00:06,  1.37s/it] 60%|██████    | 6/10 [00:07<00:05,  1.29s/it] 70%|███████   | 7/10 [00:09<00:03,  1.29s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.33s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03371620178222656
+
+Test set: Avg. loss: 0.6467, Accuracy: 7610/10000 (76%)
+
+Round:  42
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [41, 71, 96, 47, 74, 24, 10, 78, 50, 55]
+Attack clients by FL_TDoS are: [18, 41, 96, 71, 47, 74, 24, 10, 78, 50]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.29s/it] 20%|██        | 2/10 [00:02<00:10,  1.35s/it] 30%|███       | 3/10 [00:03<00:09,  1.31s/it] 40%|████      | 4/10 [00:05<00:07,  1.33s/it] 50%|█████     | 5/10 [00:06<00:06,  1.26s/it] 60%|██████    | 6/10 [00:07<00:05,  1.27s/it] 70%|███████   | 7/10 [00:08<00:03,  1.27s/it] 80%|████████  | 8/10 [00:10<00:02,  1.27s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.30s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03404879570007324
+
+Test set: Avg. loss: 0.6459, Accuracy: 7612/10000 (76%)
+
+Round:  43
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [9, 14, 85, 15, 32, 20, 95, 86, 74, 45]
+Attack clients by FL_TDoS are: [9, 14, 85, 15, 32, 20, 18, 95, 86, 74]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.36s/it] 20%|██        | 2/10 [00:02<00:10,  1.32s/it] 30%|███       | 3/10 [00:04<00:09,  1.34s/it] 40%|████      | 4/10 [00:05<00:08,  1.37s/it] 50%|█████     | 5/10 [00:06<00:06,  1.25s/it] 60%|██████    | 6/10 [00:07<00:05,  1.27s/it] 70%|███████   | 7/10 [00:09<00:03,  1.28s/it] 80%|████████  | 8/10 [00:10<00:02,  1.31s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:12<00:00,  1.29s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03423929214477539
+
+Test set: Avg. loss: 0.6446, Accuracy: 7684/10000 (77%)
+
+Round:  44
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [64, 67, 20, 34, 92, 35, 70, 17, 93, 45]
+Attack clients by FL_TDoS are: [64, 67, 20, 34, 92, 18, 35, 70, 17, 93]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:12,  1.43s/it] 20%|██        | 2/10 [00:02<00:11,  1.38s/it] 30%|███       | 3/10 [00:04<00:09,  1.38s/it] 40%|████      | 4/10 [00:05<00:08,  1.39s/it] 50%|█████     | 5/10 [00:06<00:06,  1.39s/it] 60%|██████    | 6/10 [00:08<00:05,  1.40s/it] 70%|███████   | 7/10 [00:09<00:04,  1.34s/it] 80%|████████  | 8/10 [00:10<00:02,  1.32s/it] 90%|█████████ | 9/10 [00:12<00:01,  1.28s/it]100%|██████████| 10/10 [00:13<00:00,  1.29s/it]100%|██████████| 10/10 [00:13<00:00,  1.34s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.033333539962768555
+
+Test set: Avg. loss: 0.6384, Accuracy: 7642/10000 (76%)
+
+Round:  45
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [90, 8, 32, 88, 44, 26, 67, 40, 92, 29]
+Attack clients by FL_TDoS are: [18, 90, 8, 32, 88, 44, 26, 67, 40, 92]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.31s/it] 20%|██        | 2/10 [00:02<00:10,  1.27s/it] 30%|███       | 3/10 [00:03<00:09,  1.29s/it] 40%|████      | 4/10 [00:05<00:08,  1.35s/it] 50%|█████     | 5/10 [00:06<00:06,  1.25s/it] 60%|██████    | 6/10 [00:07<00:05,  1.28s/it] 70%|███████   | 7/10 [00:09<00:03,  1.28s/it] 80%|████████  | 8/10 [00:10<00:02,  1.30s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.31s/it]100%|██████████| 10/10 [00:13<00:00,  1.32s/it]100%|██████████| 10/10 [00:13<00:00,  1.30s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.033867835998535156
+
+Test set: Avg. loss: 0.6405, Accuracy: 7623/10000 (76%)
+
+Round:  46
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [40, 44, 26, 20, 89, 31, 94, 10, 9, 49]
+Attack clients by FL_TDoS are: [40, 44, 26, 20, 89, 31, 18, 94, 10, 9]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:10,  1.18s/it] 20%|██        | 2/10 [00:02<00:09,  1.22s/it] 30%|███       | 3/10 [00:03<00:08,  1.24s/it] 40%|████      | 4/10 [00:05<00:07,  1.27s/it] 50%|█████     | 5/10 [00:06<00:06,  1.29s/it] 60%|██████    | 6/10 [00:07<00:05,  1.28s/it] 70%|███████   | 7/10 [00:08<00:03,  1.28s/it] 80%|████████  | 8/10 [00:10<00:02,  1.29s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.28s/it]100%|██████████| 10/10 [00:12<00:00,  1.20s/it]100%|██████████| 10/10 [00:12<00:00,  1.25s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.034334659576416016
+
+Test set: Avg. loss: 0.6409, Accuracy: 7666/10000 (77%)
+
+Round:  47
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [26, 88, 3, 55, 9, 64, 99, 71, 91, 75]
+Attack clients by FL_TDoS are: [26, 88, 3, 55, 9, 64, 99, 71, 18, 91]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:01<00:11,  1.30s/it] 20%|██        | 2/10 [00:02<00:09,  1.23s/it] 30%|███       | 3/10 [00:03<00:06,  1.04it/s] 40%|████      | 4/10 [00:03<00:04,  1.21it/s] 50%|█████     | 5/10 [00:04<00:03,  1.27it/s] 60%|██████    | 6/10 [00:05<00:03,  1.05it/s] 70%|███████   | 7/10 [00:06<00:02,  1.19it/s] 80%|████████  | 8/10 [00:06<00:01,  1.30it/s] 90%|█████████ | 9/10 [00:07<00:00,  1.29it/s]100%|██████████| 10/10 [00:09<00:00,  1.09it/s]100%|██████████| 10/10 [00:09<00:00,  1.11it/s]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.033820152282714844
+
+Test set: Avg. loss: 0.6358, Accuracy: 7646/10000 (76%)
+
+Round:  48
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [40, 6, 2, 93, 67, 12, 89, 95, 41, 74]
+Attack clients by FL_TDoS are: [18, 40, 6, 2, 93, 67, 89, 12, 95, 41]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:00<00:05,  1.64it/s] 20%|██        | 2/10 [00:01<00:07,  1.14it/s] 30%|███       | 3/10 [00:02<00:06,  1.11it/s] 40%|████      | 4/10 [00:03<00:05,  1.15it/s] 50%|█████     | 5/10 [00:04<00:04,  1.17it/s] 60%|██████    | 6/10 [00:05<00:03,  1.12it/s] 70%|███████   | 7/10 [00:06<00:03,  1.04s/it] 80%|████████  | 8/10 [00:07<00:02,  1.13s/it] 90%|█████████ | 9/10 [00:09<00:01,  1.22s/it]100%|██████████| 10/10 [00:10<00:00,  1.28s/it]100%|██████████| 10/10 [00:10<00:00,  1.07s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.03374481201171875
+
+Test set: Avg. loss: 0.6343, Accuracy: 7668/10000 (77%)
+
+Round:  49
+Client Selection Procss-------------------
+Malicious node indices: [18] Attack Type: krum
+this is the FL_TDoS selection ATTACK
+Original selected_clients is: [58, 74, 18, 63, 40, 48, 51, 78, 72, 34]
+Attack clients by FL_TDoS are: [58, 74, 18, 63, 40, 48, 51, 78, 72, 34]
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:00<00:07,  1.18it/s] 20%|██        | 2/10 [00:02<00:08,  1.08s/it] 30%|███       | 3/10 [00:03<00:08,  1.21s/it] 40%|████      | 4/10 [00:04<00:07,  1.32s/it] 50%|█████     | 5/10 [00:06<00:06,  1.33s/it] 60%|██████    | 6/10 [00:07<00:05,  1.34s/it] 70%|███████   | 7/10 [00:08<00:03,  1.33s/it] 80%|████████  | 8/10 [00:10<00:02,  1.33s/it] 90%|█████████ | 9/10 [00:11<00:01,  1.34s/it]100%|██████████| 10/10 [00:12<00:00,  1.34s/it]100%|██████████| 10/10 [00:12<00:00,  1.30s/it]
+attack krum
+agg: trimmedmean
+trimmedmean running time:  0.0339202880859375
+
+Test set: Avg. loss: 0.6316, Accuracy: 7697/10000 (77%)
 
